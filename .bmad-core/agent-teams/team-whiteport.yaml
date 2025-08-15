@@ -1,0 +1,11 @@
+bundle:
+  name: Whiteport Conceptual Sketching & Development
+  icon: ✏️
+  description: A BMad expansion pack designed for designers, enabling a sketch-driven workflow to guide AI-assisted development.
+agents:
+  - bmad-orchestrator
+  - analyst
+  - pm
+  - ux-expert
+workflows:
+  - whiteport-design-workflow.yaml
