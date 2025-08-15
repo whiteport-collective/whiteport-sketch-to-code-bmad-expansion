@@ -1,0 +1,49 @@
+template:
+  id: synopsis-template-v1
+  name: Conceptual Sketch Synopsis
+  version: 1.0
+  output:
+    format: markdown
+    filename: docs/pages/{{page_id}}-{{page_name}}/[page_id]-{{page_name}}_Synopsis.txt
+    title: "Synopsis: {{page_name}}"
+
+workflow:
+  mode: interactive
+  elicitation: advanced-elicitation
+
+sections:
+  - id: introduction
+    title: Introduction & Purpose
+    instruction: |
+      Describe the purpose of this sketch in the user's journey.
+      Reference the corresponding sketch image by filename.
+
+  - id: key-interactions
+    title: Key Interactions
+    instruction: |
+      Describe the primary user interactions and the main call to action on the page.
+      Reference any relevant storyboards by filename.
+
+  - id: content-assets
+    title: Content & Assets
+    instruction: |
+      Describe the headlines, body text, images, and videos on the page.
+      Include notes on their purpose and placement.
+
+  - id: page-specific-artifacts
+    title: Unique Page Artifacts
+    instruction: |
+      Describe any objects or compositions that appear only on this page.
+      These artifacts are not yet considered reusable components.
+
+  - id: referenced-components
+    title: Referenced Components
+    instruction: |
+      List all reusable components from the central library that are used on this page.
+      For each component, provide a link to its master document in `docs/components/`.
+
+  - id: open-questions
+    title: Open Questions & Missing Information
+    instruction: |
+      Document any parts of the sketch that were purposefully left undefined.
+      This section is for parts of the design that require further client confirmation or research.
