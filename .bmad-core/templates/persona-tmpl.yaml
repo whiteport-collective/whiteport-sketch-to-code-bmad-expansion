@@ -1,0 +1,60 @@
+template:
+  id: persona-template-v1
+  name: Target Group Profile
+  version: 1.0
+  output:
+    format: markdown
+    filename: docs/personas/{{persona_name_slug}}.md
+    title: "Target Group Profile: {{persona_name}}"
+
+sections:
+  - id: profile
+    title: Persona Profile
+    instruction: |
+      Define the persona's name and include an image to represent them.
+    template: |
+      ### {{persona_name}}
+      ![Persona Image]({{persona_image_url}})
+      
+      **Description:** {{persona_description}}
+      
+  - id: demographics
+    title: Demographics & Background
+    instruction: |
+      Define the persona's demographics and their relevant background.
+    template: |
+      **User Type:** {{user_type}}
+      **Age:** {{age}}
+      **Location:** {{location}}
+      **Interests:** {{interests}}
+
+  - id: comparison-attributes
+    title: Comparison Attributes
+    instruction: |
+      Define attributes to compare this persona against other target groups.
+    template: |
+      **Experience Level:** {{experience_level}}
+      **Time as a Customer:** {{time_as_customer}}
+      **Technical Proficiency:** {{technical_proficiency}}
+      **Level of Engagement:** {{level_of_engagement}}
+
+  - id: trigger-map-connection
+    title: Connection to Trigger Map
+    instruction: |
+      Explain how this persona connects to the project's trigger map.
+    template: |
+      This persona is a key target group in the project's trigger map.
+      They are crucial for fulfilling the following business goals: {{business_goals_list}}.
+
+  - id: driving-forces
+    title: Driving Forces
+    instruction: |
+      Detail the persona's positive and negative usage goals from the trigger map.
+    template: |
+      **Positive Goals (What they want):**
+      - {{positive_goal_1}}
+      - {{positive_goal_2}}
+      
+      **Negative Goals (What they wish to avoid):**
+      - {{negative_goal_1}}
+      - {{negative_goal_2}}
