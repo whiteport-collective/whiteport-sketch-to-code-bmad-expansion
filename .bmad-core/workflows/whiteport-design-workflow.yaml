@@ -1,6 +1,6 @@
 workflow:
   id: whiteport-design-workflow
-  name: Whiteport Conceptual Sketching Workflow
+  name: Whiteport Sketch-to-code method
   description: >-
     A design-centric workflow that guides a designer from initial conceptual sketches
     to structured, developer-ready documentation using a team of specialized AI agents.
