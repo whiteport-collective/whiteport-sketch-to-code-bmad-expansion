@@ -1,0 +1,70 @@
+workflow:
+  id: whiteport-design-workflow
+  name: Whiteport Conceptual Sketching Workflow
+  description: >-
+    A design-centric workflow that guides a designer from initial conceptual sketches
+    to structured, developer-ready documentation using a team of specialized AI agents.
+  type: creative-design
+  project_types:
+    - conceptual-design
+    - user-journey-mapping
+    - ui-ux-planning
+
+  sequence:
+    - step: ideation_and_strategy
+      agent: analyst
+      action: create-trigger-map
+      notes: "The Analyst helps define business goals and user needs by creating a trigger map. This output serves as the foundation for all design work."
+
+    - step: scenario_formalization
+      agent: pm
+      action: create-doc with prd-tmpl
+      requires: create-trigger-map-output
+      notes: "The PM formalizes the scenarios from the trigger map and creates a high-level PRD that includes a list of scenarios but not yet Epics and stories."
+
+    - step: backend_epic_creation
+      agent: pm
+      action: create-backend-epics-and-stories
+      requires: prd.md
+      notes: "The PM creates Epics and stories for backend-only work that is not tied to a visual user interaction."
+    
+    - step: sketch_and_document
+      agent: ux-expert
+      action: facilitate sketching and documentation
+      requires: prd.md
+      notes: |
+        The UX Expert collaborates with the designer to create and document the sketches.
+        The agent manages the file structure, creates synopsis documents, and builds the component library based on the scenarios.
+
+    - step: ui_epic-and-story-creation
+      agent: pm
+      action: create-ui-epics-and-stories
+      requires: finalized-sketches-and-documentation
+      notes: |
+        The PM returns to the project to break down the finalized conceptual sketches into Epics and stories.
+        This ensures that the project plan for user-facing features is aligned with the final visual design.
+
+    - step: handoff-to-development
+      agent: bmad-orchestrator
+      action: guide handoff
+      notes: |
+        Once all documentation is completed, the Orchestrator guides the user
+        in preparing the project for a handoff to the development agents (Dev, QA) for implementation.
+
+  flow_diagram: |
+    ```mermaid
+    graph TD
+      A[Start: Ideation] --> B[Analyst: create-trigger-map]
+      B --> C[PM: create high-level PRD]
+      C --> D[PM: create backend Epics]
+      D --> E[UX Expert: sketch & document]
+      E --> F[PM: create UI Epics & stories from sketches]
+      F --> G[Orchestrator: guide handoff to Dev]
+      style A fill:#ADD8E6
+      style B fill:#FFE4B5
+      style C fill:#ADD8E6
+      style D fill:#FFE4B5
+      style E fill:#ADD8E6
+      style F fill:#FFE4B5
+      style G fill:#F0E68C
+    ```
