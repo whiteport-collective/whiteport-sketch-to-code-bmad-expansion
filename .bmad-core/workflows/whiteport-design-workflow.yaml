@@ -16,6 +16,12 @@ workflow:
       action: create-trigger-map
       notes: "The Analyst helps define business goals and user needs by creating a trigger map. This output serves as the foundation for all design work."
 
+    - step: trigger_map_visualization
+      agent: analyst
+      action: create-trigger-map-visualization
+      requires: create-trigger-map-output
+      notes: "Create visual representation of trigger map using Mermaid diagrams for stakeholder presentations and team reference."
+
     - step: persona_deep_dive
       agent: analyst
       action: create-individual-personas
@@ -67,7 +73,8 @@ workflow:
     ```mermaid
     graph TD
       A[Start: Ideation] --> B[Analyst: create-trigger-map]
-      B --> C[Analyst: create-individual-personas]
+      B --> B2[Analyst: create-trigger-map-visualization]
+      B2 --> C[Analyst: create-individual-personas]
       C --> D[Analyst: create-product-brief]
       D --> E[PM: create high-level PRD]
       E --> F[PM: create backend Epics]
@@ -76,6 +83,7 @@ workflow:
       H --> I[Orchestrator: guide handoff to Dev]
       style A fill:#ADD8E6
       style B fill:#FFE4B5
+      style B2 fill:#FFE4B5
       style C fill:#FFE4B5
       style D fill:#FFE4B5
       style E fill:#ADD8E6
