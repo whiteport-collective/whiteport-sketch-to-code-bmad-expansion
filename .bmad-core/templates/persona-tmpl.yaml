@@ -1,60 +1,114 @@
 template:
-  id: persona-template-v1
-  name: Target Group Profile
-  version: 1.0
+  id: whiteport-persona-template
+  name: Individual Persona Profile
+  version: 2.0
   output:
     format: markdown
-    filename: docs/personas/{{persona_name_slug}}.md
-    title: "Target Group Profile: {{persona_name}}"
+    filename: docs/personas/{{priority_number}}-{{persona_name_slug}}.md
+    title: "{{persona_name}} - {{persona_type}}"
+
+workflow:
+  mode: interactive
+  elicitation: persona-specific
+  user_control: high
+  refinement_focus: personal-context
 
 sections:
-  - id: profile
-    title: Persona Profile
+  - id: header
+    title: Header
     instruction: |
-      Define the persona's name and include an image to represent them.
+      Create header with image placeholders, priority, role, and project context
     template: |
-      ### {{persona_name}}
-      ![Persona Image]({{persona_image_url}})
+      # {{persona_name}} - {{persona_type}}
       
-      **Description:** {{persona_description}}
+      ![{{persona_name}}'s LinkedIn Profile](./images/{{priority_number}}-{{persona_slug}}-profile.jpg)
+      ![{{persona_name}}'s Work Environment](./images/{{priority_number}}-{{persona_slug}}-workspace.jpg)
+      ![{{persona_name}}'s {{core_activity_context}}](./images/{{priority_number}}-{{persona_slug}}-{{activity_slug}}.jpg)
       
-  - id: demographics
-    title: Demographics & Background
-    instruction: |
-      Define the persona's demographics and their relevant background.
-    template: |
-      **User Type:** {{user_type}}
-      **Age:** {{age}}
-      **Location:** {{location}}
-      **Interests:** {{interests}}
+      **Priority**: {{priority_level}}
+      **Role**: {{role_description}}
+      **Project**: {{project_name}}
 
-  - id: comparison-attributes
-    title: Comparison Attributes
+  - id: persona-overview
+    title: Persona Overview
     instruction: |
-      Define attributes to compare this persona against other target groups.
+      Create rich personal context that helps reader understand the person holistically.
+      Include both professional and personal characteristics, life context, and authentic voice.
+      Must include "Personal Relationship to Core Activity" as a subsection.
     template: |
-      **Experience Level:** {{experience_level}}
-      **Time as a Customer:** {{time_as_customer}}
-      **Technical Proficiency:** {{technical_proficiency}}
-      **Level of Engagement:** {{level_of_engagement}}
-
-  - id: trigger-map-connection
-    title: Connection to Trigger Map
-    instruction: |
-      Explain how this persona connects to the project's trigger map.
-    template: |
-      This persona is a key target group in the project's trigger map.
-      They are crucial for fulfilling the following business goals: {{business_goals_list}}.
-
-  - id: driving-forces
-    title: Driving Forces
-    instruction: |
-      Detail the persona's positive and negative usage goals from the trigger map.
-    template: |
-      **Positive Goals (What they want):**
-      - {{positive_goal_1}}
-      - {{positive_goal_2}}
+      {{rich_personal_context}}
       
-      **Negative Goals (What they wish to avoid):**
-      - {{negative_goal_1}}
-      - {{negative_goal_2}}
+      ### Personal Relationship to {{core_activity}}
+      
+      {{relationship_to_core_activity}}
+
+  - id: background-context
+    title: Background & Context
+    instruction: |
+      Detail professional situation and key characteristics.
+      Include work style, family context, and life circumstances that affect product usage.
+    sections:
+      - id: professional-situation
+        title: Professional Situation
+        template: |
+          - **Experience Level**: {{experience_level}}
+          - **Responsibility Scope**: {{responsibility_scope}}
+          - **Work Style**: {{work_style}}
+          - **Performance Orientation**: {{performance_orientation}}
+      - id: key-characteristics
+        title: Key Characteristics
+        template: |
+          {{key_characteristics_list}}
+
+  - id: usage-goals-driving-forces
+    title: Usage Goals & Driving Forces
+    instruction: |
+      Use standardized terminology and language patterns.
+      Positive goals start with: "Wants, wishes, prefers, would like, would love"
+      Negative goals start with: "Fears, doesn't want, wishes to avoid, would not have happen"
+    sections:
+      - id: positive-usage-goals
+        title: Positive Usage Goals (What {{persona_name}} wants to achieve)
+        template: |
+          {{#each positive_goals}}
+          - ✅ **{{category}}**: {{description_starting_with_action_word}}
+          {{/each}}
+      - id: negative-usage-goals
+        title: Negative Usage Goals (What {{persona_name}} wants to avoid)
+        template: |
+          {{#each negative_goals}}
+          - ❌ **{{category}}**: {{description_starting_with_avoidance_word}}
+          {{/each}}
+
+  - id: design-implications-user-journey
+    title: Design Implications & User Journey Considerations
+    instruction: |
+      Combine design implications with user journey considerations.
+      Focus on critical success factors, key moments, and implementation priorities.
+    sections:
+      - id: critical-success-factors
+        title: Critical Success Factors
+        template: "{{critical_success_factors}}"
+      - id: user-journey-considerations
+        title: {{persona_name}}'s Implementation Journey & Key Decisions
+        template: "{{user_journey_with_decision_points}}"
+      - id: design-requirements
+        title: Must-Have Features for {{persona_name}}
+        template: "{{persona_specific_design_requirements}}"
+
+  - id: success-metrics
+    title: Success Metrics for {{persona_name}}
+    instruction: |
+      Define persona-specific success measurements.
+      Include behavioral indicators and outcome measures.
+    template: |
+      {{persona_specific_success_metrics}}
+
+  - id: quotes-mindset
+    title: Key Quotes & Mindset
+    instruction: |
+      Include authentic-sounding quotes that capture the persona's voice and concerns
+    template: |
+      {{#each persona_quotes}}
+      - *"{{quote_text}}"*
+      {{/each}}
