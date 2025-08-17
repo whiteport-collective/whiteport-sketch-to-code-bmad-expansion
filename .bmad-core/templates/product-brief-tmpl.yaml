@@ -1,0 +1,188 @@
+template:
+  id: whiteport-product-brief-template
+  name: Whiteport Product Brief
+  version: 1.0
+  output:
+    format: markdown
+    filename: docs/brief.md
+    title: "Project Brief: {{project_name}}"
+
+workflow:
+  mode: interactive
+  elicitation: guided-sections
+  user_control: high
+  refinement_focus: persona-alignment
+
+sections:
+  - id: executive-summary
+    title: Executive Summary
+    instruction: |
+      Create concise overview based on trigger map and persona analysis:
+      - Project concept in 2-3 sentences
+      - Primary problem from trigger map business visions
+      - Target market identification
+      - Key value proposition addressing persona needs
+    template: |
+      {{project_name}} is {{solution_description}}. 
+      
+      **Primary Problem**: {{problem_from_trigger_map}}
+      
+      **Target Market**: {{market_based_on_personas}}
+      
+      **Key Value Proposition**: {{value_prop_persona_specific}}
+
+  - id: key-assumptions
+    title: Key Assumptions
+    instruction: |
+      Surface critical assumptions prominently for stakeholder alignment:
+      - Business assumptions (budget, market, purchasing)
+      - Technical assumptions (development approach, platforms)
+      - User assumptions (persona behavior, engagement)
+    template: |
+      - {{business_assumption}}
+      - {{technical_assumption}}
+      - {{user_assumption}}
+
+  - id: problem-statement
+    title: Problem Statement
+    instruction: |
+      Develop problem statement using trigger map insights:
+      - Current state derived from business visions
+      - Impact using hard goals for quantification
+      - Urgency drivers from strategic context
+    sections:
+      - id: current-state
+        title: Current State and Pain Points
+        template: "{{trigger_map_pain_points}}"
+      - id: impact
+        title: Impact of the Problem
+        template: "{{quantified_impact_from_hard_goals}}"
+      - id: urgency
+        title: Urgency and Importance
+        template: "{{why_solve_now}}"
+
+  - id: solution-overview
+    title: High-Level Vision
+    instruction: Move vision section to prominent position after problem statement
+    template: "{{workplace_ecosystem_vision}}"
+
+  - id: proposed-solution
+    title: Proposed Solution
+    instruction: |
+      High-level approach informed by persona analysis:
+      - Core concept addressing persona-specific needs
+      - Platform architecture explained through persona lens
+      - Key differentiators serving identified personas
+    sections:
+      - id: core-concept
+        title: Core Concept and Approach
+        template: "{{solution_approach_persona_driven}}"
+      - id: platform-justification
+        title: Platform Architecture
+        template: "{{technical_decisions_persona_based}}"
+
+  - id: target-users
+    title: Target Users
+    instruction: |
+      Brief summaries with clear persona file references:
+      - Executive summary of primary personas
+      - Link to detailed persona documents
+      - Prioritization for MVP focus
+    sections:
+      - id: primary-users
+        title: Primary User Segment
+        template: |
+          **{{primary_persona_name}}**: {{brief_description}}
+          
+          **Key Needs**: {{summarized_needs}}
+          
+          *For detailed analysis, see: `{{persona_file_path}}`*
+      - id: secondary-users
+        title: Secondary User Segments
+        template: |
+          **Priority Personas for MVP**: {{mvp_personas_list}}
+          
+          **Future Versions**: {{future_personas_list}}
+          
+          *For complete analysis, see: `{{persona_directory_path}}`*
+
+  - id: platform-architecture
+    title: Technical Considerations
+    instruction: |
+      Technical decisions justified by persona usage patterns:
+      - Platform choices explained through user research
+      - Integration points supporting persona workflows
+      - Architecture considerations from persona needs
+    sections:
+      - id: platform-requirements
+        title: Platform Requirements
+        template: "{{platform_choices_persona_justified}}"
+      - id: technology-preferences
+        title: Technology Preferences
+        template: "{{tech_stack_persona_informed}}"
+      - id: architecture-considerations
+        title: Architecture Considerations
+        template: "{{architecture_persona_driven}}"
+
+  - id: mvp-scope
+    title: MVP Scope
+    instruction: |
+      Feature prioritization based on primary persona needs:
+      - Must-have features for primary persona success
+      - Secondary features for other personas
+      - Clear out-of-scope with reasoning
+    sections:
+      - id: core-features
+        title: Core Features (Must Have)
+        template: "{{features_by_persona_platform}}"
+      - id: out-of-scope
+        title: Out of Scope for MVP
+        template: "{{excluded_features_with_reasoning}}"
+      - id: success-criteria
+        title: MVP Success Criteria
+        template: "{{success_metrics_persona_based}}"
+
+  - id: constraints-timeline
+    title: Constraints & Assumptions
+    instruction: |
+      Realistic project parameters:
+      - Actual development approach and timeline
+      - Resource and technical constraints
+      - Compliance requirements
+    sections:
+      - id: constraints
+        title: Constraints
+        template: |
+          - **Budget**: {{actual_budget_constraints}}
+          - **Timeline**: {{realistic_timeline_with_approach}}
+          - **Resources**: {{actual_team_and_methodology}}
+          - **Technical**: {{enterprise_and_compliance_requirements}}
+
+  - id: goals-metrics
+    title: Goals & Success Metrics
+    instruction: |
+      Success measurement aligned with trigger map and persona goals:
+      - Business objectives from trigger map hard goals
+      - User success metrics by persona type
+      - KPIs for platform performance
+    sections:
+      - id: business-objectives
+        title: Business Objectives
+        template: "{{objectives_from_trigger_map}}"
+      - id: user-success-metrics
+        title: User Success Metrics
+        template: "{{persona_specific_success_metrics}}"
+      - id: kpis
+        title: Key Performance Indicators (KPIs)
+        template: "{{platform_performance_metrics}}"
+
+  - id: next-steps
+    title: Next Steps
+    instruction: |
+      Clear handoff preparation:
+      - Immediate validation actions
+      - PM handoff for PRD creation
+    sections:
+      - id: immediate-actions
+        title: Immediate Actions
+        template: "{{validation_and_preparation_steps}}"

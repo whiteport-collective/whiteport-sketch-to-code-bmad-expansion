@@ -1,0 +1,132 @@
+template:
+  id: sketch-driven-prd-template-v1
+  name: Sketch-Driven Product Requirements Document
+  version: 1.0
+  output:
+    format: markdown
+    filename: docs/prd.md
+    title: "Product Requirements Document: {{product_name}}"
+
+workflow:
+  mode: interactive
+  elicitation: advanced-elicitation
+
+sections:
+  - id: executive-summary
+    title: Executive Summary
+    instruction: |
+      Provide a concise overview of the product, incorporating insights from the trigger map.
+      Include the primary business goals (both soft and hard goals) and target user groups identified.
+
+  - id: trigger-map-reference
+    title: Trigger Map Foundation
+    instruction: |
+      Reference the completed trigger map and summarize:
+      - Primary business goals (soft and hard goals)
+      - Prioritized target user groups with their key characteristics
+      - Top user driving forces (positive and negative goals)
+      
+      Include a link to the full trigger map document: `docs/trigger-maps/[project-name]-trigger-map.md`
+
+  - id: problem-statement
+    title: Problem Statement & User Scenarios
+    instruction: |
+      Based on the trigger map's user goals and driving forces, define:
+      - Current state pain points for each target user group
+      - Key scenarios where users encounter these problems
+      - Impact of these problems on both users and business goals
+      
+      This section should directly connect to what will be visualized in the upcoming sketches.
+
+  - id: solution-approach
+    title: Solution Approach
+    instruction: |
+      Describe the high-level solution approach that addresses the user driving forces.
+      Focus on how the solution will fulfill positive user goals and help users avoid negative outcomes.
+      Keep this high-level as detailed solutions will emerge through the sketching process.
+
+  - id: user-scenarios
+    title: Core User Scenarios
+    instruction: |
+      Define 5-8 core user scenarios that will guide the sketching process.
+      Each scenario should:
+      - Connect to a specific user goal from the trigger map
+      - Describe the user's context and motivation
+      - Outline the desired outcome
+      - Note which target user group this primarily serves
+      
+      These scenarios will become the foundation for conceptual sketches.
+
+  - id: sketch-planning
+    title: Sketch Planning Framework
+    instruction: |
+      Outline the planned approach for the sketching phase:
+      - Which scenarios will be sketched first (prioritization)
+      - Key user flows that need visual exploration
+      - Critical interaction points that require careful design
+      - Any specific design constraints or requirements
+      
+      This section guides the upcoming UX Expert collaboration.
+
+  - id: technical-considerations
+    title: Technical Considerations
+    instruction: |
+      Document any technical constraints or requirements that may influence the design:
+      - Platform requirements (web, mobile, desktop)
+      - Integration needs with existing systems
+      - Performance requirements
+      - Accessibility requirements
+      - Security considerations
+      
+      These will inform both sketching decisions and backend epic creation.
+
+  - id: success-metrics
+    title: Success Metrics
+    instruction: |
+      Define how success will be measured, connecting back to the hard goals from the trigger map:
+      - User engagement metrics aligned with user driving forces
+      - Business metrics that prove the soft goals are being achieved
+      - Specific KPIs for each target user group
+      - Methods for measuring whether negative user goals are being avoided
+
+  - id: out-of-scope
+    title: Out of Scope
+    instruction: |
+      Clearly define what is NOT included in this phase:
+      - Features that don't address priority user goals from trigger map
+      - User scenarios that will be addressed in future phases
+      - Technical features that don't directly impact user experience
+      
+      This helps maintain focus during the sketching and development phases.
+
+  - id: next-steps
+    title: Next Steps
+    instruction: |
+      Outline the immediate next steps for the sketch-driven development process:
+      - Backend epic creation tasks (non-visual functionality)
+      - Sketching workshop planning with UX Expert
+      - Key stakeholders needed for sketch review and validation
+      - Timeline expectations for sketch documentation completion
+
+elicitation:
+  requirements:
+    - trigger_map_completed: "Has the trigger map been completed with business goals, target groups, and user driving forces?"
+    - stakeholder_access: "Do we have access to key stakeholders for scenario validation?"
+    - technical_constraints: "Are there any known technical constraints that could impact the sketching process?"
+    - timeline_requirements: "What are the timeline expectations for completing the sketch-driven development phase?"
+
+examples:
+  scenario_format: |
+    **Scenario Name**: [Target User] + [Action] + [Context]
+    **User Group**: [Primary target group from trigger map]
+    **User Goal**: [Connects to specific driving force from trigger map]
+    **Context**: [When and why this scenario occurs]
+    **Desired Outcome**: [What success looks like for the user]
+    **Business Value**: [How this connects to business goals]
+
+  success_metric_format: |
+    **Metric Name**: [Clear, measurable outcome]
+    **Target Value**: [Specific number or percentage]
+    **Measurement Method**: [How this will be tracked]
+    **User Group**: [Which target group this primarily impacts]
+    **Trigger Map Connection**: [Links back to specific hard goal]

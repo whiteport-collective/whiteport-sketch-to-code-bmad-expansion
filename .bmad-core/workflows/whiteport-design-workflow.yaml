@@ -16,11 +16,23 @@ workflow:
       action: create-trigger-map
       notes: "The Analyst helps define business goals and user needs by creating a trigger map. This output serves as the foundation for all design work."
 
+    - step: persona_deep_dive
+      agent: analyst
+      action: create-individual-personas
+      requires: create-trigger-map-output
+      notes: "Create separate, detailed persona files with personal context and relationship to core activity. Focus on individual files with rich backgrounds and standardized terminology."
+
+    - step: product_brief_creation
+      agent: analyst
+      action: create-product-brief
+      requires: trigger-map-output, persona-files
+      notes: "Create comprehensive product brief that bridges user research with technical requirements. Translates persona insights into platform architecture and development approach."
+
     - step: scenario_formalization
       agent: pm
       action: create-doc with prd-tmpl
-      requires: create-trigger-map-output
-      notes: "The PM formalizes the scenarios from the trigger map and creates a high-level PRD that includes a list of scenarios but not yet Epics and stories."
+      requires: product-brief-output
+      notes: "The PM formalizes the scenarios from the product brief and creates a high-level PRD that includes a list of scenarios. The PM then refrains from creating additional stories related to the interface until some scenario steps or complete scenarios are completed. Strictly backend related Epics and stories are created right away"
 
     - step: backend_epic_creation
       agent: pm
@@ -55,16 +67,20 @@ workflow:
     ```mermaid
     graph TD
       A[Start: Ideation] --> B[Analyst: create-trigger-map]
-      B --> C[PM: create high-level PRD]
-      C --> D[PM: create backend Epics]
-      D --> E[UX Expert: sketch & document]
-      E --> F[PM: create UI Epics & stories from sketches]
-      F --> G[Orchestrator: guide handoff to Dev]
+      B --> C[Analyst: create-individual-personas]
+      C --> D[Analyst: create-product-brief]
+      D --> E[PM: create high-level PRD]
+      E --> F[PM: create backend Epics]
+      F --> G[UX Expert: sketch & document]
+      G --> H[PM: create UI Epics & stories from sketches]
+      H --> I[Orchestrator: guide handoff to Dev]
       style A fill:#ADD8E6
       style B fill:#FFE4B5
-      style C fill:#ADD8E6
+      style C fill:#FFE4B5
       style D fill:#FFE4B5
       style E fill:#ADD8E6
-      style F fill:#FFE4B5
-      style G fill:#F0E68C
+      style F fill:#ADD8E6
+      style G fill:#FFE4B5
+      style H fill:#ADD8E6
+      style I fill:#F0E68C
     ```
