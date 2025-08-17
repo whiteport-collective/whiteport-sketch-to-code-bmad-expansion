@@ -1,8 +1,8 @@
-# Whiteport Conceptual Sketching & Development
+# Whiteport Sketch to Code BMad Expansion pack
 
 ## Introduction
 
-In an age where AI can generate code and mockups in seconds, a designer's role is not diminished—it is elevated. The Whiteport Conceptual Sketching Method is a BMad Expansion Pack that empowers designers to use their unique creative skills to guide and direct an AI-powered development team. This method is a structured way to harness the human mind that creates new ideas and visualizes a user's journey, making you the creative linchpin in a successful project.
+In an age where AI can generate code and mockups in seconds, a designer's role is not diminished—it is elevated. The Whiteport Conceptual Sketch to Code Method is a BMad Expansion Pack that empowers designers to use their unique creative skills to guide and direct an AI-powered development team. This method is a structured way to harness the human mind that creates new ideas and visualizes a user's journey, making you the creative linchpin in a successful project.
 
 ## The Whiteport Method
 
@@ -26,5 +26,5 @@ This expansion pack provides specialized agent capabilities and a clear document
 
 1.  **Install BMad**: Ensure you have the BMad-Method framework set up in your IDE.
 2.  **Add the Expansion Pack**: Clone this repository into your project's `.bmad-core/expansion-packs/` folder.
-3.  **Activate**: Run the appropriate command in your IDE to activate the "Whiteport Conceptual Sketching & Development" expansion.
+3.  **Activate**: Run the appropriate command in your IDE to activate the "Whiteport Sketch-to-Code" expansion.
 4.  **Begin**: Start with the Analyst agent to define your project, and let your pen guide the way.
