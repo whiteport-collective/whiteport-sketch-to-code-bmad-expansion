@@ -1,0 +1,210 @@
+template:
+  id: sketch-review-template-v1
+  name: Development Handoff Review
+  version: 1.0
+  output:
+    format: markdown
+    filename: docs/sketch-review-{{review_date}}.md
+    title: "Sketch Review & Development Handoff: {{project_name}}"
+
+workflow:
+  mode: interactive
+  elicitation: advanced-elicitation
+
+sections:
+  - id: review-overview
+    title: Sketch Review Overview
+    instruction: |
+      Provide a comprehensive overview of the sketching phase completion:
+      - Project Name and Phase: Identify the project and sketching phase
+      - Review Date: When this review was conducted
+      - Participants: Who was involved in the review process
+      - Scope Covered: Which scenarios and sketches are included
+      - Completion Status: Overall progress and remaining work
+
+  - id: scenario-coverage
+    title: User Scenario Coverage
+    instruction: |
+      Document how well the sketches cover the defined user scenarios:
+      
+      **Scenario Completion Status**:
+      For each scenario from the PRD, indicate:
+      - Scenario Name and Description
+      - Sketching Status: Complete, In Progress, Not Started
+      - Number of Pages Sketched
+      - Synopsis Documents Created
+      - Components Identified
+      
+      **Coverage Analysis**:
+      - Complete User Journeys: Which flows are fully sketched
+      - Gaps and Missing Pieces: What still needs to be sketched
+      - Critical Path Coverage: Are the most important flows complete?
+
+  - id: component-library-status
+    title: Component Library Status
+    instruction: |
+      Review the current state of the component library:
+      
+      **Component Inventory**:
+      - Total Components Identified: Count of all components
+      - Components Documented: How many have complete specifications
+      - Atomic Components: Basic building blocks identified
+      - Molecular Components: Component combinations documented
+      - Organism Components: Complex components specified
+      
+      **Documentation Quality**:
+      - Complete Specifications: Components ready for development
+      - Partial Specifications: Components needing more detail
+      - Missing Specifications: Components identified but not documented
+      - Usage Tracking: How well component usage is documented
+
+  - id: documentation-quality
+    title: Documentation Quality Assessment
+    instruction: |
+      Assess the quality and completeness of sketch documentation:
+      
+      **Synopsis Document Quality**:
+      - Complete Synopsis Documents: Pages with full documentation
+      - Partial Documentation: Pages needing more detail
+      - Missing Documentation: Sketched pages without synopsis
+      - Content Specifications: How well content is defined
+      - Interaction Documentation: Completeness of behavioral specs
+      
+      **Technical Specifications**:
+      - Implementation Guidance: Clarity of technical requirements
+      - Responsive Design: Mobile and responsive considerations
+      - Accessibility Requirements: Compliance specifications
+      - Platform Considerations: Multi-platform documentation
+
+  - id: development-readiness
+    title: Development Readiness Assessment
+    instruction: |
+      Evaluate readiness for development handoff:
+      
+      **Backend Epic Alignment**:
+      - API Requirements: What backend services are needed
+      - Data Model Clarity: How well data requirements are defined
+      - Integration Points: External system connections identified
+      - Performance Requirements: Technical constraints documented
+      
+      **Frontend Development Readiness**:
+      - Component Specifications: Are all components ready for development?
+      - Page Specifications: Are all pages clearly documented?
+      - Interaction Specifications: Are all behaviors defined?
+      - Content Requirements: Is all content specified?
+      
+      **Technical Feasibility**:
+      - Implementation Complexity: Assessment of development effort
+      - Technical Risks: Potential implementation challenges
+      - Platform Constraints: Technical limitations identified
+      - Testing Requirements: QA and validation criteria
+
+  - id: persona-alignment
+    title: Persona and Usage Goal Alignment
+    instruction: |
+      Verify that sketches serve the intended persona usage goals:
+      
+      **Persona Coverage**:
+      For each priority persona, assess:
+      - Helena HR: Admin features and beautiful reporting needs
+      - Nina Normal: Social engagement without embarrassment
+      - Sune Soffa: Privacy preferences and technology integration
+      - Linus Ledare: Leadership features and relationship building
+      - Tore Tävling: Competition and achievement features
+      
+      **Usage Goal Fulfillment**:
+      - Positive Goals Served: How sketches enable desired outcomes
+      - Negative Goals Avoided: How sketches prevent unwanted outcomes
+      - Missing Persona Needs: Gaps in persona support
+      - Cross-Persona Balance: How well different needs are balanced
+
+  - id: technical-integration
+    title: Technical Integration Assessment
+    instruction: |
+      Evaluate how sketches integrate with technical requirements:
+      
+      **Platform Integration**:
+      - Admin Portal: HR management interface requirements
+      - Web App: Browser-based user experience
+      - Mobile Apps: Native iOS/Android specifications
+      - Cross-Platform Consistency: Unified experience across platforms
+      
+      **Backend Integration**:
+      - API Requirements: What backend services are needed
+      - Data Flow: How information moves through the system
+      - Authentication: User management and security requirements
+      - Analytics: Reporting and dashboard data requirements
+
+  - id: next-steps
+    title: Next Steps and Recommendations
+    instruction: |
+      Define clear next steps for moving from sketches to development:
+      
+      **Immediate Actions**:
+      - Remaining Sketch Work: What sketching work still needs completion
+      - Documentation Completion: Missing synopsis or component docs
+      - Technical Validation: Areas requiring technical consultation
+      - Stakeholder Review: Additional reviews needed before development
+      
+      **Development Planning**:
+      - Epic Creation: UI epics that need to be created from sketches
+      - Story Creation: User stories for development backlog
+      - Development Sequencing: Recommended order for implementation
+      - Resource Allocation: Team assignments and timeline estimates
+      
+      **Quality Assurance Planning**:
+      - Design Review Process: How designs will be validated during development
+      - User Testing Plans: How sketched designs will be validated with users
+      - Accessibility Testing: Compliance validation requirements
+      - Cross-Platform Testing: Multi-platform validation plans
+
+  - id: risks-and-mitigation
+    title: Risks and Mitigation Strategies
+    instruction: |
+      Identify potential risks and mitigation strategies:
+      
+      **Design Risks**:
+      - Incomplete Specifications: Areas with insufficient detail
+      - Technical Feasibility: Potential implementation challenges
+      - User Experience Gaps: Missing user journey elements
+      - Cross-Platform Inconsistency: Platform-specific design issues
+      
+      **Mitigation Strategies**:
+      - Documentation Improvements: Specific areas needing more detail
+      - Technical Consultation: Areas requiring developer input
+      - User Validation: Opportunities for user testing and feedback
+      - Design System Refinement: Component library improvements needed
+
+elicitation:
+  requirements:
+    - sketching_phase_status: "What is the current status of the sketching phase - complete, mostly complete, or in progress?"
+    - scenario_coverage: "Have all priority user scenarios been sketched and documented?"
+    - component_identification: "Has the component library been built and documented?"
+    - development_timeline: "What are the timeline expectations for beginning development?"
+
+examples:
+  scenario_status_format: |
+    **Scenario 1: Browse the Public Website**
+    - Status: Complete
+    - Pages Sketched: 3 (landing, features, pricing)
+    - Synopsis Documents: 3 complete
+    - Components Identified: 8 (header, CTA buttons, feature cards, etc.)
+    
+    **Scenario 2: Corporate Account Creation**
+    - Status: In Progress
+    - Pages Sketched: 2 of 4 planned
+    - Synopsis Documents: 1 complete, 1 in progress
+    - Components Identified: 5 (forms, confirmation, etc.)
+
+  development_readiness_format: |
+    **Ready for Development**:
+    - Scenario 1: Browse Public Website (complete documentation)
+    - Component Library: Primary buttons, navigation header, feature cards
+    
+    **Needs More Work**:
+    - Scenario 4: User Onboarding (missing mobile responsive specs)
+    - Component Library: Form validation components need error states
+    
+    **Technical Consultation Needed**:
+    - Real-time sync requirements for activity tracking
+    - Performance requirements for analytics dashboard

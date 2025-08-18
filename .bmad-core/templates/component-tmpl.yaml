@@ -1,0 +1,173 @@
+template:
+  id: component-specification-template-v1
+  name: Reusable Component Specification
+  version: 1.0
+  output:
+    format: markdown
+    filename: docs/components/{{component_type}}/{{component_name}}.md
+    title: "Component: {{component_name}}"
+
+workflow:
+  mode: interactive
+  elicitation: advanced-elicitation
+
+sections:
+  - id: component-identity
+    title: Component Identity
+    instruction: |
+      Define the basic identity and purpose of this component:
+      - Component Name: Clear, descriptive name following naming conventions
+      - Component Type: Atomic, molecular, or organism classification
+      - Purpose Statement: One-sentence description of component function
+      - Usage Context: Where and when this component should be used
+
+  - id: visual-specification
+    title: Visual Specification
+    instruction: |
+      Document the visual appearance and styling requirements:
+      - Default Appearance: Primary visual state description
+      - Dimensions: Size specifications and responsive behavior
+      - Spacing: Internal padding and external margins
+      - Typography: Font specifications when text is included
+      - Color Palette: All colors used in different states
+      
+      Include reference to any sketches that show this component.
+
+  - id: states-and-variants
+    title: States and Variants
+    instruction: |
+      Document all possible states and variations of the component:
+      
+      **Interactive States** (for interactive components):
+      - Default State: Normal appearance when not being interacted with
+      - Hover State: Appearance when cursor hovers over component
+      - Active State: Appearance when component is being clicked/pressed
+      - Focus State: Appearance when component has keyboard focus
+      - Disabled State: Appearance when component is not available
+      - Loading State: Appearance during processing or data loading
+      - Error State: Appearance when validation or processing fails
+      
+      **Content Variants**:
+      - Short Content: How component handles minimal content
+      - Long Content: Behavior with extensive content or text overflow
+      - Empty State: Appearance when no content is available
+      
+      **Contextual Variants**:
+      - Size Variations: Small, medium, large versions
+      - Style Variations: Primary, secondary, tertiary styling
+      - Platform Variations: Web, mobile, admin portal differences
+
+  - id: behavior-specification
+    title: Behavioral Specification
+    instruction: |
+      Define how the component behaves and responds to user interaction:
+      
+      **Interaction Patterns**:
+      - Click/Tap Behavior: What happens when user interacts
+      - Keyboard Interactions: Tab navigation and keyboard shortcuts
+      - Touch Gestures: Mobile-specific interaction patterns
+      - Animation Timing: Transition durations and easing functions
+      
+      **Responsive Behavior**:
+      - Breakpoint Adaptations: How component changes at different screen sizes
+      - Flexible Sizing: Rules for component growth and shrinkage
+      - Content Reflow: How internal content reorganizes
+      - Touch Target Sizing: Mobile accessibility requirements
+
+  - id: content-requirements
+    title: Content Requirements
+    instruction: |
+      Specify content guidelines and requirements:
+      
+      **Text Content Specifications**:
+      - Character Limits: Maximum and recommended text lengths
+      - Content Guidelines: Tone, style, and formatting requirements
+      - Localization Considerations: Space requirements for different languages
+      - Dynamic Content: How component handles changing text
+      
+      **Media Content Requirements** (if applicable):
+      - Image Specifications: Dimensions, aspect ratios, file types
+      - Alt Text Requirements: Accessibility descriptions for images
+      - Fallback Content: What displays when media fails to load
+      - Performance Considerations: Optimization requirements
+
+  - id: technical-implementation
+    title: Technical Implementation Notes
+    instruction: |
+      Provide guidance for development implementation:
+      
+      **Development Guidance**:
+      - HTML Structure: Semantic markup requirements
+      - CSS Classes: Naming conventions and structure
+      - JavaScript Behavior: Interactive functionality requirements
+      - Accessibility Requirements: ARIA labels, roles, and properties
+      
+      **Integration Requirements**:
+      - Dependencies: Other components or libraries required
+      - API Connections: External data or service integrations
+      - Platform Constraints: Specific technical limitations
+      - Performance Considerations: Loading and rendering requirements
+
+  - id: usage-documentation
+    title: Usage Documentation
+    instruction: |
+      Document how and when to use this component:
+      
+      **Usage Guidelines**:
+      - When to Use: Appropriate contexts for component
+      - When Not to Use: Situations where component is inappropriate
+      - Best Practices: Recommendations for optimal usage
+      - Common Mistakes: Pitfalls to avoid in implementation
+      
+      **Implementation Examples**:
+      - Code Snippets: Example HTML/CSS/JavaScript (if available)
+      - Usage Patterns: Common ways component is implemented
+      - Integration Examples: How component works with others
+      - Customization Options: Available configuration parameters
+
+  - id: references-and-tracking
+    title: References and Usage Tracking
+    instruction: |
+      Maintain traceability and usage information:
+      
+      **Usage Tracking**:
+      - Page References: All pages where component appears (link to synopsis documents)
+      - Sketch References: Links to original sketches showing component
+      - Story References: Development stories that implement component (to be added later)
+      
+      **Version History**:
+      - Change Log: Record of modifications and rationale
+      - Version Numbers: Track component evolution
+      - Impact Assessment: How changes affect existing usage
+      - Migration Notes: Guidance for updating existing implementations
+
+elicitation:
+  requirements:
+    - component_sketched: "Has this component been sketched and is it visible in the user journey?"
+    - reusability_confirmed: "Does this component appear (or will appear) in multiple places?"
+    - component_purpose: "What is the primary purpose and function of this component?"
+    - interaction_requirements: "Does this component have interactive behavior that needs specification?"
+
+examples:
+  component_identity_format: |
+    **Component Name**: Primary Button
+    **Component Type**: Atomic
+    **Purpose Statement**: Provides the primary call-to-action for user interactions requiring high visual prominence
+    **Usage Context**: Use for the most important action on any page or form, typically limited to one per page
+
+  states_documentation_format: |
+    **Default State**: Blue background (#007bff), white text, rounded corners
+    **Hover State**: Darker blue background (#0056b3), slight elevation shadow
+    **Active State**: Even darker blue (#004085), pressed appearance
+    **Disabled State**: Gray background (#6c757d), no hover effects
+    **Loading State**: Disabled appearance with spinner icon
+
+  usage_tracking_format: |
+    **Page References**:
+    - [Login Page Synopsis](../pages/01-login/01-login_Synopsis.md)
+    - [Registration Page Synopsis](../pages/02-register/02-register_Synopsis.md)
+    - [Checkout Page Synopsis](../pages/05-checkout/05-checkout_Synopsis.md)
+    
+    **Sketch References**: 
+    - Sketch 01-login.png (main CTA button)
+    - Sketch 02-register.png (account creation button)

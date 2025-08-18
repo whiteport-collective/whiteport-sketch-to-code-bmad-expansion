@@ -5,7 +5,7 @@ bundle:
 agents:
   - bmad-orchestrator
   - analyst
-  - pm
-  - ux-expert
+  - whiteport-pm
+  - whiteport-ux-expert
 workflows:
   - whiteport-design-workflow.yaml

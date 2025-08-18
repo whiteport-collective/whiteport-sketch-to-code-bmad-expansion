@@ -2,28 +2,44 @@
 
 ## Pre-Sketch Phase (PM Tasks)
 
-### Trigger Map Validation
-- [ ] Trigger map is completed with clear business goals
-- [ ] Target user groups are prioritized and well-defined
-- [ ] User driving forces (positive/negative goals) are identified
-- [ ] Business goals connect clearly to user goals
+### Foundation Documents (PM Entry Point)
+- [ ] Project brief is completed by Analyst (Step 1 - strategic foundation)
+- [ ] User research & business mapping is completed (Step 2 - combined trigger map + detailed personas)
+  - [ ] Business goals and success metrics defined
+  - [ ] Target user groups identified and prioritized
+  - [ ] Detailed persona profiles with rich backgrounds
+  - [ ] User driving forces (positive/negative goals) mapped to business outcomes
+  - [ ] User-business goal alignment documented
+- [ ] Foundation documents provide complete strategic and user context
+- [ ] Platform architecture and development approach are defined
 
-### PRD Foundation
-- [ ] Sketch-driven PRD created using sketch-driven-prd-tmpl.yaml
-- [ ] Core user scenarios defined (5-8 scenarios maximum)
-- [ ] Each scenario connects to trigger map user goals
-- [ ] Technical constraints documented
+### PRD Creation from Product Brief
+- [ ] PRD created using sketch-driven-prd-tmpl.yaml based on product brief
+- [ ] Core user scenarios extracted and formalized from product brief
+- [ ] Each scenario connects to trigger map user goals via product brief
+- [ ] Technical constraints from product brief are documented
 - [ ] Success metrics defined and measurable
 
-### Backend Epic Creation
-- [ ] Backend requirements identified from user scenarios
+### Backend Foundation & Epic Creation (Parallel Process)
+- [ ] Backend requirements identified from product brief and scenarios
+- [ ] Technology stack defined (React/TypeScript, Node.js, PostgreSQL, etc.)
+- [ ] Platform architecture documented (three-platform approach)
 - [ ] Data models and API endpoints defined
 - [ ] Authentication and authorization requirements specified
-- [ ] Integration points with external systems documented
+- [ ] Integration points with external systems documented (Google Workspace, Microsoft 365)
 - [ ] Backend epics prioritized by dependency and value
 - [ ] Backend user stories created with clear acceptance criteria
+- [ ] Technical constraints and performance requirements documented
 
-## During Sketch Phase (PM Monitoring)
+## During Scenario Outline & Sketching Phase (PM Parallel Work + Monitoring)
+
+### Step 5: Scenario Outline Phase
+- [ ] UX Expert creates detailed scenario outlines for sketching
+- [ ] PM validates scenarios align with backend capabilities
+- [ ] Technical feasibility confirmed for each scenario
+- [ ] Cross-platform considerations documented
+
+### Step 6: Step-by-Step Sketching Phase
 
 ### Scenario-Sketch Alignment
 - [ ] All user scenarios have corresponding sketch exploration
