@@ -2,17 +2,17 @@
 
 ## Purpose
 
-To guide the creation of a comprehensive product brief that bridges strategic user research (trigger map and personas) with technical requirements and development planning. The product brief serves as the foundation for PRD creation and stakeholder alignment.
+To guide the creation of a foundational product brief that establishes project vision, strategic direction, and high-level requirements. The product brief serves as the foundation for subsequent trigger map analysis, persona development, and PRD creation.
 
 ## Process
 
-The Analyst will work with the user to create a product brief based on completed trigger map and persona analysis. This document translates user research into actionable technical and business requirements.
+The Analyst will work with the user to create an initial product brief that defines the project's strategic foundation. This document will guide the creation of detailed user research (trigger map and personas) and technical requirements.
 
 ### 1. Executive Summary Creation
 - **Project Overview**: Name, core problem, solution approach in 2-3 sentences
-- **Target Market**: Primary market segment based on trigger map analysis
-- **Key Value Proposition**: How the solution addresses persona-specific needs
-- **Business Context**: Reference trigger map business visions without duplication
+- **Target Market**: Primary market segment based on initial market understanding
+- **Key Value Proposition**: How the solution addresses anticipated user needs
+- **Business Context**: High-level business visions and strategic direction
 
 ### 2. Key Assumptions (Prominent Placement)
 - **Business Assumptions**: Budget authority, market willingness, purchasing decisions
@@ -21,34 +21,34 @@ The Analyst will work with the user to create a product brief based on completed
 - **Format**: Clear bullet list placed prominently after executive summary
 
 ### 3. Problem Statement Development
-- **Current State**: Pain points derived from trigger map business visions
-- **Impact Quantification**: Use hard goals from trigger map for measurable impact
+- **Current State**: Pain points identified through initial discovery and stakeholder input
+- **Impact Quantification**: Establish measurable business impact goals
 - **Urgency Drivers**: Why this problem needs solving now
-- **Source Material**: Direct reference to specific trigger map insights
+- **Source Material**: Stakeholder interviews, market research, business needs
 
 ### 4. Solution Overview
-- **Core Concept**: High-level approach addressing persona-specific needs
-- **Platform Architecture**: Technical decisions explained through persona lens
-- **Key Differentiators**: How approach serves identified personas uniquely
-- **Persona Integration**: Why platform choices support different user types
+- **Core Concept**: High-level approach addressing anticipated user needs
+- **Platform Architecture**: Initial technical decisions and architectural direction
+- **Key Differentiators**: How approach serves target market uniquely
+- **User Integration**: Why platform choices support expected user workflows
 
 ### 5. Target User Summary
-- **Format**: Brief descriptions with clear links to detailed persona files
-- **Content**: Executive summary of primary and secondary personas
-- **Avoid**: Repeating full persona content - reference and summarize only
-- **Prioritization**: Clear indication of MVP focus personas
+- **Format**: High-level user group descriptions for subsequent detailed persona development
+- **Content**: Initial user segments and basic characteristics
+- **Purpose**: Foundation for detailed trigger map and persona analysis
+- **Prioritization**: Preliminary indication of MVP focus user groups
 
 ### 6. Platform Architecture Justification
-- **Technical Decisions**: Platform choices justified by persona usage patterns
-- **User Experience**: How different platforms serve different personas
-- **Integration Points**: Cross-platform features supporting persona workflows
-- **Rationale**: Clear connection between technical choices and user research
+- **Technical Decisions**: Platform choices based on business requirements and user expectations
+- **User Experience**: How different platforms will serve anticipated user needs
+- **Integration Points**: Cross-platform features supporting expected workflows
+- **Rationale**: Clear connection between technical choices and business strategy
 
 ### 7. MVP Scope Definition
-- **Feature Prioritization**: Based on primary persona needs from persona analysis
-- **Must-Have Features**: Essential for primary persona success
-- **Secondary Features**: Nice-to-have for secondary personas
-- **Out of Scope**: Clear exclusions with persona-based reasoning
+- **Feature Prioritization**: Based on business priorities and anticipated user needs
+- **Must-Have Features**: Essential features for business success
+- **Secondary Features**: Nice-to-have features for enhanced user experience
+- **Out of Scope**: Clear exclusions with business and technical reasoning
 
 ### 8. Constraints & Timeline
 - **Development Approach**: Actual methodology (AI-first, traditional, hybrid)
@@ -58,21 +58,22 @@ The Analyst will work with the user to create a product brief based on completed
 
 ## Output
 
-A comprehensive product brief document that:
+A foundational product brief document that:
 - Provides executive-level overview for stakeholder buy-in
-- Translates user research into technical requirements
-- Establishes clear development parameters
-- Creates foundation for detailed PRD creation
-- Links to but doesn't duplicate trigger map and persona content
+- Establishes strategic direction and business requirements
+- Creates foundation for subsequent trigger map and persona development
+- Defines technical approach and development parameters
+- Guides detailed user research and requirements analysis
 
 ## Document Application and Usage
 
-- **Stakeholder Alignment**: Use for executive buy-in and project approval
+- **Strategic Foundation**: Foundation for all subsequent workflow steps
+- **Trigger Map Guidance**: Informs business goals and user group identification
+- **Persona Development**: Provides context for detailed user research
 - **PRD Foundation**: Serves as input for detailed requirements documentation
 - **Architecture Guidance**: Informs technical architecture decisions
-- **Scope Management**: Reference for feature prioritization throughout development
 - **Assumption Tracking**: Living document for validating key assumptions
 
 ## Handoff Instructions
 
-Upon completion, this product brief provides complete context for PM agent to begin PRD creation in structured, section-by-section collaboration with the user.
+Upon completion, this product brief provides strategic context for the Analyst to begin detailed trigger map creation, followed by persona development and eventual PRD creation.

@@ -2,15 +2,15 @@
 
 ## Purpose
 
-To guide the user in creating a trigger map to identify and prioritize what a user needs in order to convert themselves and by getting their wishes fulfilled will by their usage provide business value. The trigger map serves as a foundation for identifying requirements.
+To guide the user in creating a detailed trigger map based on the foundational product brief. The trigger map expands on the business goals and user groups identified in the product brief to create detailed user-business alignment mapping. This serves as a foundation for persona development and requirements identification.
 
 ## Process
 
-The Analyst will manage a workshop with key stakeholders and ask a few specific questions. The answer to each question leads to the next. The model is based on the Effect Mapping method created by Inuse in Sweden.
+The Analyst will manage a workshop with key stakeholders, building upon the completed product brief to create detailed trigger map analysis. The model is based on the Effect Mapping method created by Inuse in Sweden.
 
-1. **Define Business Goals**: Ask the user, "What are the business goals?" The answer defines the larger good the interactive solution should contribute to.
+1. **Review Product Brief Business Goals**: Review the business goals established in the product brief and expand upon them with more detailed analysis. Ask the user, "Based on the product brief, what are the specific, measurable business goals?" The answer refines and details the larger good the interactive solution should contribute to.
 
-2. **Identify Target Groups**: Ask the user, "Who, in the world, will, by using the system in the intended way, ensure that the business goals are fulfilled?" The answer determines which target groups the system should be designed for.
+2. **Identify and Refine Target Groups**: Building on the user groups outlined in the product brief, ask the user, "Who, in the world, will, by using the system in the intended way, ensure that the business goals are fulfilled?" Refine and detail the target groups initially identified in the product brief.
 
 3. **Make a list and prioritize**: The Analyst will first list the different target groups and prioritize them. After a summary is added to the trigger map, the Analyst will proceed to create a detailed persona file for each target group using the persona-tmpl.yaml template.
 

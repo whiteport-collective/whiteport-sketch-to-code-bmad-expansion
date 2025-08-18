@@ -8,9 +8,9 @@ This document summarizes the Product Manager role integration within the Whitepo
 
 The PM has three distinct intervention points in the Whiteport workflow:
 
-1. **Scenario Formalization** (Step 2): Transform trigger map insights into structured PRD with user scenarios
-2. **Backend Epic Creation** (Step 3): Create technical foundations that support future sketch implementations  
-3. **UI Epic & Story Creation** (Step 5): Convert finalized sketches into development-ready specifications
+1. **Scenario Formalization** (Step 5): Transform product brief and trigger map insights into structured PRD with user scenarios
+2. **Backend Epic Creation** (Step 6): Create technical foundations that support future sketch implementations  
+3. **UI Epic & Story Creation** (Step 8): Convert finalized sketches into development-ready specifications
 
 ## New PM Capabilities Added
 
@@ -20,7 +20,7 @@ The PM has three distinct intervention points in the Whiteport workflow:
 
 ### Sketch-Driven Templates
 - **sketch-driven-prd-tmpl.yaml**: PRD template optimized for projects that will use sketch-based design exploration
-- Integrates trigger map foundations with sketch planning framework
+- Integrates product brief and trigger map foundations with sketch planning framework
 - Includes guidance for scenario definition that supports visual exploration
 
 ### Backend-First Planning Tasks

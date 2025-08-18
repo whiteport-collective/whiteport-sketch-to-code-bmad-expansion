@@ -26,7 +26,7 @@ AI-first development dramatically accelerates traditional timelines:
 
 #### **Traditional Sketch-to-Code (6-12 months)**
 ```
-Trigger Map (2 weeks) → Personas (2 weeks) → Product Brief (1 week) → 
+Product Brief (1 week) → Trigger Map (2 weeks) → Personas (2 weeks) → 
 PRD (3 weeks) → Sketches (4 weeks) → Detailed Design (6 weeks) → 
 Frontend Development (12 weeks) → Backend Development (8 weeks) → 
 Integration (4 weeks) → Testing (3 weeks)
@@ -34,7 +34,7 @@ Integration (4 weeks) → Testing (3 weeks)
 
 #### **AI-First Sketch-to-Code (3 months)**
 ```
-Trigger Map (1 week) → Personas (1 week) → Product Brief (3 days) → 
+Product Brief (3 days) → Trigger Map (1 week) → Personas (1 week) → 
 PRD (1 week) → Sketches (2 weeks) → AI Implementation (4 weeks) → 
 Human Refinement (2 weeks) → Integration (1 week) → Testing (2 weeks)
 ```

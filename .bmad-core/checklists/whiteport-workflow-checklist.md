@@ -2,16 +2,21 @@
 
 ## Pre-Sketch Phase (PM Tasks)
 
-### Foundation Documents (PM Entry Point)
-- [ ] Project brief is completed by Analyst (Step 1 - strategic foundation)
-- [ ] User research & business mapping is completed (Step 2 - combined trigger map + detailed personas)
-  - [ ] Business goals and success metrics defined
+### Foundation Documents (Analyst Entry Point)
+- [ ] Product brief is completed by Analyst (Step 1 - foundational vision and strategy)
+  - [ ] Project vision and strategic direction defined
+  - [ ] High-level business goals and success metrics established
+  - [ ] Platform architecture and development approach outlined
+- [ ] Trigger map is created based on product brief (Step 2 - detailed user-business mapping)
+  - [ ] Business goals from product brief are detailed and connected to user needs
   - [ ] Target user groups identified and prioritized
-  - [ ] Detailed persona profiles with rich backgrounds
   - [ ] User driving forces (positive/negative goals) mapped to business outcomes
   - [ ] User-business goal alignment documented
+- [ ] Trigger map visualization created (Step 3 - stakeholder communication)
+- [ ] Individual personas developed (Step 4 - detailed user research)
+  - [ ] Detailed persona profiles with rich backgrounds
+  - [ ] Personal context and relationship to core activity
 - [ ] Foundation documents provide complete strategic and user context
-- [ ] Platform architecture and development approach are defined
 
 ### PRD Creation from Product Brief
 - [ ] PRD created using sketch-driven-prd-tmpl.yaml based on product brief
