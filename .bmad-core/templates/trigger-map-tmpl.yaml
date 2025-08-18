@@ -1,0 +1,158 @@
+template:
+  id: whiteport-trigger-map-template
+  name: Strategic Trigger Map
+  version: 2.0
+  output:
+    format: markdown
+    filename: docs/trigger-map/00-trigger-map.md
+    title: "{{project_name}} - Trigger Map"
+
+workflow:
+  mode: interactive
+  elicitation: strategic-collaborative
+  user_control: high
+  refinement_focus: business-user-alignment
+
+sections:
+  - id: header
+    title: Header & Project Overview
+    instruction: |
+      Create project context header with key project information and system overview
+    template: |
+      # {{project_name}} - Trigger Map
+      **Project**: {{project_description}}
+      **Project Horizon**: {{project_duration}} ({{mvp_timeline}})  
+      **Date Created**: {{creation_date}}  
+      **Method**: Whiteport Sketch-to-Code BMad Expansion
+
+      ## System Overview
+      {{system_overview_description}}
+
+  - id: business-visions
+    title: Business Visions (Soft Goals)
+    instruction: |
+      Define high-level business visions that connect to measurable outcomes.
+      Each vision should include emotional/aspirational language with measurable indicators.
+      Use format: "Aspirational statement" with measurable checkboxes.
+    template: |
+      ## Business Visions (Soft Goals)
+      
+      {{#each business_visions}}
+      ### Vision {{@index}}: {{vision_title}}
+      "{{vision_statement}}"
+      
+      {{#each vision_goals}}
+      - ☑️ {{goal_description}} (measurable: {{measurement_criteria}})
+      {{/each}}
+      
+      {{/each}}
+
+  - id: target-user-groups
+    title: Target User Groups (Prioritized)
+    instruction: |
+      List target user groups in priority order with rich descriptions.
+      Include positive and negative driving forces using standardized terminology.
+      Positive goals start with: "Wants, wishes, prefers, would like, would love"
+      Negative goals start with: "Fears, doesn't want, wishes to avoid, would not have happen"
+    template: |
+      ## Target User Groups (Prioritized)
+      
+      {{#each target_groups}}
+      ### {{priority_number}}. {{persona_name}} ({{persona_type}}) {{#if @first}}- Primary target group{{/if}}
+      **Description**: {{persona_description}}
+      
+      *For detailed persona analysis, see: [`{{persona_file_reference}}`](./{{persona_file_reference}})*
+      
+      **Positive Usage Goals**:
+      {{#each positive_goals}}
+      - ✅ {{goal_description}}
+      {{/each}}
+      
+      **Negative Usage Goals (Avoidance)**:
+      {{#each negative_goals}}
+      - ❌ {{goal_description}}
+      {{/each}}
+      
+      {{/each}}
+
+  - id: strategic-insights
+    title: Strategic Insights & Prioritization
+    instruction: |
+      Synthesize key insights from the trigger map analysis.
+      Focus on development priorities, emotional drivers, and critical avoidance factors.
+    sections:
+      - id: primary-focus
+        title: Primary Development Focus
+        template: |
+          ### Primary Development Focus
+          Based on the trigger map analysis, the {{product_type}} should prioritize:
+          
+          {{#each development_priorities}}
+          {{priority_number}}. **{{priority_description}}** - {{rationale}}
+          {{/each}}
+      
+      - id: emotional-drivers
+        title: Key Emotional Drivers
+        template: |
+          ### Key Emotional Drivers
+          {{#each emotional_drivers}}
+          - **{{driver_category}}** - "{{driver_quote}}" ({{persona_attribution}})
+          {{/each}}
+      
+      - id: avoidance-factors
+        title: Critical Avoidance Factors
+        template: |
+          ### Critical Avoidance Factors
+          {{#each avoidance_factors}}
+          - **{{factor_category}}** - "{{factor_description}}" ({{persona_attribution}})
+          {{/each}}
+
+  - id: next-steps
+    title: Next Steps & Implementation Path
+    instruction: |
+      Define the workflow steps that follow trigger map creation.
+      Connect to BMad methodology phases and deliverables.
+    template: |
+      ## Next Steps
+      This trigger map provides the foundation for:
+      {{#each next_steps}}
+      {{step_number}}. ☑️ **{{step_name}}** - {{step_description}}
+      {{/each}}
+      
+      ---
+      *Created using Whiteport Sketch-to-Code BMad Expansion methodology*
+
+variables:
+  required:
+    - project_name
+    - project_description
+    - project_duration
+    - mvp_timeline
+    - creation_date
+    - system_overview_description
+    - business_visions
+    - target_groups
+    - development_priorities
+    - emotional_drivers
+    - avoidance_factors
+    - next_steps
+  
+  optional:
+    - product_type
+    - methodology_version
+
+validation:
+  business_visions:
+    min_count: 2
+    max_count: 6
+    required_fields: [vision_title, vision_statement, vision_goals]
+  
+  target_groups:
+    min_count: 3
+    max_count: 8
+    required_fields: [persona_name, persona_type, persona_description, positive_goals, negative_goals]
+    goal_format_validation: true
+  
+  strategic_alignment:
+    ensure_business_user_connection: true
+    validate_measurable_outcomes: true
