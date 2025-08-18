@@ -65,7 +65,9 @@ For each identified component, create comprehensive specifications:
 #### **File and Folder Organization**
 Organize component library for easy navigation and maintenance:
 ```
-docs/components/
+Docs/D. Components/
+
+**WHITEPORT METHOD OVERRIDE**: Use alphabetized folder structure with scenarios (Docs/C. Scenarios/1. Signup/1.1 Public-start-page/, Docs/D. Components/) instead of default BMad organization.
 ├── atomic/
 │   ├── buttons/
 │   │   ├── primary-button.md

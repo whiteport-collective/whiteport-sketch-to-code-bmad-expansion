@@ -4,7 +4,7 @@ template:
   version: 2.0
   output:
     format: markdown
-    filename: docs/personas/{{priority_number}}-{{persona_name_slug}}.md
+    filename: Docs/B. Trigger Map/{{priority_number_padded}}-{{persona_name_slug}}.md
     title: "{{persona_name}} - {{persona_type}}"
 
 workflow:

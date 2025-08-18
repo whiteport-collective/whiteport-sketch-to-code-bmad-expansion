@@ -108,7 +108,7 @@ style C2 fill:#fff3e0   // Persona 2 - light orange
 ### 7. Poster Document Creation
 
 #### **Comprehensive Poster Structure**
-Create a separate `trigger-map-poster.md` file containing:
+Create a separate `00-trigger-map-poster.md` file in the same trigger map folder containing:
 
 ```markdown
 # [Project Name] Trigger Map - Visual Overview

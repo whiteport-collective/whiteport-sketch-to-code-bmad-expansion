@@ -4,6 +4,14 @@
 
 This document defines the standards and expectations for sketch documentation within the Whiteport Sketch-to-Code method, ensuring consistency and clarity for development handoff.
 
+## Writing Style Guidelines
+
+### Parentheses Usage
+- **Avoid parentheses** in all documentation text
+- Use dashes, colons, or separate sentences instead of parenthetical explanations
+- Example: Replace "User authentication (login/logout)" with "User authentication including login and logout"
+- Exception: Technical code examples where parentheses are syntactically required
+
 ## File Structure Standards
 
 ### Page Documentation

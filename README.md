@@ -1,5 +1,16 @@
 # Whiteport Sketch-to-code method
 
+## ⚠️ EXPANSION PACK PRECEDENCE
+**CRITICAL**: This Whiteport expansion pack **OVERRIDES** default BMad functionality and file organization. When using Whiteport method:
+- Use alphabetized folder structure with scenario-based organization:
+  - `A. Product Brief/`
+  - `B. Trigger Map/` (includes personas)
+  - `C. Scenarios/1. Signup/1.1 Public-start-page/` (numbered scenarios and pages)
+  - `D. Components/` (reusable components)
+- Follow Whiteport task instructions over default BMad tasks
+- All Whiteport agent commands take precedence over standard BMad commands
+- File naming and organization follows Whiteport standards as specified in templates
+
 ## Introduction
 
 In an age where AI can generate code and mockups in seconds, a designer's role is not diminished—it is elevated. The Whiteport Conceptual Sketching Method is a BMad Expansion Pack that empowers designers to use their unique creative skills to guide and direct an AI-powered development team. This method is a structured way to harness the human mind that creates new ideas and visualizes a user's journey, making you the creative linchpin in a successful project.

@@ -91,11 +91,15 @@ Individual persona files that:
 
 ## File Naming Convention
 
+**WHITEPORT METHOD OVERRIDE**: Use the following alphabetized structure instead of default BMad file organization:
+
 ```
-docs/personas/01-[primary-persona-name].md
-docs/personas/02-[secondary-persona-name].md
-docs/personas/03-[tertiary-persona-name].md
+Docs/B. Trigger Map/01-[primary-persona-name].md
+Docs/B. Trigger Map/02-[secondary-persona-name].md
+Docs/B. Trigger Map/03-[tertiary-persona-name].md
 ```
+
+This places personas in the trigger map folder with proper numbering (01, 02, 03...) to list after the trigger map documents (00-trigger-map.md, 00-trigger-map-poster.md).
 
 ## Template Structure
 

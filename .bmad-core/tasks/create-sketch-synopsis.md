@@ -47,7 +47,9 @@ Using the synopsis template, create a comprehensive document that includes:
 - Identify elements that appear (or will appear) on multiple pages
 - Apply the "Component Rule": objects appearing twice become reusable components
 - Document page-specific elements vs. reusable components
-- Create links to component specifications in docs/components/
+- Create links to component specifications in Docs/D. Components/
+
+**WHITEPORT METHOD OVERRIDE**: Use alphabetized folder structure with scenarios (Docs/C. Scenarios/1. Signup/1.1 Public-start-page/, Docs/D. Components/) instead of default BMad organization.
 
 #### **Component Documentation Protocol**
 - For new components: Create component specification files

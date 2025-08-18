@@ -4,6 +4,14 @@
 
 Consistent terminology is critical for effective collaboration across the Whiteport Sketch-to-Code method. This guide establishes standard definitions and language patterns to ensure clarity and prevent confusion during user research, design, and development phases.
 
+## Writing Style Standards
+
+### Parentheses Usage
+- **Avoid parentheses** in all Whiteport documentation
+- Use alternative structures: dashes, colons, or separate sentences
+- Replace parenthetical clarifications with more explicit language
+- Example: Instead of "User research (trigger maps and personas)" write "User research including trigger maps and personas"
+
 ## Core Terminology Definitions
 
 ### User Research Terms
