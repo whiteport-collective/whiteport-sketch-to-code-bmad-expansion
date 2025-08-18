@@ -101,6 +101,25 @@ Docs/B. Trigger Map/03-[tertiary-persona-name].md
 
 This places personas in the trigger map folder with proper numbering (01, 02, 03...) to list after the trigger map documents (00-trigger-map.md, 00-trigger-map-poster.md).
 
+## Persona Naming Convention
+
+**CRITICAL REQUIREMENT**: All personas must use alliterative names that combine first name with role descriptor.
+
+**Examples:**
+- "Rita Reader" - for news readers/content consumers
+- "Ellen Entrepreneur" - for business owners/advertisers  
+- "Patricia Partner" - for information partners/organizations
+- "Peter Public-servant" - for government officials/public servants
+- "Martin Manager" - for administrative roles
+- "Diana Developer" - for technical stakeholders
+
+**Purpose:**
+- **Memorability**: Makes personas easier to remember and reference in workshops
+- **Professional Consistency**: Creates recognizable pattern across projects and teams
+- **Workshop Effectiveness**: Helps teams quickly identify and discuss specific personas during collaborative sessions
+
+**MANDATORY**: Always use this naming convention - it's essential for Whiteport method consistency and effectiveness.
+
 ## Template Structure
 
 Each persona file should follow this structure:
