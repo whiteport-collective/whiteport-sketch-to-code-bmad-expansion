@@ -1,4 +1,4 @@
-# 03. Sketch-to-Spec Method
+# Sketch-to-Spec Method
 
 ## Overview
 
@@ -210,7 +210,7 @@ Component library becomes basis for broader design system and style guide creati
 
 ---
 
-**Related Methods**: [02. Trigger Map Workshop](02-trigger-map-workshop.md) | [01. Product Brief Discovery](01-product-brief-discovery.md)  
+**Related Methods**: [Trigger Map Workshop](trigger-map-workshop.md) | [Product Brief Discovery](product-brief-discovery.md)  
 **Agent**: UX Expert with component analysis capabilities  
 **Foundation**: Atomic Design principles by Brad Frost  
 **File Location**: Project repository `Docs/D. Components/` folder  
