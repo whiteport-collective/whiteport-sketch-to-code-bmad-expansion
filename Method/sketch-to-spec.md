@@ -1,8 +1,8 @@
-# Sketch-to-Component Method
+# Sketch-to-Spec Method
 
 ## Overview
 
-The Sketch-to-Component Method transforms hand-drawn UI concepts into systematic component libraries using atomic design principles. This method bridges the gap between visual design concepts and technical implementation by creating reusable, well-documented component specifications.
+The Sketch-to-Spec Method transforms hand-drawn UI concepts into comprehensive technical specifications using atomic design principles. This method bridges the gap between visual design concepts and technical implementation by creating detailed, well-documented specifications that guide development.
 
 ## Core Principles
 

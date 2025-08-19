@@ -268,7 +268,7 @@ Strategic insights, priority order, and detailed personas inform development roa
 
 ---
 
-**Related Methods**: [Product Brief Discovery](product-brief-discovery.md) | [Sketch-to-Component](sketch-to-component.md)  
+**Related Methods**: [Product Brief Discovery](product-brief-discovery.md) | [Sketch-to-Spec](sketch-to-spec.md)  
 **Agent**: Business Analyst with collaborative workshop capabilities  
 **Foundation**: Effect Mapping methodology by Inuse, Sweden  
 **Typical Duration**: 60-120 minutes depending on number of target groups and persona detail complexity

@@ -1,8 +1,6 @@
 # Whiteport Sketch-to-Code for Bmad method
 
-##Conceptual developemtn, UX-Design and project management extension pack BMad Expansion Pack for the BMad method
-
-> **Transform hand-drawn sketches into production-ready applications through AI-powered collaborative design workshops**
+> **Transform hand-drawn sketches into production-ready applications through AI-powered collaborative design workshops. Conceptual developement, UX-Design and project management extension pack BMad Expansion Pack for the BMad method**
 
 ## What This Expansion Pack Provides
 
@@ -36,7 +34,7 @@ This expansion pack introduces a comprehensive design-driven development methodo
 **Process**: Strict step-by-step collaborative elicitation plus persona development  
 **Outcome**: Visual map connecting business objectives to user driving forces PLUS prioritized personas with alliterative names and detailed usage goals  
 
-#### 📱 [Sketch-to-Component Method](Method/sketch-to-component.md)
+#### 📱 [Sketch-to-Spec Method](Method/sketch-to-spec.md)
 **Purpose**: Transform hand-drawn UI into systematic component libraries  
 **Process**: Atomic design principles with reusability focus  
 **Outcome**: Organized component specifications for development  
