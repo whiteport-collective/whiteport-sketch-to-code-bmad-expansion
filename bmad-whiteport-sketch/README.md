@@ -8,7 +8,7 @@
 - BMad Method framework installed and working
 - Compatible IDE (Cursor, VS Code, etc.)
 
-### Installation Method
+### Installation Guide
 
 #### Manual Installation
 1. Ensure this expansion pack is in your BMad installation:
