@@ -19,8 +19,8 @@ Start with visual concepts and user experience sketches, then systematically tra
 🤝 **Collaborative Workshop Approach**  
 Structured elicitation processes that build requirements through step-by-step dialogue rather than assumptions, ensuring stakeholder alignment and comprehensive understanding.
 
-🌍 **Geographic-Aware Documentation**  
-Specialized capabilities for location-based applications with geo-tagging and proximity-based features, optimized for platforms like WordPress with geographic content plugins.
+📋 **Systematic Documentation**  
+Structured approach to creating professional documentation with embedded visualizations, consistent terminology, and executive-ready artifacts.
 
 ---
 
@@ -86,4 +86,4 @@ The Whiteport Method follows a structured three-phase sequence that builds from 
 
 **Foundation**: Effect Mapping (Inuse, Sweden) + Atomic Design (Brad Frost)  
 **Compatible With**: BMad Framework v2.0+  
-**Optimized For**: WordPress development, geographic applications, collaborative workshops
+**Optimized For**: Collaborative design workshops, systematic documentation, multi-platform development
