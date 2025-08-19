@@ -1,0 +1,11 @@
+# <!-- Powered by BMAD™ Core -->
+name: bmad-whiteport-sketch
+version: 1.0.0
+short-title: Whiteport Sketch-to-Code Design Studio
+description: >-
+  Transform hand-drawn sketches into production-ready applications through 
+  AI-powered collaborative design workshops. Provides Business Analyst, PM, 
+  and UX Expert agents with design-focused capabilities for sketch-to-code 
+  workflows, trigger mapping, and persona development.
+author: Whiteport AB
+slashPrefix: whiteport

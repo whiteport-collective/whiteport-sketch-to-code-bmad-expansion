@@ -22,20 +22,20 @@ When you combine the **BMad AI agent framework** with the **Whiteport Sketch-to-
 
 This expansion pack introduces a comprehensive design-driven development methodology that enhances BMad with specialized workflows for transforming visual concepts into production applications.
 
-### [📋 Complete Method Overview](Method/00-whiteport-method.md)
+### Core Methods & Workflows
 
-#### 🎯 [01. Product Brief Discovery](Method/01-product-brief-discovery.md)
+#### 🎯 [Product Brief Discovery Method](Method/product-brief-discovery.md)
 **Purpose**: Foundation-setting through conversational discovery  
 **Process**: Adaptive questioning with progressive document building  
 **Outcome**: Strategic project foundation with market analysis and technical architecture  
 
-#### 🗺️ [02. Trigger Map Workshop](Method/02-trigger-map-workshop.md)  
+#### 🗺️ [Trigger Map Workshop Method](Method/trigger-map-workshop.md)  
 **Purpose**: Align business goals with user needs through Effect Mapping AND create detailed personas  
 **Process**: Strict step-by-step collaborative elicitation plus persona development  
 **Outcome**: Visual map connecting business objectives to user driving forces PLUS prioritized personas with alliterative names and detailed usage goals  
 
-#### 📱 [03. Sketch-to-Spec](Method/03-sketch-to-spec.md)
-**Purpose**: Transform hand-drawn UI into systematic component specifications  
+#### 📱 [Sketch-to-Spec Method](Method/sketch-to-spec.md)
+**Purpose**: Transform hand-drawn UI into systematic component libraries  
 **Process**: Atomic design principles with reusability focus  
 **Outcome**: Organized component specifications for development  
 
