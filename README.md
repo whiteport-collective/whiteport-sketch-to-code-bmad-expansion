@@ -1,4 +1,6 @@
-# Whiteport Sketch-to-Code BMad Expansion Pack
+# Whiteport Sketch-to-Code for Bmad method
+
+##Conceptual developemtn, UX-Design and project management extension pack BMad Expansion Pack for the BMad method
 
 > **Transform hand-drawn sketches into production-ready applications through AI-powered collaborative design workshops**
 
@@ -10,10 +12,10 @@ When you combine the **BMad AI agent framework** with the **Whiteport Sketch-to-
 - **From Sketches to Code**: Transform hand-drawn UI concepts directly into technical specifications and implementation plans
 - **Collaborative Workshops**: Structured facilitation that builds requirements through dialogue rather than assumptions
 - **Design-First Development**: Start with user experience and visual concepts, then systematically derive technical requirements
-- **Geographic-Aware Applications**: Specialized tools for location-based services and geo-tagged content platforms
 
 ### What You Gain Over Standard BMad
-- **3 New Specialized AI Agents**: Business Analyst, PM, and UX Expert with design-focused capabilities
+- **Complete Agile AI Agent Framework**: BMad provides end-to-end project management, development, and testing capabilities through specialized AI agents working in coordinated workflows
+- **3 New Specialized AI Agents**: Business Analyst, PM, and UX Expert with design-focused capabilities that integrate seamlessly with BMad's agile agent ecosystem
 - **Proven Workshop Methodologies**: Effect Mapping for trigger maps, structured product brief discovery, systematic persona development
 - **Professional Documentation Standards**: Executive-ready artifacts with embedded visualizations and consistent terminology
 - **Sketch Documentation Pipeline**: From hand-drawn concepts through component libraries to implementation specifications
