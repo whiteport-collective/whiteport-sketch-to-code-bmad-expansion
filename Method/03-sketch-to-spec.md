@@ -1,4 +1,4 @@
-# 03. Sketch-to-Spec Method
+# 03. Whiteport Sketch-to-Spec Method
 
 ## Overview
 

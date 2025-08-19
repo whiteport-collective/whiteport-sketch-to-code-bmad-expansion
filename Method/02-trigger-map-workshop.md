@@ -1,4 +1,4 @@
-# 02. Trigger Map Workshop Method
+# 02. Whiteport Trigger Map Workshop Method
 
 ## Overview
 
