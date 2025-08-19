@@ -1,4 +1,4 @@
-# Trigger Map Workshop Method
+# 02. Trigger Map Workshop Method
 
 ## Overview
 
@@ -268,7 +268,7 @@ Strategic insights, priority order, and detailed personas inform development roa
 
 ---
 
-**Related Methods**: [Product Brief Discovery](product-brief-discovery.md) | [Sketch-to-Spec](sketch-to-spec.md)  
+**Related Methods**: [01. Product Brief Discovery](01-product-brief-discovery.md) | [03. Sketch-to-Spec](03-sketch-to-spec.md)  
 **Agent**: Business Analyst with collaborative workshop capabilities  
 **Foundation**: Effect Mapping methodology by Inuse, Sweden  
 **Typical Duration**: 60-120 minutes depending on number of target groups and persona detail complexity
