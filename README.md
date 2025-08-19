@@ -1,147 +1,232 @@
-# EchoVoice - National Hyperlocal News Platform
+# Whiteport Sketch-to-Code BMad Expansion Pack
 
-> **AI-powered hyperlocal news platform delivering geographically relevant content to users based on proximity and relevance**
+> **Transform hand-drawn sketches into production-ready applications through AI-powered collaborative design workshops**
 
-## Introduction
+## What This Expansion Pack Provides
 
-EchoVoice is a national hyperlocal news platform that addresses the critical gap left by declining local journalism. Using AI agents to monitor local sources and generate community-focused content, EchoVoice delivers "People, Places and Faces" stories that connect neighbors and build stronger communities.
+When you combine the **BMad AI agent framework** with the **Whiteport Sketch-to-Code expansion pack**, you get:
 
-**Vision**: Disrupt legacy media by proving geo-tagged hyperlocal content delivers superior local relevance while revolutionizing how local businesses leverage their proximity advantage.
+### Enhanced Value Proposition
+- **From Sketches to Code**: Transform hand-drawn UI concepts directly into technical specifications and implementation plans
+- **Collaborative Workshops**: Structured facilitation that builds requirements through dialogue rather than assumptions
+- **Design-First Development**: Start with user experience and visual concepts, then systematically derive technical requirements
+- **Geographic-Aware Applications**: Specialized tools for location-based services and geo-tagged content platforms
 
-**Target**: Launch in all 290 Swedish municipalities by end of 2025, with international expansion planned for 2026-2028.
+### What You Gain Over Standard BMad
+- **3 New Specialized AI Agents**: Business Analyst, PM, and UX Expert with design-focused capabilities
+- **Proven Workshop Methodologies**: Effect Mapping for trigger maps, structured product brief discovery, systematic persona development
+- **Professional Documentation Standards**: Executive-ready artifacts with embedded visualizations and consistent terminology
+- **Sketch Documentation Pipeline**: From hand-drawn concepts through component libraries to implementation specifications
 
-**Technology**: Built on WordPress with the Whiteport Social Stream Plugin, enabling scalable AI-powered content generation with geographic precision.
+## The Whiteport Method
 
-## Strategic Value Model & Target Groups
+This expansion pack introduces a comprehensive design-driven development methodology that enhances BMad with specialized workflows for transforming visual concepts into production applications.
 
-```mermaid
-flowchart LR
-    %% Business Goals on LEFT
-    BG1["🎯 Disrupt Legacy Media<br/>3x engagement vs traditional"]
-    BG2["🌍 Fill Hyperlocal Gap<br/>All 290 municipalities"]
-    BG3["💼 Revolutionize Local Business<br/>Proximity-based advertising"]
-    
-    %% Central EchoVoice Node
-    EV["🌐 EchoVoice<br/>Hyperlocal News Platform"]
-    
-    %% Target Groups with descriptions
-    TG1A["👥 Sture Social<br/><b>Reader - Active Community Connector</b><br/>55, single, highly social<br/>Member of multiple NGOs & clubs"]
-    TG1B["👨‍👩‍👧‍👦 Clara Curlingmum<br/><b>Reader - Time-Pressed Parent</b><br/>Stressed parent, partner travels<br/>Needs activities for active children"]
-    TG2["🏪 Ellen Entrepreneur<br/><b>Advertiser - Local Business Owner</b><br/>Café owner competing with chains<br/>Wants geographic marketing advantage"]
-    TG3["🏛️ Patricia Partner<br/><b>Partner - Municipal Coordinator</b><br/>Communications coordinator<br/>Distributes official information"]
-    TG4["👔 Peter Public-servant<br/><b>Public Servant - Council Member</b><br/>Municipal council member<br/>Maintains constituent connections"]
-    
-    %% Combined Driving Forces
-    DF1A["<b>Sture's Driving Forces</b><br/>✅ Discover social events<br/>✅ Stay informed as community hub<br/>✅ Find local discounts<br/>❌ Miss social opportunities<br/>❌ Feel uninformed<br/>❌ Experience loneliness"]
-    DF1B["<b>Clara's Driving Forces</b><br/>✅ Find family activities efficiently<br/>✅ Feel connected to community<br/>✅ Access practical resources<br/>❌ Waste time researching<br/>❌ Feel disconnected<br/>❌ Disappoint children"]
-    DF2["<b>Ellen's Driving Forces</b><br/>✅ Promote business to locals<br/>✅ Compete with chains<br/>✅ Build community relationships<br/>❌ Lose to chain competitors<br/>❌ Miss local customers<br/>❌ Struggle with marketing"]
-    DF3["<b>Patricia's Driving Forces</b><br/>✅ Distribute municipal info<br/>✅ Ensure timely updates<br/>✅ Improve citizen engagement<br/>❌ Citizens miss updates<br/>❌ Poor information reach<br/>❌ Low civic engagement"]
-    DF4["<b>Peter's Driving Forces</b><br/>✅ Maintain constituent connections<br/>✅ Share policy updates<br/>✅ Build transparency<br/>❌ Lose constituent trust<br/>❌ Poor communication<br/>❌ Reduced transparency"]
-    
-    %% Flow: Goals → EchoVoice → Target Groups → Driving Forces
-    BG1 --> EV
-    BG2 --> EV
-    BG3 --> EV
-    
-    EV --> TG1A
-    EV --> TG1B
-    EV --> TG2
-    EV --> TG3
-    EV --> TG4
-    
-    TG1A --> DF1A
-    TG1B --> DF1B
-    TG2 --> DF2
-    TG3 --> DF3
-    TG4 --> DF4
-    
-    %% Styling - Light Gray Palette
-    classDef businessGoal fill:#f3f4f6,color:#000000,stroke:#d1d5db,stroke-width:3px
-    classDef echovoice fill:#e5e7eb,color:#000000,stroke:#d1d5db,stroke-width:4px
-    classDef targetGroup fill:#f9fafb,color:#000000,stroke:#d1d5db,stroke-width:2px
-    classDef drivingForces fill:#f3f4f6,color:#000000,stroke:#d1d5db,stroke-width:2px
-    
-    class BG1,BG2,BG3 businessGoal
-    class EV echovoice
-    class TG1A,TG1B,TG2,TG3,TG4 targetGroup
-    class DF1A,DF1B,DF2,DF3,DF4 drivingForces
+### Core Methods & Workflows
+
+#### 🎯 [Product Brief Discovery Method](Method/product-brief-discovery.md)
+**Purpose**: Foundation-setting through conversational discovery  
+**Process**: Adaptive questioning with progressive document building  
+**Outcome**: Strategic project foundation with market analysis and technical architecture  
+
+#### 🗺️ [Trigger Map Workshop Method](Method/trigger-map-workshop.md)  
+**Purpose**: Align business goals with user needs through Effect Mapping AND create detailed personas  
+**Process**: Strict step-by-step collaborative elicitation plus persona development  
+**Outcome**: Visual map connecting business objectives to user driving forces PLUS prioritized personas with alliterative names and detailed usage goals  
+
+#### 📱 [Sketch-to-Component Method](Method/sketch-to-component.md)
+**Purpose**: Transform hand-drawn UI into systematic component libraries  
+**Process**: Atomic design principles with reusability focus  
+**Outcome**: Organized component specifications for development  
+
+### Core Philosophy
+
+**Design-First Development**: Start with visual concepts and user experience sketches, then systematically transform them into technical requirements and implementation code.
+
+**Collaborative Workshop Approach**: Structured elicitation processes that build requirements through step-by-step dialogue rather than assumptions.
+
+**Geographic-Aware Documentation**: Specialized for location-based applications with geo-tagging and proximity-based features.
+
+## Expansion Pack Components
+
+### Enhanced Agents
+
+#### Business Analyst (`analyst.md`)
+- **Primary Role**: Project discovery and user research coordination
+- **Key Enhancement**: Collaborative workshop methodology with mandatory step-by-step elicitation
+- **New Commands**: `create-product-brief`, `create-trigger-map`, `create-executive-readme`
+- **Workflow**: Foundational discovery → Product brief creation → Trigger map development → Persona definition
+
+#### PM Agent (`whiteport-pm.md`)
+- **Primary Role**: Sketch-to-Code Product Manager
+- **Key Enhancement**: Technical requirements from user research
+- **Commands**: `create-prd-from-research`, `create-backend-foundation`, `parallel-backend-setup`
+
+#### UX Expert (`ux-expert.md`)
+- **Primary Role**: Design analysis and component extraction
+- **Key Enhancement**: Hand-drawn sketch interpretation and systematic UI component library creation
+
+### Core Methodology
+
+#### 1. Product Brief Creation
+- **Purpose**: Strategic foundation and project scoping
+- **Process**: Conversational discovery with adaptive follow-up questions
+- **Output**: Comprehensive project brief with market analysis, technical architecture, user types
+- **Location**: `Docs/A. Product Brief/brief.md`
+
+#### 2. Trigger Map Workshop
+- **Purpose**: Business goal alignment with user needs and driving forces
+- **Process**: Strict step-by-step collaborative elicitation
+- **Method**: Effect Mapping methodology adapted for digital products
+- **Outputs**: 
+  - Trigger map document (`Docs/B. Trigger Map/00-trigger-map.md`)
+  - Visual trigger map poster (`Docs/B. Trigger Map/00-trigger-map-poster.md`)
+  - Individual persona profiles (numbered 01, 02, 03...)
+
+#### 3. Persona Development
+- **Standards**: Alliterative naming convention (e.g., "Sture Social", "Ellen Entrepreneur")
+- **Classification**: Each persona maps to user types defined in project brief
+- **Structure**: User type, demographics, usage goals (positive/negative driving forces)
+- **Location**: `Docs/B. Trigger Map/` (numbered by priority)
+
+#### 4. Scenario Documentation
+- **Structure**: Numbered scenario-based organization
+- **Location**: `Docs/C. Scenarios/1. Signup/1.1 Public-start-page/`
+- **Content**: Page sketches, user flows, interaction specifications
+
+#### 5. Component Library
+- **Structure**: Atomic design principles
+- **Location**: `Docs/D. Components/`
+- **Content**: Reusable UI components extracted from scenarios
+
+### Documentation Standards
+
+#### File Organization
+```
+Docs/
+├── A. Product Brief/
+│   ├── brief.md
+│   └── user-generated-content-strategy.md
+├── B. Trigger Map/
+│   ├── 00-trigger-map.md
+│   ├── 00-trigger-map-poster.md
+│   ├── 01-primary-persona.md
+│   ├── 02-secondary-persona.md
+│   └── ...
+├── C. Scenarios/
+│   ├── 1. Signup/
+│   │   ├── 1.1 Public-start-page/
+│   │   └── 1.2 Registration-form/
+│   └── 2. Dashboard/
+└── D. Components/
+    ├── atomic/
+    ├── molecular/
+    └── organisms/
 ```
 
-### Key Strategic Insights from User Research
+#### Writing Style Guidelines
+- **No Parentheses**: Use dashes, colons, or separate sentences instead
+- **Progressive Building**: Documents grow incrementally during workshops
+- **Positive Reflection**: Acknowledge and build upon user input
+- **Clear Terminology**: Consistent vocabulary throughout documentation
 
-**Primary Revenue Driver**: Reader engagement from Sture Social and Clara Curlingmum creates the audience that makes EchoVoice valuable to advertisers, partners, and public servants. Their success is fundamental to platform viability.
+#### Mermaid Diagram Standards
+- **GitHub Compatibility**: Light gray color palette, left-to-right flow
+- **Structure**: Business goals → Platform → Target groups → Driving forces
+- **Styling**: Professional monochromatic appearance
+- **Placement**: Diagrams at top of poster documents, under headlines
 
-**Network Effect**: Each user type strengthens the others - more readers attract advertisers, municipal partners provide credible content that attracts readers, and public servants add civic value that increases overall community engagement.
+### Key Methodological Innovations
 
-**Geographic Differentiation**: All content features geo-tagging as a primary organizing principle, creating competitive advantage over national media and social platforms that treat location as secondary.
+#### Multiple Target Groups per User Type
+Instead of "persona splitting," define multiple target groups from the same user type when they have different needs and driving forces. Example: Both "Active Community Connector" and "Time-Pressed Parent" are Reader user types but represent distinct target groups.
 
-## Market Opportunity & Business Case
+#### Draft-First Trigger Map Option
+When substantial project brief information exists, offer users the choice between:
+- **Traditional Step-by-Step**: Complete workshop elicitation process
+- **Draft-First Approach**: Create initial trigger map from brief, then refine collaboratively
 
-Our research reveals a significant market gap where traditional local journalism decline meets growing community need for hyperlocal information. The platform addresses this through three key strategic advantages:
+#### Executive-Ready Documentation
+All major artifacts include executive summary README files with embedded visualizations serving as project dashboards and navigation hubs.
 
-**Cost Structure Innovation**: AI automation eliminates the cost barriers that killed local journalism while maintaining quality through human oversight.
+## Installation & Setup
 
-**Geographic Precision**: Geo-tagging as primary content filter creates competitive moat against both national media and social platforms that treat location secondarily.
+### Prerequisites
+- **BMad Framework v2.0+**: This expansion requires the core BMad AI agent framework
+- **Compatible IDE**: Tested with Cursor, VSCode, and other BMad-compatible environments
 
-**Revenue Model Resilience**: Multiple user types create network effects - reader engagement attracts advertisers, while municipal partnerships and civic content add credibility that further attracts readers.
+### Installation Steps
+1. **Install BMad Core**: Ensure the base framework is properly configured
+2. **Download Expansion Pack**: Clone or download this repository to your BMad expansion directory
+3. **Activate Whiteport Method**: Use `@analyst.md` to begin with enhanced capabilities
 
-## Detailed Research & Documentation
+### ⚠️ Important: Expansion Pack Precedence
+**This Whiteport expansion pack OVERRIDES default BMad functionality**. When active:
+- Uses alphabetized folder structure: `A. Product Brief/`, `B. Trigger Map/`, `C. Scenarios/`, `D. Components/`
+- Whiteport task instructions take precedence over standard BMad tasks
+- File naming and organization follows Whiteport standards as specified in templates
+- Agent commands use enhanced collaborative workshop approach
 
-**Strategic Foundation**: [Product Brief](docs/A.%20Product%20Brief/brief.md) - Market analysis, technical architecture, and development roadmap
+## Implementation Guidelines
 
-**User Research**: [Trigger Map](docs/B.%20Trigger%20Map/00-trigger-map.md) | [Visual Overview](docs/B.%20Trigger%20Map/00-trigger-map-poster.md) - Business goal alignment with user needs
+### For Development Teams
+1. **Verify BMad Installation**: Ensure core framework is properly configured
+2. **Load Expansion Pack**: Place in BMad expansion directory
+3. **Start with Product Brief**: Always begin foundational discovery with enhanced Analyst
+4. **Follow Method Sequence**: Product Brief → Trigger Map → Personas → Scenarios → Components
 
-**Target Group Profiles**: [Sture Social](docs/B.%20Trigger%20Map/01-sture-social.md) | [Clara Curlingmum](docs/B.%20Trigger%20Map/01b-clara-curlingmum.md) | [Ellen Entrepreneur](docs/B.%20Trigger%20Map/02-ellen-entrepreneur.md) | [Patricia Partner](docs/B.%20Trigger%20Map/03-patricia-partner.md) | [Peter Public-servant](docs/B.%20Trigger%20Map/04-peter-public-servant.md)
+### For Project Managers
+1. **Start with Product Brief**: Always begin with foundational discovery
+2. **Use Collaborative Approach**: Follow step-by-step elicitation, never assume answers
+3. **Build Progressively**: Documents grow during workshops, not after
+4. **Validate Continuously**: Confirm user satisfaction before proceeding to next phase
 
-## Strategic Insights
+### For UX Designers
+1. **Sketch-First Approach**: Hand-drawn concepts drive technical requirements
+2. **Component Thinking**: Extract reusable elements systematically
+3. **User-Centered Documentation**: All decisions traced back to persona needs
+4. **Geographic Awareness**: Consider location-based features in all designs
 
-### Network Effect Model
-The platform creates value through interconnected user types:
-- **Readers** provide the audience that makes the platform valuable to other groups
-- **Advertisers** provide primary revenue through local business promotion  
-- **Partners** provide official content that enhances credibility and completeness
-- **Public Servants** add civic value that increases overall community engagement
+## Quality Assurance
 
-### Geographic Differentiation
-All content features geo-tagging that complements topic-based tags, making geographic proximity a primary organizing principle rather than secondary consideration. This creates the platform's core competitive advantage over both national media and social media platforms.
+### Workshop Effectiveness
+- **One Question at a Time**: Never flood users with multiple questions
+- **Mandatory Stops**: Wait for user input before proceeding to next step
+- **Positive Acknowledgment**: Reflect on and appreciate each user response
+- **Progress Indicators**: Keep users engaged with remaining question counts
 
-### AI-First Approach
-Automated monitoring and content generation reduces the cost barriers that killed traditional local journalism while maintaining editorial quality through human oversight processes.
+### Documentation Quality
+- **Alliterative Persona Names**: Ensures memorability and professional consistency
+- **User Type Mapping**: All personas connect to business model user types
+- **Poster Creation**: Always update trigger map visualization with trigger map changes
+- **GitHub Compatibility**: All Mermaid diagrams render properly on GitHub
 
-## Development Priorities
+### Technical Integration
+- **WordPress Optimization**: Templates optimized for WordPress development
+- **Social Stream Plugin**: Integration with Whiteport Social Stream Plugin
+- **Geo-tagging Support**: Geographic features as first-class citizens
+- **AI Agent Architecture**: Designed for AI monitoring and content generation workflows
 
-### Phase 1: Reader Experience Foundation
-Success depends on creating exceptional value for Readers (Sture Social & Clara Curlingmum), whose engagement creates the audience that attracts Advertisers, Partners, and Public Servants.
+## Version History
 
-**Critical Success Factors:**
-- AI-generated content quality and local relevance
-- Geographic precision in content matching and delivery
-- Update frequency competitive with social media
-- User experience superior to current fragmented information gathering
+See [RELEASES.md](RELEASES.md) for detailed version information and updates.
 
-### Phase 2: Revenue Model Validation
-Balanced value creation across all user types with primary revenue from local business advertising, supported by partnership content and civic engagement features.
+## Support & Documentation
 
-## Technical Foundation
+- **Method Questions**: Refer to task files in `.bmad-core/tasks/`
+- **Template Customization**: Modify templates in `.bmad-core/templates/`
+- **Agent Behavior**: Review agent configurations in `.bmad-core/agents/`
+- **Data Standards**: Check `.bmad-core/data/` for methodology guidelines
 
-- **Publishing Platform**: WordPress for proven scalability and developer ecosystem
-- **Core Plugin**: Whiteport Social Stream Plugin optimized for geo-tagged article publication
-- **AI Architecture**: Specialized monitoring, assessment, and content generation agents
-- **Geographic Engine**: Location-based content matching and delivery system
-- **Quality Assurance**: Human editorial oversight for content approval before publication
+## License & Attribution
 
-## Market Context
-
-**Problem**: Decline of local journalism creates information gaps while national news dominates and social media fails to surface geographically relevant content about nearby people and events.
-
-**Opportunity**: AI technology advancement makes automated journalism viable while community need for local information grows stronger.
-
-**Timing**: First-mover advantage in hyperlocal AI news before competition validates the market concept.
+This expansion pack builds upon the BMad framework and incorporates methodologies from:
+- Effect Mapping (Inuse, Sweden)
+- Atomic Design Principles
+- Whiteport AB design methodologies
 
 ---
 
-**Project Status**: Product Brief and Trigger Map completed. Ready for detailed persona development and technical requirements specification.
-
-**Founded by**: Anna Bansell  
-**Main Investor**: Karl-Mikael Cakste  
-**Development Partner**: Whiteport AB
+**Developed by**: Whiteport AB  
+**Compatible with**: BMad Framework v2.0+  
+**Last Updated**: 2024
