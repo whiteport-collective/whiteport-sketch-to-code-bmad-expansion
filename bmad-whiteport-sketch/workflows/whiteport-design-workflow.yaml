@@ -12,24 +12,24 @@ workflow:
 
   sequence:
     - step: product_brief_creation
-      agent: analyst
+      agent: whiteport-analyst
       action: create-product-brief
       notes: "The Analyst creates the foundational product brief that defines project vision, goals, and strategic direction. This serves as the foundation for all subsequent design work."
 
     - step: ideation_and_strategy
-      agent: analyst
+      agent: whiteport-analyst
       action: create-trigger-map
       requires: product-brief-output
       notes: "The Analyst creates a detailed trigger map based on the product brief, mapping business goals to user needs and driving forces."
 
     - step: trigger_map_visualization
-      agent: analyst
+      agent: whiteport-analyst
       action: create-trigger-map-visualization
       requires: create-trigger-map-output
       notes: "Create visual representation of trigger map using Mermaid diagrams for stakeholder presentations and team reference."
 
     - step: persona_deep_dive
-      agent: analyst
+      agent: whiteport-analyst
       action: create-individual-personas
       requires: create-trigger-map-output
       notes: "Create separate, detailed persona files with personal context and relationship to core activity. Focus on individual files with rich backgrounds and standardized terminology."

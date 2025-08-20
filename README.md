@@ -51,7 +51,7 @@ This expansion pack introduces a comprehensive design-driven development methodo
 
 ### Enhanced Agents
 
-#### Business Analyst (`analyst.md`)
+#### Whiteport Business Analyst (`whiteport-analyst.md`)
 - **Primary Role**: Project discovery and user research coordination
 - **Key Enhancement**: Collaborative workshop methodology with mandatory step-by-step elicitation
 - **New Commands**: `create-product-brief`, `create-trigger-map`, `create-executive-readme`
@@ -158,7 +158,7 @@ All major artifacts include executive summary README files with embedded visuali
 ### Installation Steps
 1. **Install BMad Core**: Ensure the base framework is properly configured
 2. **Download Expansion Pack**: Clone or download this repository to your BMad expansion directory
-3. **Activate Whiteport Method**: Use `@analyst.md` to begin with enhanced capabilities
+3. **Activate Whiteport Method**: Use `@whiteport-analyst.md` to begin with enhanced capabilities
 
 ### ⚠️ Important: Expansion Pack Precedence
 **This Whiteport expansion pack OVERRIDES default BMad functionality**. When active:

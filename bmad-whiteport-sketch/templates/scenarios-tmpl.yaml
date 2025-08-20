@@ -1,0 +1,168 @@
+name: scenarios-tmpl
+description: Template for creating comprehensive user journey scenarios with professional documentation standards, proper navigation, and conceptual sketch integration
+filename_pattern: "00-scenarios.md"
+template:
+  sections:
+  - id: overview
+    title: "User Journey Scenarios Overview"
+    instruction: |
+      Provide a high-level summary of the user journey scenarios that will be detailed below.
+      This section should:
+      - List all primary user types covered by scenarios
+      - Explain how scenarios connect user goals to business objectives
+      - Describe the value exchange principle guiding all scenarios
+      - Reference the trigger map insights that inform these journeys
+
+  - id: scenario-principles
+    title: "Scenario Design Principles"
+    instruction: |
+      Document the core principles that guide scenario creation:
+      - **Unbroken Chain Storytelling**: How scenarios maintain continuity from motivation to outcome
+      - **Shortest Path to Value**: Focus on most efficient route for users to achieve goals
+      - **Dual Value Creation**: How user and business value align at each step
+      - **Stakeholder Accessibility**: Make scenarios concrete and followable by anyone on project team
+      - **Professional Documentation Standards**: Use web-safe naming, proper navigation, clear visual hierarchy
+      - **Conceptual Sketch Integration**: Organize design concepts with appropriate fidelity indicators
+
+  - id: value-flow-map
+    title: "User-Business Value Flow Map"
+    instruction: |
+      Create a high-level mapping showing how user actions in scenarios contribute to business goals:
+      
+      | User Action | User Value Gained | Business Value Created |
+      |-------------|------------------|----------------------|
+      | [Action 1]  | [User benefit]   | [Business outcome]   |
+      | [Action 2]  | [User benefit]   | [Business outcome]   |
+      
+      This map should reference specific trigger map goals and show the win-win relationship.
+
+  - id: primary-scenarios
+    title: "Primary User Journey Scenarios"
+    instruction: |
+      For each primary user type from the trigger map, create 2-3 detailed journey scenarios.
+      Use the following format for each scenario:
+
+      ## Scenario X: [Descriptive Title]
+      
+      **User Type**: [From trigger map personas]
+      **Primary Goal**: [User's main objective]
+      **Business Value**: [How this scenario contributes to business goals]
+      **Estimated Duration**: [Time to complete journey]
+      
+      ### User Context & Motivation
+      [Describe the real-world situation that brings the user to this journey]
+      
+      ### Journey Steps
+      
+      1. **[Step Title]** - [User Action]
+         - **User sees**: [What's presented to the user]
+         - **User thinks**: [User's mental state/reaction]
+         - **User does**: [Specific action taken]
+         - **System response**: [What happens as a result]
+         - **Value created**: [For user] | [For business]
+      
+      2. **[Step Title]** - [User Action]
+         - **User sees**: [What's presented to the user]
+         - **User thinks**: [User's mental state/reaction]
+         - **User does**: [Specific action taken]
+         - **System response**: [What happens as a result]
+         - **Value created**: [For user] | [For business]
+      
+      [Continue for all steps in the journey]
+      
+      ### Success Outcome
+      - **User Achievement**: [How the user's goal is fulfilled]
+      - **Business Achievement**: [How business objectives are met]
+      - **Next Possible Actions**: [What the user might do next]
+
+  - id: scenario-connections
+    title: "Cross-Scenario Connections"
+    instruction: |
+      Document how different scenarios might connect, intersect, or build upon each other:
+      - Which scenarios might naturally flow into others
+      - Common touchpoints across different user journeys
+      - How returning users might experience different scenarios
+      - Opportunities for scenario optimization based on user behavior patterns
+
+  - id: technical-implications
+    title: "Technical Implications"
+    instruction: |
+      Based on the scenarios, identify key technical requirements:
+      - Data that needs to be captured and stored
+      - API endpoints that will be required
+      - Third-party integrations needed
+      - Performance requirements based on user expectations
+      - Security considerations for sensitive user actions
+
+  - id: measurement-strategy
+    title: "Scenario Success Measurement"
+    instruction: |
+      Define how success will be measured for each scenario:
+      - Key metrics that indicate user goal achievement
+      - Business metrics that show value creation
+      - User experience quality indicators
+      - Conversion and completion rate targets
+      - Methods for tracking scenario effectiveness
+
+  - id: documentation-standards
+    title: "Documentation Structure & Standards"
+    instruction: |
+      Document the organizational structure and naming conventions:
+      
+      **Folder Structure**:
+      - `00-scenarios.md` - Overview with navigation links
+      - `01. [Scenario Name]/` - Numbered scenario folders
+      - `1.X [Step Name]/` - Individual step folders within scenarios
+      - `1.X-step-name.md` - Step documentation files
+      
+      **Image Naming Convention**:
+      - Format: `[step]-[page]_[device]_concept.[ext]`
+      - Examples: `1.1-start-page_desktop_concept.jpg`, `1.2-location-page_ipad_concept.jpg`
+      - Benefits: Groups by device type, indicates fidelity level, web-safe names
+      
+      **Page Layout Structure**:
+      1. Top navigation (Previous/Next links)
+      2. Small headline (H3 - quick identification)
+      3. Primary concept image (desktop view)
+      4. Duplicate navigation (after image)
+      5. Main header (H1 - detailed content)
+      6. Alternate views section (tablet/mobile when available)
+
+  - id: validation-checklist
+    title: "Scenario Validation Checklist"
+    instruction: |
+      Create a checklist to ensure scenarios meet quality standards:
+      - [ ] Each scenario shows complete end-to-end journey
+      - [ ] No logical gaps or unexplained transitions
+      - [ ] Clear value exchange at each step
+      - [ ] Scenarios are accessible to non-technical stakeholders
+      - [ ] All primary user types from trigger map are covered
+      - [ ] Scenarios demonstrate shortest path to user goals
+      - [ ] Business value creation is explicit and measurable
+      - [ ] Technical requirements are identifiable from scenarios
+      - [ ] Professional documentation standards applied (naming, navigation, hierarchy)
+      - [ ] Concept sketch fidelity clearly indicated in file names and references
+
+examples:
+  scenario_step_format: |
+    1. **Account Discovery** - User learns about the platform
+       - **User sees**: Clean, professional landing page with clear value proposition
+       - **User thinks**: "This looks like it could solve my problem"
+       - **User does**: Clicks "Learn More" or "Get Started" button
+       - **System response**: Displays detailed information or onboarding flow
+       - **Value created**: User gains understanding | Business captures interest and intent
+
+  cross_connection_example: |
+    **Scenario Flow Example**:
+    New User Sign-up → Onboarding → First Task Completion → Advanced Feature Discovery
+    
+    **Intersection Points**:
+    - Dashboard serves as hub for multiple scenario paths
+    - Settings accessed from various scenario endpoints
+    - Help system available throughout all scenarios
+
+validation_criteria:
+  - storytelling_continuity: "Can team members follow each scenario without confusion?"
+  - efficiency_validation: "Is this truly the shortest path to user goal achievement?"
+  - value_alignment: "Is the user-business value exchange clear at every step?"
+  - development_readiness: "Do scenarios provide sufficient detail for implementation planning?"
