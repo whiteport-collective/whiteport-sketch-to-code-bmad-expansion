@@ -120,13 +120,58 @@ template:
       - Examples: `1.1-start-page_desktop_concept.jpg`, `1.2-location-page_ipad_concept.jpg`
       - Benefits: Groups by device type, indicates fidelity level, web-safe names
       
-      **Page Layout Structure**:
-      1. Top navigation (Previous/Next links)
-      2. Small headline (H3 - quick identification)
-      3. Primary concept image (desktop view)
-      4. Duplicate navigation (after image)
-      5. Main header (H1 - detailed content)
-      6. Alternate views section (tablet/mobile when available)
+      **Scenario Step Page Structure** (MANDATORY FORMAT):
+      ```
+      **[Next →](../1.2%20Location%20page/1.2-location-page.md)**
+      
+      ### 1.1 Start Page - Enter the Site, Choose Location
+      
+      ![Start Page - Location Selection - Desktop](1.1-start-page_desktop_concept.jpg)
+      
+      **[Next →](../1.2%20Location%20page/1.2-location-page.md)**
+      
+      # 1.1 Start Page - Enter the Site, Choose Location
+      
+      ## Scenario Step Overview
+      [Content follows...]
+      
+      [Page content with detailed specifications...]
+      
+      ---
+      
+      **[Next →](../1.2%20Location%20page/1.2-location-page.md)**
+      ```
+      
+      **Structure Elements**:
+      1. **Top Navigation**: Scenario step navigation at very top
+      2. **Context Header**: H3 level title for quick page identification
+      3. **Primary Concept Image**: Main desktop sketch with descriptive alt text
+      4. **Post-Image Navigation**: Second navigation link after visual context
+      5. **Main Content Header**: H1 level title marking start of detailed content
+      6. **Content Sections**: H2 level sections with detailed specifications
+      7. **Bottom Navigation**: Final navigation with separator line at page end
+      
+      **Content Organization Requirements**:
+      - **Page Purpose**: Clear statement of page function and target audience
+      - **Primary CTA**: Main action user should take on this page
+      - **User Journey Step Details**: Concise bullets for what user sees/thinks/does/system responds/value created
+      - **Page Sections**: Detailed breakdown of all UI elements with bilingual labels
+      - **Alternate Views**: Tablet and mobile layout adaptations when available
+      - **Next Steps**: Outstanding sketches needed and unlinked pages to specify
+      
+      **Bilingual Labeling Standards** (when internationalization required):
+      - **Format**: Always use separate lines for each language
+      - **Structure**: `SE: "Swedish text"` and `EN: "English text"` on consecutive lines
+      - **Rationale**: Cannot assume readers can identify language from text alone (could be Arabic, Hindi, etc.)
+      - **Example**:
+        ```
+        **Write Article Button**
+        - **Label**: 
+          - SE: "Skriv en artikel"
+          - EN: "Write an article"
+        ```
+      - **Object Naming**: Use English names for UI elements with bilingual labels
+      - **Consistency**: Apply this format throughout all specifications for clarity
 
   - id: validation-checklist
     title: "Scenario Validation Checklist"
