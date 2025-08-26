@@ -5,8 +5,12 @@ Ensure proper file structure, professional naming conventions, and comprehensive
 
 ## ✅ Pre-Creation Verification
 
-### 1. Working Directory Verification
-- [ ] **Confirm current directory**: Verify you're in the correct project docs folder (e.g., `docs/C-Scenarios/`)
+### 1. Repository Boundary Verification (CRITICAL)
+- [ ] **MANDATORY: Run `pwd` command**: Verify current working directory before ANY file creation
+- [ ] **MANDATORY: Confirm repository location**: Must be inside `echovoice-concept/` or `whiteport-sketch-to-code-bmad-expansion-latest/`
+- [ ] **MANDATORY: Never create files at workspace root**: Files outside repositories require manual intervention to fix
+- [ ] **Run `git status`**: Confirm you're in a valid git repository before proceeding
+- [ ] **Confirm project docs folder**: Verify you're in the correct location (e.g., `echovoice-concept/docs/C-Scenarios/`)
 - [ ] **Check existing structure**: Review current folder organization and naming patterns
 - [ ] **Validate permissions**: Ensure write access to target directories
 
@@ -95,7 +99,13 @@ Ensure proper file structure, professional naming conventions, and comprehensive
 
 ## ✅ Final Validation
 
-### 12. Complete Flow Testing
+### 12. Repository Safety Verification
+- [ ] **Final location check**: Run `pwd` to confirm all files were created in correct repository
+- [ ] **Git tracking verification**: Run `git status` to ensure all new files are properly tracked
+- [ ] **No orphaned files**: Verify no files exist outside repository boundaries in workspace root
+- [ ] **Repository integrity**: Confirm `.git` folder is present and accessible
+
+### 13. Complete Flow Testing
 - [ ] **End-to-end navigation**: Test complete scenario flow from start to finish
 - [ ] **All images loading**: Verify all visual assets display correctly
 - [ ] **No broken links**: Comprehensive check for any missing or incorrect references
@@ -112,6 +122,8 @@ Ensure proper file structure, professional naming conventions, and comprehensive
 - **Professional Structure Scales**: Well-organized projects grow more efficiently and maintain quality over time
 
 ### Common Mistakes to Avoid:
+- **CRITICAL: Creating files outside repository boundaries** - requires manual intervention and causes git tracking issues
+- **CRITICAL: Not verifying working directory before file creation** - leads to misplaced files
 - Creating folders/files with spaces in names
 - Forgetting to update navigation links in adjacent pages
 - Placing images at root level where they obscure main documentation
