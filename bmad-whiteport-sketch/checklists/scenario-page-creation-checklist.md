@@ -19,7 +19,8 @@ Ensure proper file structure, professional naming conventions, and comprehensive
 
 ### 3. Professional Organization
 - [ ] **Main specification prominence**: `.md` file must be immediately visible to project managers
-- [ ] **Sketches/ subfolders**: All visual assets organized in dedicated `Sketches/` subfolders
+- [ ] **Create Sketches/ subfolder**: Always create dedicated `Sketches/` subfolder when setting up new scenario steps
+- [ ] **Sketches/ organization**: All visual assets organized in dedicated `Sketches/` subfolders
 - [ ] **Scalable structure**: Ready for future `Visual-Design/` and `Code-Snippets/` folders
 - [ ] **Consistent hierarchy**: Follow established patterns from existing scenarios
 
@@ -114,6 +115,7 @@ Ensure proper file structure, professional naming conventions, and comprehensive
 - Creating folders/files with spaces in names
 - Forgetting to update navigation links in adjacent pages
 - Placing images at root level where they obscure main documentation
+- **Forgetting to create Sketches/ subfolder during initial setup** - leaves sketches without proper organization structure
 - Using inconsistent naming conventions across the project
 - Missing cross-references when reorganizing files
 - Forgetting to include sketch image reference after main title
