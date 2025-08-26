@@ -112,8 +112,8 @@ Ensure **comprehensive cross-reference integrity** through:
 Product-Card/
 ├── Product-Card.md            ← Immediately visible to PMs
 ├── Sketches/                  ← Visual assets organized
-│   ├── Product-Card-concept.jpg
-│   └── Product-Card-states.jpg
+│   ├── Product-Card-Concept.jpg
+│   └── Product-Card-States.jpg
 ├── Visual-Design/             ← Future: UI mockups
 └── Code-Snippets/             ← Future: Implementation examples
 

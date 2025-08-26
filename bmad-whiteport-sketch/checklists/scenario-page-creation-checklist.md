@@ -36,6 +36,8 @@ Ensure proper file structure, professional naming conventions, and comprehensive
 - [ ] **Success criteria**: Include success metrics after page overview
 - [ ] **No parentheses**: Use clear explanations instead of parenthetical notes
 - [ ] **Integrated technical requirements**: Embed in relevant sections, not separate blocks
+- [ ] **Sketch reference included**: Add sketch image reference right after main page title
+- [ ] **Bilingual text format consistency**: Use established SE/EN pattern from other scenario pages
 
 ### 6. Link Management Excellence
 - [ ] **Component references**: Update all component usage examples with new paths
@@ -75,13 +77,30 @@ Ensure proper file structure, professional naming conventions, and comprehensive
 - [ ] **Scalability validation**: Confirm structure can accommodate future expansion
 - [ ] **Tool compatibility**: Verify paths work in IDEs, web servers, and file browsers
 
+## ✅ Bilingual Documentation Standards
+
+### 11. Swedish/English Interface Text
+- [ ] **English structural labels**: All headers, sections, and functional elements use English names
+- [ ] **Bilingual text format**: Use established pattern from existing scenario pages
+- [ ] **Correct format example**: 
+  ```
+  **Button Label**:
+  - SE: "Logga in för att spara"
+  - EN: "Log in to save"
+  ```
+- [ ] **Avoid incorrect mixing**: Never use inline format like "SE: text | EN: text"
+- [ ] **Nested structure for categories**: English label first, then indented SE/EN text labels
+- [ ] **Consistency check**: Compare with 1.1 Start Page format for reference pattern
+
 ## ✅ Final Validation
 
-### 11. Complete Flow Testing
+### 12. Complete Flow Testing
 - [ ] **End-to-end navigation**: Test complete scenario flow from start to finish
 - [ ] **All images loading**: Verify all visual assets display correctly
 - [ ] **No broken links**: Comprehensive check for any missing or incorrect references
 - [ ] **Professional presentation**: Confirm documentation meets stakeholder expectations
+- [ ] **Bilingual format consistency**: Verify all SE/EN text follows established patterns
+- [ ] **Sketch inclusion verified**: Confirm sketch image displays correctly and is properly positioned
 
 ## Real-World Insights
 
@@ -97,6 +116,10 @@ Ensure proper file structure, professional naming conventions, and comprehensive
 - Placing images at root level where they obscure main documentation
 - Using inconsistent naming conventions across the project
 - Missing cross-references when reorganizing files
+- Forgetting to include sketch image reference after main title
+- Using inconsistent bilingual text formatting across pages
+- Mixing Swedish and English text in single line with pipes
+- Using parentheses to demote information instead of clear explanations
 
 ---
 
