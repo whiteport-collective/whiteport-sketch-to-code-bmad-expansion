@@ -15,10 +15,10 @@ sections:
   - id: sketch-image
     title: Sketch
     instruction: |
-      Include a link to the corresponding sketch image using proper relative paths.
-      Use descriptive, generic names that reflect component purpose (not page-specific).
-      For component sketches, place in component folders for better organization.
-      example: ![Location Prompt Popup - Desktop](location-prompt-popup_desktop_concept.jpg)
+      Include a link to the corresponding sketch image using proper relative paths from Sketches/ subfolders.
+      Use Title-Case-With-Dashes naming for all folders and files (URL-safe compatibility).
+      Organize all visual assets in dedicated Sketches/ subfolders for professional file organization.
+      example: ![Search Filter Modal - Desktop](Sketches/search-filter-modal_desktop_concept.jpg)
 
   - id: sketch-context
     title: Sketch Context
@@ -46,14 +46,14 @@ sections:
       Format: "#### → [Component Name](path/to/component.md)"
       Follow with: **State**, **Purpose**, **Features**, etc.
       
-      Use the component folder structure: `docs/D. Components/[type]/[category]/[component-name]/[component-name].md`
-      Apply the "Component Rule": elements appearing twice become documented components with generic names.
+      Use the component folder structure: `docs/D-Components/[Type]/[Category]/[Component-Name]/[Component-Name].md`
+      Apply Title-Case-With-Dashes naming throughout. Follow the "Component Rule": elements appearing twice become documented components with generic names.
       
       Example:
       ```
-      #### → [Site Header Component](../../D. Components/organism/navigation/site-header/site-header.md)
-      **State**: Location Page variant
-      **Purpose**: Primary navigation with location awareness
+      #### → [Navigation Header Component](../../D-Components/Organism/Navigation/Navigation-Header/Navigation-Header.md)
+      **State**: Dashboard Page variant
+      **Purpose**: Primary navigation with user context awareness
       ```
 
   - id: interactions-and-effects

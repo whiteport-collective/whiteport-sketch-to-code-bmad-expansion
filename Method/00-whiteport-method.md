@@ -58,7 +58,7 @@ The Whiteport Method follows a structured three-phase sequence that builds from 
 ## Key Innovations
 
 ✨ **Multiple Target Groups per User Type** - Define distinct personas from same user type when they have different needs  
-✨ **Alliterative Persona Naming** - "Sture Social", "Ellen Entrepreneur" naming for memorability  
+✨ **Alliterative Persona Naming** - "Marcus Manager", "Sarah Student" naming for memorability  
 ✨ **Draft-First Option** - Choice between step-by-step workshop or draft refinement  
 ✨ **Executive-Ready Documentation** - Professional artifacts with embedded visualizations  
 ✨ **GitHub-Optimized Visualizations** - Mermaid diagrams designed for GitHub rendering

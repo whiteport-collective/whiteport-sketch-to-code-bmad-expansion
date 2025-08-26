@@ -78,7 +78,7 @@ Based on methodology created by Inuse in Sweden, adapted for digital product dev
 **Guidelines for Target Group Definition**:
 - **User Type Classification**: Each target group must map to user types defined in project brief
 - **Multiple Groups per Type**: Define multiple target groups from same user type when they have different needs and driving forces
-- **Memorable Naming**: Use alliterative names like "Sture Social" or "Clara Curlingmum"
+- **Memorable Naming**: Use alliterative names like "Marcus Manager" or "Diana Developer"
 - **Clear Distinction**: Ensure groups are distinguishable with real, different needs
 - **Priority Focus**: Usually 3-5 most important groups to avoid distraction
 
@@ -120,12 +120,12 @@ Based on methodology created by Inuse in Sweden, adapted for digital product dev
 **CRITICAL REQUIREMENT**: All personas must use alliterative names combining first name with role descriptor.
 
 **Examples**:
-- "Rita Reader" - for news readers/content consumers
-- "Ellen Entrepreneur" - for business owners/advertisers  
-- "Patricia Partner" - for information partners/organizations
-- "Peter Public-servant" - for government officials/public servants
-- "Sture Social" - for active community connectors
-- "Clara Curlingmum" - for time-pressed parents
+- "Carla Consumer" - for content readers/information seekers
+- "Marcus Manager" - for business owners/decision makers  
+- "Diana Developer" - for technical implementers/creators
+- "Samantha Student" - for learning-focused users/newcomers
+- "Robert Researcher" - for analytical information seekers
+- "Catherine Creator" - for content-producing users
 
 **Purpose**:
 - **Memorability**: Makes personas easier to remember and reference in workshops
@@ -136,8 +136,8 @@ Based on methodology created by Inuse in Sweden, adapted for digital product dev
 **Each persona must map to user types defined in project brief** for logical consistency between personas and business model.
 
 **Common Classifications**:
-- **Reader**: Content consumers, news readers, information seekers
-- **Advertiser**: Local businesses, service providers, promotional content creators
+- **Consumer**: Content readers, information seekers, end users
+- **Creator**: Content producers, service providers, business owners
 - **Partner**: Information providers, organizations, institutional content sources
 - **Public Servant**: Government officials, civic leaders, public sector representatives
 

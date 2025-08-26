@@ -106,10 +106,10 @@ This places personas in the trigger map folder with proper numbering (01, 02, 03
 **CRITICAL REQUIREMENT**: All personas must use alliterative names that combine first name with role descriptor.
 
 **Examples:**
-- "Rita Reader" - for news readers/content consumers
-- "Ellen Entrepreneur" - for business owners/advertisers  
-- "Patricia Partner" - for information partners/organizations
-- "Peter Public-servant" - for government officials/public servants
+- "Carla Consumer" - for content readers/information seekers
+- "Marcus Manager" - for business owners/decision makers  
+- "Diana Developer" - for technical implementers/creators
+- "Samantha Student" - for learning-focused users/newcomers
 - "Martin Manager" - for administrative roles
 - "Diana Developer" - for technical stakeholders
 

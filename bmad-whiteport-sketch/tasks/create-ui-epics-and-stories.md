@@ -10,10 +10,10 @@ The PM will analyze the completed sketch documentation, synopsis files, and comp
 
 ### Analyze Sketch Documentation
 
-* **Review Synopsis Documents**: Read through all page synopsis documents in `Docs/C. Scenarios/` to understand the intended user experience
-* **Component Inventory**: Catalog all reusable components identified in `Docs/D. Components/` and their usage patterns
+* **Review Synopsis Documents**: Read through all page synopsis documents in `Docs/C-Scenarios/` to understand the intended user experience
+* **Component Inventory**: Catalog all reusable components identified in `Docs/D-Components/` and their usage patterns
 
-**WHITEPORT METHOD OVERRIDE**: Use alphabetized folder structure with scenarios (Docs/C. Scenarios/1. Signup/1.1 Public-start-page/, Docs/D. Components/) instead of default BMad organization.
+**WHITEPORT METHOD OVERRIDE**: Use alphabetized folder structure with scenarios (Docs/C-Scenarios/01-User-Registration/1.1-Welcome-Page/, Docs/D-Components/) instead of default BMad organization.
 * **User Flow Analysis**: Map the user journey across all sketched pages to identify interaction sequences
 * **Content Requirements**: Extract all content, copy, and asset requirements from the sketch documentation
 * **Interaction Patterns**: Identify consistent interaction patterns, animations, and responsive behavior requirements

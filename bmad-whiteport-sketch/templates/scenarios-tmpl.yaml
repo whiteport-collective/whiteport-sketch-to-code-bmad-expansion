@@ -117,20 +117,20 @@ template:
       
       **Image Naming Convention**:
       - Format: `[step]-[page]_[device]_concept.[ext]`
-      - Examples: `1.1-start-page_desktop_concept.jpg`, `1.2-location-page_ipad_concept.jpg`
+      - Examples: `1.1-Welcome-Page_desktop_concept.jpg`, `1.2-Dashboard-Page_ipad_concept.jpg`
       - Benefits: Groups by device type, indicates fidelity level, web-safe names
       
       **Scenario Step Page Structure** (MANDATORY FORMAT):
       ```
-      **[Next →](../1.2%20Location%20page/1.2-location-page.md)**
+      **[Next →](../1.2-Dashboard-Page/1.2-Dashboard-Page.md)**
       
-      ### 1.1 Start Page - Enter the Site, Choose Location
+      ### 1.1 Welcome Page - User Entry Point
       
-      ![Start Page - Location Selection - Desktop](1.1-start-page_desktop_concept.jpg)
+      ![Welcome Page - User Onboarding - Desktop](1.1-Welcome-Page_desktop_concept.jpg)
       
-      **[Next →](../1.2%20Location%20page/1.2-location-page.md)**
+      **[Next →](../1.2-Dashboard-Page/1.2-Dashboard-Page.md)**
       
-      # 1.1 Start Page - Enter the Site, Choose Location
+      # 1.1 Welcome Page - User Entry Point
       
       ## Scenario Step Overview
       [Content follows...]
@@ -139,7 +139,7 @@ template:
       
       ---
       
-      **[Next →](../1.2%20Location%20page/1.2-location-page.md)**
+      **[Next →](../1.2-Dashboard-Page/1.2-Dashboard-Page.md)**
       ```
       
       **Structure Elements**:

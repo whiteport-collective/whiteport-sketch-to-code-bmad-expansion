@@ -100,9 +100,9 @@ Follow web-standard patterns for component references:
 - Identify elements that appear (or will appear) on multiple pages
 - Apply the "Component Rule": objects appearing twice become reusable components
 - Document page-specific elements vs. reusable components
-- Create links to component specifications in Docs/D. Components/
+- Create links to component specifications in Docs/D-Components/
 
-**WHITEPORT METHOD OVERRIDE**: Use alphabetized folder structure with scenarios (Docs/C. Scenarios/1. Signup/1.1 Public-start-page/, Docs/D. Components/) instead of default BMad organization.
+**WHITEPORT METHOD OVERRIDE**: Use alphabetized folder structure with scenarios (Docs/C-Scenarios/01-User-Registration/1.1-Welcome-Page/, Docs/D-Components/) instead of default BMad organization.
 
 #### **Component File Organization Best Practices**
 - **Individual Component Folders**: Each component gets its own folder containing both documentation and sketch assets

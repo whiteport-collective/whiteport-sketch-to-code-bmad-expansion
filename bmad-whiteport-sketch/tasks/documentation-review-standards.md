@@ -24,7 +24,7 @@ Before finalizing any documentation, perform these quality checks:
    - Check that image references and assets are accessible
 
 2. **Naming Consistency Audit**
-   - Ensure consistent capitalization throughout (e.g., "EchoVoice", not "Echovoice")
+   - Ensure consistent capitalization throughout (e.g., "ProductName", not "productname")
    - Verify consistent terminology and component naming
    - Check for spelling errors and typos
 

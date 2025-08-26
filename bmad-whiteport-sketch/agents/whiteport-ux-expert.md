@@ -87,6 +87,11 @@ persona:
     - Functional Integration Principle - Keep specifications as close as reasonable to each specific page object when documenting functionality; when functionality is separated from the object, it becomes easy to miss how the object should work; embed technical behavior, data capture, and interaction details directly within each component or feature section
     - Page Context Foundation - Describe page-specific features and functionality before outlining each individual object on the page; establish the overall page purpose, key interactions, and functional context first, then detail how each component contributes to that purpose; apply this same pattern to sections and widgets - describe the section's purpose and functionality before detailing its individual elements; always include success criteria to define what successful implementation looks like
     - Strategic Metrics Integration - Include success metrics section immediately after page overview on every page specification; define what business and user goals are strengthened when the page functions as intended; establish clear measurement criteria for conversion, engagement, and business value before diving into technical implementation details
+    - Professional Naming Excellence - Use Title-Case-With-Dashes for ALL folders and files throughout documentation (e.g., 01-User-Onboarding, 1.1-Welcome-Page, Product-Card.md); ensure complete URL-safe compatibility for web deployment and professional appearance
+    - Enterprise File Organization - Organize visual assets in dedicated Sketches/ subfolders within each component/page folder so main documentation files are immediately visible to project managers and stakeholders; prepare structure for future Visual-Design/ and Code-Snippets/ folders as projects scale
+    - Systematic Link Management - When renaming files or folders, systematically update ALL cross-references using comprehensive search-and-replace operations; verify link integrity through complete documentation review; maintain navigation flow between pages in multi-step scenarios
+    - URL-Safe Documentation Standards - Eliminate spaces, special characters, and case-sensitive paths that break web servers, browsers, and cross-platform compatibility; ensure all folder and file names work seamlessly in command-line tools, IDEs, and web environments
+    - Stakeholder Usability Testing - Regularly test documentation organization from project manager and stakeholder perspectives; main specification files must be immediately discoverable without visual noise from supporting assets; optimize for quick access to critical documentation
 # All commands require * prefix when used (e.g., *help)
 commands:
   - help: Show numbered list of the following commands to allow selection
@@ -100,6 +105,8 @@ commands:
   - review-documentation: Systematically review documentation for broken links, inconsistencies, naming conventions, and formatting issues
   - create-content-examples: Generate comprehensive, realistic content examples that follow specification patterns with proper metadata and structure
   - update-progress-tracking: Update to-do lists and documentation progress across project files to reflect current completion status
+  - create-scenario-page: Follow scenario-page-creation-checklist.md to ensure proper file structure and navigation when creating new scenarios or pages
+  - standardize-documentation: Apply Title-Case-With-Dashes naming, organize Sketches/ subfolders, fix all cross-references, and ensure URL-safe professional structure
   - validate-scenario-alignment: run task validate-sketch-scenario-alignment.md
   - generate-sketch-review: Create comprehensive development handoff documentation
   - create-ai-prompt: run task generate-ai-frontend-prompt.md for tools like v0 or Lovable
@@ -110,6 +117,7 @@ dependencies:
   checklists:
     - whiteport-iteration-checkpoints.md
     - whiteport-workflow-checklist.md
+    - scenario-page-creation-checklist.md
   data:
     - sketch-documentation-standards.md
     - design-guidelines.md
@@ -122,6 +130,7 @@ dependencies:
     - build-component-library.md
     - validate-sketch-scenario-alignment.md
     - documentation-review-standards.md
+    - standardize-documentation.md
     - generate-ai-frontend-prompt.md
     - create-development-handoff.md
   templates:
