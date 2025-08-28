@@ -15,14 +15,21 @@ sections:
   - id: sketch-image
     title: Sketch
     instruction: |
-      Include a link to the corresponding sketch image.
-      example: ![Sketch of Login Page](./1.0-login.png)
+      Include a link to the corresponding sketch image using proper relative paths from Sketches/ subfolders.
+      Use Title-Case-With-Dashes naming for all folders and files (URL-safe compatibility).
+      Organize all visual assets in dedicated Sketches/ subfolders for professional file organization.
+      example: ![Search Filter Modal - Desktop](Sketches/search-filter-modal_desktop_concept.jpg)
 
   - id: sketch-context
     title: Sketch Context
     instruction: |
       Provide a brief description of the user's current situation in the scenario.
       Describe what the page is going to accomplish in the overall value-adding process.
+      Reference established project context from:
+      - Project brief (business goals, language requirements, platform focus)
+      - Trigger map (persona goals, driving forces)
+      - Existing scenarios (established patterns and approaches)
+      - Component library (reusable elements and naming conventions)
 
   - id: page-structure
     title: Page Structure
@@ -34,7 +41,20 @@ sections:
     title: Referenced Components
     instruction: |
       List all reusable components from the central library that are used on this page.
-      For each component, provide a link to its master document in `docs/components/`.
+      Follow the established link-first documentation pattern:
+      
+      Format: "#### → [Component Name](path/to/component.md)"
+      Follow with: **State**, **Purpose**, **Features**, etc.
+      
+      Use the component folder structure: `docs/D-Components/[Type]/[Category]/[Component-Name]/[Component-Name].md`
+      Apply Title-Case-With-Dashes naming throughout. Follow the "Component Rule": elements appearing twice become documented components with generic names.
+      
+      Example:
+      ```
+      #### → [Navigation Header Component](../../D-Components/Organism/Navigation/Navigation-Header/Navigation-Header.md)
+      **State**: Dashboard Page variant
+      **Purpose**: Primary navigation with user context awareness
+      ```
 
   - id: interactions-and-effects
     title: Interactions and Effects
@@ -44,8 +64,11 @@ sections:
   - id: content-and-assets
     title: Content and Assets
     instruction: |
-      Describe the headlines, body text, and any other fixed text.
+      Describe the headlines, body text, and any other fixed text with specific examples.
+      Ensure multi-line content matches the sketch's intended length and structure.
+      Provide context-appropriate messaging that explains platform concepts clearly.
       For images and videos, provide a description of their purpose and content.
+      Include multi-language content as specified in initial project context, formatted consistently.
 
   - id: open-questions
     title: Open Questions & Missing Information

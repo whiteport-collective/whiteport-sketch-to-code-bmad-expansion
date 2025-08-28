@@ -17,10 +17,10 @@ The Sketch-to-Spec Method transforms hand-drawn UI concepts into comprehensive t
 - **Technical Translation**: Systematically convert visual concepts into component specifications
 - **Reusability Focus**: Identify patterns and create components that serve multiple scenarios
 
-### Geographic Awareness
-- **Location-Based Features**: Consider geo-tagging and proximity-based functionality
-- **Map Integration**: Account for geographic visualization components
-- **Local Content**: Design for location-specific content presentation
+### Context Awareness
+- **Context-Based Features**: Consider user context and situational functionality
+- **Data Integration**: Account for external data sources and visualization components
+- **Dynamic Content**: Design for context-specific content presentation
 
 ## Process Flow
 
@@ -55,13 +55,13 @@ The Sketch-to-Spec Method transforms hand-drawn UI concepts into comprehensive t
 - **Search Boxes**: Input field + search button + filters
 - **Form Fields**: Label + input + validation message + help text
 - **Article Cards**: Headline + excerpt + metadata + action buttons
-- **Location Selectors**: Map + address input + geo-tag display
+- **Data Selectors**: Filter + search input + selection display
 
 #### Organism Component Architecture
 **Process**: Create complex interface sections that combine multiple molecular components
 
 **Examples**:
-- **Site Headers**: Logo + navigation + search + user menu
+- **Page Headers**: Logo + navigation + search + user menu
 - **Article Layouts**: Content + sidebar + related items + comments
 - **Dashboard Panels**: Data visualization + controls + filters + export options
 - **Map Interfaces**: Geographic display + overlays + controls + location details
@@ -89,7 +89,7 @@ For each component, document:
 - **External Dependencies**: APIs, data sources, or other components required
 
 **Content Guidelines**:
-- **Text Content**: Character limits, tone guidelines, localization considerations
+- **Text Content**: Character limits, tone guidelines, internationalization considerations
 - **Media Requirements**: Image sizes, formats, geographic metadata needs
 - **Data Formats**: Expected data structures and validation rules
 

@@ -51,7 +51,7 @@ This expansion pack introduces a comprehensive design-driven development methodo
 
 ### Enhanced Agents
 
-#### Business Analyst (`analyst.md`)
+#### Whiteport Business Analyst (`whiteport-analyst.md`)
 - **Primary Role**: Project discovery and user research coordination
 - **Key Enhancement**: Collaborative workshop methodology with mandatory step-by-step elicitation
 - **New Commands**: `create-product-brief`, `create-trigger-map`, `create-executive-readme`
@@ -84,14 +84,14 @@ This expansion pack introduces a comprehensive design-driven development methodo
   - Individual persona profiles (numbered 01, 02, 03...)
 
 #### 3. Persona Development
-- **Standards**: Alliterative naming convention (e.g., "Sture Social", "Ellen Entrepreneur")
+- **Standards**: Alliterative naming convention (e.g., "Marcus Manager", "Sarah Student")
 - **Classification**: Each persona maps to user types defined in project brief
 - **Structure**: User type, demographics, usage goals (positive/negative driving forces)
 - **Location**: `Docs/B. Trigger Map/` (numbered by priority)
 
 #### 4. Scenario Documentation
 - **Structure**: Numbered scenario-based organization
-- **Location**: `Docs/C. Scenarios/1. Signup/1.1 Public-start-page/`
+- **Location**: `Docs/C-Scenarios/01-User-Registration/1.1-Welcome-Page/`
 - **Content**: Page sketches, user flows, interaction specifications
 
 #### 5. Component Library
@@ -101,28 +101,39 @@ This expansion pack introduces a comprehensive design-driven development methodo
 
 ### Documentation Standards
 
-#### File Organization
+#### File Organization (Professional v2.0)
 ```
 Docs/
-├── A. Product Brief/
-│   ├── brief.md
-│   └── user-generated-content-strategy.md
-├── B. Trigger Map/
-│   ├── 00-trigger-map.md
-│   ├── 00-trigger-map-poster.md
-│   ├── 01-primary-persona.md
-│   ├── 02-secondary-persona.md
+├── A-Product-Brief/
+│   ├── Brief.md
+│   └── User-Generated-Content-Strategy.md
+├── B-Trigger-Map/
+│   ├── 00-Trigger-Map.md
+│   ├── 00-Trigger-Map-Poster.md
+│   ├── 01-Primary-Persona.md
+│   ├── 02-Secondary-Persona.md
 │   └── ...
-├── C. Scenarios/
-│   ├── 1. Signup/
-│   │   ├── 1.1 Public-start-page/
-│   │   └── 1.2 Registration-form/
-│   └── 2. Dashboard/
-└── D. Components/
-    ├── atomic/
-    ├── molecular/
-    └── organisms/
+├── C-Scenarios/
+│   ├── 01-User-Registration/
+│   │   ├── 1.1-Welcome-Page/
+│   │   │   ├── 1.1-Welcome-Page.md
+│   │   │   └── Sketches/
+│   │   └── 1.2-Signup-Form/
+│   │       ├── 1.2-Signup-Form.md
+│   │       └── Sketches/
+│   └── 02-User-Dashboard/
+└── D-Components/
+    ├── Atomic/
+    ├── Molecular/
+    └── Organism/
 ```
+
+#### Enterprise Organization Standards
+- **Title-Case-With-Dashes**: All folders and files use professional URL-safe naming
+- **Sketches/ Subfolders**: Visual assets organized for stakeholder clarity
+- **Main Files Prominent**: Specifications immediately visible to project managers
+- **Scalable Structure**: Ready for Visual-Design/ and Code-Snippets/ expansion
+- **Universal Compatibility**: Works seamlessly across all platforms and tools
 
 #### Writing Style Guidelines
 - **No Parentheses**: Use dashes, colons, or separate sentences instead
@@ -158,7 +169,7 @@ All major artifacts include executive summary README files with embedded visuali
 ### Installation Steps
 1. **Install BMad Core**: Ensure the base framework is properly configured
 2. **Download Expansion Pack**: Clone or download this repository to your BMad expansion directory
-3. **Activate Whiteport Method**: Use `@analyst.md` to begin with enhanced capabilities
+3. **Activate Whiteport Method**: Use `@whiteport-analyst.md` to begin with enhanced capabilities
 
 ### ⚠️ Important: Expansion Pack Precedence
 **This Whiteport expansion pack OVERRIDES default BMad functionality**. When active:
