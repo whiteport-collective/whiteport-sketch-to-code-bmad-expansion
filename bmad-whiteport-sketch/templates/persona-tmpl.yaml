@@ -4,7 +4,7 @@ template:
   version: 2.0
   output:
     format: markdown
-    filename: Docs/B. Trigger Map/{{priority_number_padded}}-{{persona_name_slug}}.md
+    filename: Docs/B-Trigger-Map/{{priority_number_padded}}-{{persona_name_slug}}/{{priority_number_padded}}-{{persona_name_slug}}.md
     title: "{{persona_name}} - {{persona_type}}"
 
 workflow:
@@ -21,9 +21,9 @@ sections:
     template: |
       # {{persona_name}} - {{persona_type}}
       
-      ![{{persona_name}}'s LinkedIn Profile](./images/{{priority_number}}-{{persona_slug}}-profile.jpg)
-      ![{{persona_name}}'s Work Environment](./images/{{priority_number}}-{{persona_slug}}-workspace.jpg)
-      ![{{persona_name}}'s {{core_activity_context}}](./images/{{priority_number}}-{{persona_slug}}-{{activity_slug}}.jpg)
+      ![{{persona_name}}'s LinkedIn Profile](./Sketches/{{priority_number}}-{{persona_slug}}-Profile.jpg)
+      ![{{persona_name}}'s Work Environment](./Sketches/{{priority_number}}-{{persona_slug}}-Workspace.jpg)
+      ![{{persona_name}}'s {{core_activity_context}}](./Sketches/{{priority_number}}-{{persona_slug}}-{{activity_slug}}.jpg)
       
       **Priority**: {{priority_level}}
       **Role**: {{role_description}}

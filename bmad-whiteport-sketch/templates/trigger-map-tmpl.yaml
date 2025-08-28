@@ -4,7 +4,7 @@ template:
   version: 2.0
   output:
     format: markdown
-    filename: Docs/B. Trigger Map/00-trigger-map.md
+    filename: Docs/B-Trigger-Map/00-Trigger-Map.md
     title: "{{project_name}} - Trigger Map"
 
 workflow:

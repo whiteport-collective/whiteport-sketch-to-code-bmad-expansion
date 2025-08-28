@@ -4,7 +4,7 @@ template:
   version: 1.0
   output:
     format: markdown
-    filename: Docs/A. Product Brief/brief.md
+    filename: Docs/A-Product-Brief/00-Product-Brief.md
     title: "Project Brief: {{project_name}}"
 
 workflow:

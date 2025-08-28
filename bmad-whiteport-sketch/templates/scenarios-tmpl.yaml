@@ -110,10 +110,22 @@ template:
       Document the organizational structure and naming conventions:
       
       **Folder Structure**:
-      - `00-scenarios.md` - Overview with navigation links
-      - `01. [Scenario Name]/` - Numbered scenario folders
-      - `1.X [Step Name]/` - Individual step folders within scenarios
-      - `1.X-step-name.md` - Step documentation files
+      - `A-Product-Brief/00-Product-Brief.md` - Numbered project brief document
+      - `B-Trigger-Map/00-Trigger-Map.md` - Main trigger map overview
+      - `B-Trigger-Map/01-Persona-Name/01-Persona-Name.md` - Individual persona folders with Sketches/ subfolders
+      - `C-Scenarios/00-User-Scenarios.md` - Overview with navigation links
+      - `C-Scenarios/01-Scenario-Name/` - Numbered scenario folders
+      - `C-Scenarios/01-Scenario-Name/1.X-Step-Name/` - Individual step folders within scenarios
+      - `C-Scenarios/01-Scenario-Name/1.X-Step-Name/1.X-Step-Name.md` - Step documentation files
+      - `C-Scenarios/01-Scenario-Name/1.X-Step-Name/Sketches/` - Hand-drawn conceptual sketches for each step
+      
+      **Fidelity-Based Visual Asset Organization**:
+      Each scenario step folder includes organized subfolders based on design fidelity progression:
+      - `Sketches/` - Hand-drawn conceptual sketches with low fidelity and high speed iteration
+      - `Wireframes/` - Structured layout designs with medium fidelity and functionality focus
+      - `Visual-Design/` - High fidelity mockups and visual designs
+      - `Prototypes/` - Interactive prototypes and animated demonstrations
+      - `Code-Snippets/` - Implementation examples and technical specifications
       
       **Image Naming Convention**:
       - Format: `[step]-[page]_[device]_concept.[ext]`
@@ -159,10 +171,10 @@ template:
       - **Alternate Views**: Tablet and mobile layout adaptations when available
       - **Next Steps**: Outstanding sketches needed and unlinked pages to specify
       
-      **Bilingual Labeling Standards** (when internationalization required):
+      **Bilingual Labeling Standards when internationalization required:**
       - **Format**: Always use separate lines for each language
       - **Structure**: `SE: "Swedish text"` and `EN: "English text"` on consecutive lines
-      - **Rationale**: Cannot assume readers can identify language from text alone (could be Arabic, Hindi, etc.)
+      - **Rationale**: Cannot assume readers can identify language from text alone as it could be Arabic, Hindi, or other languages
       - **Example**:
         ```
         **Write Article Button**
@@ -185,7 +197,7 @@ template:
       - [ ] Scenarios demonstrate shortest path to user goals
       - [ ] Business value creation is explicit and measurable
       - [ ] Technical requirements are identifiable from scenarios
-      - [ ] Professional documentation standards applied (naming, navigation, hierarchy)
+      - [ ] Professional documentation standards applied for naming, navigation, and hierarchy
       - [ ] Concept sketch fidelity clearly indicated in file names and references
 
 examples:
