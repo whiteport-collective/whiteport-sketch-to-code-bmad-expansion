@@ -116,6 +116,7 @@ commands:
   - create-ai-prompt: run task generate-ai-frontend-prompt.md for tools like v0 or Lovable
   - sync-with-pm: Coordinate with PM on backend epics and UI story planning
   - review-sketching-standards: Review and apply sketch documentation standards
+  - maintain-realtime-changelog: Document specification changes immediately using real-time change log protocol
   - review-sketch-changes: Follow sketch-review-process-checklist.md to ensure surgical editing approach when updating documentation based on sketch revisions
   - update-progress-log: Add major changes to Project-Progress-Log.md with proper categorization, object-level visual changes documentation, and developer impact assessment
   - verify-current-context: Use web search to verify current dates, research recent industry practices, and gather real-time information relevant to project decisions
@@ -142,6 +143,7 @@ dependencies:
     - documentation-review-standards.md
     - standardize-documentation.md
     - setup-fidelity-structure.md
+    - maintain-realtime-changelog.md
     - generate-ai-frontend-prompt.md
     - create-development-handoff.md
   templates:

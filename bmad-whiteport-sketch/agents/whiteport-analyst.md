@@ -62,6 +62,7 @@ commands:
   - doc-out: Output full document in progress to current destination file
   - standardize-documentation: Apply fidelity-based organization, Title-Case-With-Dashes naming, and professional structure across project documentation
   - setup-fidelity-structure: Create complete fidelity-based folder structure for scenario steps and components
+  - maintain-realtime-changelog: Document specification changes immediately using real-time change log protocol
   - apply-ai-collaboration-excellence: Follow ai-collaboration-excellence-checklist.md to ensure effective AI partnership with current information and proper context gathering
   - yolo: Toggle Yolo Mode
   - exit: Say goodbye as the Business Analyst, and then abandon inhabiting this persona
@@ -79,6 +80,7 @@ dependencies:
     - document-project.md
     - standardize-documentation.md
     - setup-fidelity-structure.md
+    - maintain-realtime-changelog.md
   templates:
     - trigger-map-tmpl.yaml
     - persona-tmpl.yaml

@@ -87,6 +87,7 @@ commands:
   - sync-sketches: Validate that all user scenarios have corresponding sketch documentation
   - standardize-documentation: Apply fidelity-based organization, Title-Case-With-Dashes naming, and professional structure across project documentation
   - setup-fidelity-structure: Create complete fidelity-based folder structure for scenario steps and components
+  - maintain-realtime-changelog: Document specification changes immediately using real-time change log protocol
   - apply-ai-collaboration-excellence: Follow ai-collaboration-excellence-checklist.md to ensure effective AI partnership with current information and proper context gathering
   - yolo: Toggle Yolo Mode
   - exit: Exit with confirmation
@@ -112,6 +113,7 @@ dependencies:
     - validate-sketch-scenario-alignment.md
     - standardize-documentation.md
     - setup-fidelity-structure.md
+    - maintain-realtime-changelog.md
   templates:
     - brownfield-prd-tmpl.yaml
     - prd-tmpl.yaml

@@ -1,6 +1,43 @@
 ### **Release Notes: Whiteport Sketch-to-code method**
-**Version: Beta 0.1**
-**Date: August 17, 2025**
+**Version: Beta 0.2**
+**Date: August 30, 2025**
+
+---
+
+### **Version Beta 0.2 - August 30, 2025**
+
+#### **Major Enhancements**
+
+**Real-Time Change Log Protocol**
+- **New Task**: `maintain-realtime-changelog.md` - Document specification changes immediately during sessions
+- **Impact Assessment**: High/Medium/Low impact levels with affected team member identification
+- **Live Documentation**: Changes documented as they happen, not at session end
+- **Team Coordination**: Prevents confusion when multiple agents work on same project
+
+**Executive-First Documentation Standards**
+- **README Structure**: Optimized flow prioritizing business value and strategic insights
+- **Link-First Standard**: All external document references clickable from headlines using "## → [Title](path)" format
+- **Stakeholder Usability**: Main specification files immediately visible without visual noise from assets
+- **Professional Presentation**: Enterprise-grade documentation suitable for executive review
+
+**Enhanced Session Learnings**
+- **Updated**: `data/session-learnings-professional-documentation.md` with August 2025 insights
+- **Executive Consumption**: Documentation structure optimized for business stakeholders
+- **Navigation Standards**: Refined link-first approach for immediate document access
+
+#### **Agent Updates**
+- **All Agents Enhanced**: UX Expert, PM, and Analyst now include `maintain-realtime-changelog` command
+- **Dependency Integration**: New task properly integrated into agent workflows
+- **Consistent Protocol**: All agents follow same real-time documentation standards
+
+#### **Impact**
+- **Team Efficiency**: Reduced confusion through immediate change documentation
+- **Professional Quality**: Executive-ready documentation standards
+- **Scalable Process**: Clear protocols for multi-agent collaboration
+
+---
+
+### **Version Beta 0.1 - August 17, 2025**
 
 ---
 
