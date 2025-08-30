@@ -1,0 +1,223 @@
+technical_specification_template:
+  metadata:
+    template_name: "Enterprise Technical Specification"
+    version: "1.0.0"
+    purpose: "Comprehensive technical specification document template based on Actimate project experiences"
+    compliance: "Whiteport Documentation Standards"
+  
+  document_structure:
+    header:
+      title_format: "# [Component Name] Specifications"
+      subtitle_format: "## Overview"
+      overview_content: |
+        Comprehensive specification for [component description]. This document defines [technical scope], 
+        [integration requirements], and [implementation considerations] to ensure [business value] 
+        while maintaining [quality standards].
+    
+    feasibility_analysis:
+      section_title: "## Implementation Feasibility Analysis"
+      subsections:
+        high_feasibility:
+          title: "### 🟢 High Feasibility Features (MVP Ready)"
+          content_structure:
+            feature_header: "#### [Feature Number]. [Feature Name]"
+            complexity: "**Implementation Complexity:** [Low/Medium/High]"
+            velocity: "**Pre-AI Velocity:** [X-Y man-weeks]"
+            acceleration: "**BMad Acceleration:** [Z% faster] → **[Adjusted estimate]**"
+            competence: |
+              **Required Competence:**
+              - **[Skill Area]** - [Specific requirements and expertise needed]
+            technical_requirements: |
+              **Technical Requirements:**
+              - [Requirement 1]
+              - [Requirement 2]
+            bmad_factors: |
+              **BMad Effectiveness Factors:**
+              - **[Factor Name]** with [benefit description]
+            implementation_steps: |
+              **Implementation Steps:**
+              1. **[Step Name] - [X days]**:
+                 - [Task description]
+                 - [Deliverable specification]
+            risk_assessment: |
+              **Risk Assessment:** **[LOW/MEDIUM/HIGH]**
+              - [Risk factor 1]
+              - [Mitigation strategy]
+        
+        medium_feasibility:
+          title: "### 🟡 Medium Feasibility Features (Phase 2)"
+          structure: "Same as high_feasibility but for Phase 2 features"
+        
+        low_feasibility:
+          title: "### 🔴 Low Feasibility Features (Future Consideration)"
+          structure: "Same as high_feasibility but for future features"
+    
+    technical_specifications:
+      section_title: "## [Component] Technical Specifications"
+      subsections:
+        architecture: "### System Architecture"
+        data_models: "### Data Models & Storage"
+        api_contracts: "### API Specifications"
+        integration_points: "### Integration Requirements"
+        security_considerations: "### Security & Compliance"
+        performance_requirements: "### Performance Standards"
+    
+    ui_implications:
+      section_title: "## User Interface Implications"
+      subsections:
+        platform_requirements:
+          admin_portal: "### Admin Portal UI Requirements"
+          web_app: "### Web App UI Requirements"
+          mobile_app: "### Mobile App UI Requirements"
+        scenario_integration:
+          title: "**Suggested Scenario Steps to Outline:**"
+          format: |
+            1. **[Scenario-Name]** - [Description of user workflow]
+            2. **[Scenario-Name]** - [Description of user workflow]
+        cross_platform: "### Cross-Platform Considerations"
+    
+    success_metrics:
+      section_title: "## Success Metrics"
+      subsections:
+        technical_performance: "### Technical Performance Metrics"
+        user_experience: "### User Experience Success Criteria"
+        business_impact: "### Business Success Indicators"
+
+  formatting_standards:
+    parentheses_rules:
+      avoid: "Never use parentheses for explanations, examples, or clarifications"
+      correct_patterns:
+        - "for iOS and Android" # not "(iOS/Android)"
+        - "such as Walk, Gym, Sports" # not "(Walk, Gym, Sports)"
+        - "Content Security Policy CSP" # not "(CSP)"
+        - "- 3 days" # not "(3 days)"
+        - "including Fabric and TurboModules" # not "(Fabric/TurboModules)"
+    
+    time_estimates:
+      format: "**[Step Name] - [X days]**:"
+      examples:
+        - "**Database Schema - 2 days**:"
+        - "**API Development - 4 days**:"
+        - "**User Interface - 3 days**:"
+    
+    technical_references:
+      acronyms: "Use acronyms directly without parenthetical definitions"
+      examples: "Use 'such as' instead of parenthetical examples"
+      platforms: "Use 'for' or 'including' instead of parenthetical lists"
+    
+    professional_language:
+      tone: "Enterprise-appropriate, technical but accessible"
+      avoid:
+        - "Casual expressions or informal language"
+        - "Parenthetical asides or explanations"
+        - "Ambiguous or vague specifications"
+      prefer:
+        - "Clear, direct technical language"
+        - "Specific, measurable requirements"
+        - "Professional, confident tone"
+
+  content_guidelines:
+    implementation_analysis:
+      always_include:
+        - "Implementation complexity assessment"
+        - "Pre-AI velocity estimates in man-weeks"
+        - "BMad acceleration factors and percentages"
+        - "Required competencies and skill areas"
+        - "Technical requirements and dependencies"
+        - "Risk assessment with mitigation strategies"
+      
+    technical_depth:
+      architecture: "Sufficient detail for senior developers to understand approach"
+      specifications: "Complete enough for implementation without clarification"
+      integration: "Clear contracts and interface definitions"
+      performance: "Measurable benchmarks and quality standards"
+    
+    enterprise_readiness:
+      security: "Enterprise-grade security considerations"
+      compliance: "Regulatory and compliance requirements"
+      scalability: "Growth and performance planning"
+      maintainability: "Long-term maintenance and evolution"
+
+  quality_checklist:
+    whiteport_compliance:
+      - "Zero parentheses violations throughout document"
+      - "Consistent time estimate formatting"
+      - "Professional language and tone"
+      - "Clear section hierarchy and structure"
+      - "Proper cross-referencing between sections"
+    
+    technical_completeness:
+      - "Implementation feasibility analysis complete"
+      - "BMad acceleration factors documented"
+      - "Required competencies specified"
+      - "Risk assessments provided"
+      - "UI/UX implications addressed"
+      - "Success metrics defined"
+    
+    enterprise_standards:
+      - "Security and compliance considerations"
+      - "Performance benchmarks established"
+      - "Integration requirements specified"
+      - "Scalability planning included"
+      - "Documentation ready for PM handoff"
+
+  example_sections:
+    feasibility_analysis_example: |
+      #### 1. Basic User Authentication
+      **Implementation Complexity:** Low-Medium  
+      **Pre-AI Velocity:** 1-2 man-weeks  
+      **BMad Acceleration:** 60% faster → **0.8-1.2 man-weeks**  
+      **Required Competence:**
+      - **Supabase authentication expertise** - OAuth integration, JWT handling, session management
+      - **Frontend security patterns** - Token storage, route protection, user state management
+      - **Enterprise integration knowledge** - SSO protocols, directory services, compliance requirements
+      
+      **Technical Requirements:**
+      - OAuth 2.0 integration with enterprise identity providers
+      - JWT token management and refresh mechanisms
+      - Role-based access control implementation
+      - Session management across platforms
+      
+      **BMad Effectiveness Factors:**
+      - **Authentication flow generation** with enterprise SSO patterns
+      - **Security best practices** built into generated code
+      - **Cross-platform token handling** with consistent patterns
+      - **Role-based UI components** with automatic permission checks
+      
+      **Implementation Steps:**
+      1. **Authentication Setup - 2 days**:
+         - Configure Supabase Auth with enterprise providers
+         - Implement OAuth flow with proper error handling
+         - Set up JWT token management and refresh
+      2. **Role Management - 3 days**:
+         - Design and implement RBAC system
+         - Create role-based UI components
+         - Add permission checking middleware
+      3. **Integration Testing - 2 days**:
+         - Test enterprise SSO integration
+         - Validate cross-platform authentication
+         - Verify security compliance requirements
+      
+      **Risk Assessment:** **MEDIUM**
+      - Enterprise SSO configuration complexity varies by organization
+      - Token refresh timing requires careful implementation
+      - Cross-platform session synchronization needs thorough testing
+
+  validation_criteria:
+    document_quality:
+      readability: "Technical content accessible to both technical and business stakeholders"
+      completeness: "All necessary information for implementation included"
+      accuracy: "Technical specifications validated and feasible"
+      consistency: "Formatting and structure consistent throughout"
+    
+    implementation_readiness:
+      actionable: "Specifications provide clear implementation guidance"
+      measurable: "Success criteria and benchmarks clearly defined"
+      testable: "Requirements can be validated through testing"
+      maintainable: "Documentation supports long-term maintenance"
+    
+    enterprise_standards:
+      professional: "Language and presentation appropriate for enterprise use"
+      compliant: "Meets regulatory and compliance requirements"
+      scalable: "Specifications support growth and evolution"
+      secure: "Security considerations integrated throughout"

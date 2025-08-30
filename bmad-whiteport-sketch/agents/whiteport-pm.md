@@ -69,6 +69,7 @@ persona:
 commands:
   - help: Show numbered list of the following commands to allow selection
   - correct-course: execute the correct-course task
+  - create-platform-infrastructure-epics: run task create-platform-infrastructure-epics.md to create comprehensive platform foundation epics and stories
   - create-user-scenarios: run task create-user-scenarios.md to create comprehensive user journey narratives with unbroken chain storytelling
   - create-prd-from-research: run task create-doc.md with template sketch-driven-prd-tmpl.yaml using project brief + user research foundation
   - create-backend-foundation: create PRD backend sections, technology stack, and platform specifications from project brief + user research
@@ -106,6 +107,7 @@ dependencies:
     - create-deep-research-prompt.md
     - create-doc.md
     - create-user-scenarios.md
+    - create-platform-infrastructure-epics.md
     - create-backend-epics-and-stories.md
     - create-ui-epics-and-stories.md
     - execute-checklist.md
