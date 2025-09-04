@@ -124,6 +124,7 @@ commands:
   - verify-current-context: Use web search to verify current dates, research recent industry practices, and gather real-time information relevant to project decisions
   - apply-ai-collaboration-excellence: Follow ai-collaboration-excellence-checklist.md to ensure effective AI partnership with current information and proper context gathering
   - enable-pm-phase-2: Complete sketch documentation and visual specifications to enable PM Sarah's Phase 2 (Add Functional Requirements to PRD) for perfect sketch-to-code handoff
+  - apply-sketch-consultation-methodology: Follow wps2c-sketch-consultation-methodology-enhancement.md to ensure proper sketch provision for developer consultation and prevent implementation divergence
   - exit: Say goodbye as the Whiteport UX Expert, and then abandon inhabiting this persona
 dependencies:
   checklists:
@@ -136,6 +137,7 @@ dependencies:
     - sketch-documentation-standards.md
     - design-guidelines.md
     - terminology-standards.md
+    - wps2c-sketch-consultation-methodology-enhancement.md
   tasks:
     - formalize-content-strategy.md
     - workshop-page-design.md

@@ -1,0 +1,180 @@
+filename: "CODE-FORMATTING-STANDARDS.md"
+sections:
+  header:
+    title: "Code Formatting Standards"
+    subtitle: "Enterprise Development Standards and Conventions"
+    description: "Comprehensive formatting standards and best practices for consistent, maintainable, enterprise-grade code development."
+  
+  file_naming:
+    title: "File and Directory Naming Conventions"
+    patterns:
+      - pattern: "Component files"
+        format: "PascalCase.tsx"
+        example: "LanguageSelector.tsx"
+        rationale: "Clear component identification"
+      - pattern: "Utility files"
+        format: "camelCase.ts"
+        example: "formatDate.ts"
+        rationale: "Function-based naming"
+      - pattern: "Context files"
+        format: "PascalCaseContext.tsx"
+        example: "LanguageContext.tsx"
+        rationale: "Clear context identification"
+      - pattern: "Directory names"
+        format: "kebab-case"
+        example: "components/ui"
+        rationale: "URL-safe and readable"
+  
+  code_style:
+    title: "Code Style Standards"
+    indentation:
+      spaces: 2
+      rationale: "Consistent with TypeScript and React community standards"
+    line_length:
+      maximum: 80
+      rationale: "Maintains readability across different screen sizes"
+    quotes:
+      preference: "double"
+      rationale: "Consistent with project configuration"
+    semicolons:
+      required: true
+      rationale: "Prevents automatic semicolon insertion issues"
+  
+  typescript_standards:
+    title: "TypeScript Implementation Standards"
+    interfaces:
+      naming: "PascalCase with descriptive suffixes"
+      example: "LanguageSelectorProps"
+      rationale: "Clear type identification"
+    type_annotations:
+      when_required: "Function parameters, return types, and complex variables"
+      example: "const handleChange = (language: 'se' | 'en'): void => {}"
+      rationale: "Explicit type safety without redundancy"
+    imports:
+      ordering: "React imports, third-party libraries, internal modules, relative imports"
+      aliasing: "Use @ alias for src directory imports"
+      rationale: "Consistent import organization"
+  
+  react_patterns:
+    title: "React Component Patterns"
+    component_structure:
+      order: "Imports, interfaces, component function, export"
+      rationale: "Predictable component organization"
+    props:
+      interface_naming: "ComponentNameProps"
+      destructuring: "Destructure props in function parameters"
+      rationale: "Clear prop definitions and usage"
+    hooks:
+      naming: "use + descriptive name"
+      example: "useLanguage"
+      rationale: "Clear hook identification"
+    event_handlers:
+      naming: "handle + Event + Action"
+      example: "handleLanguageChange"
+      rationale: "Descriptive event handling"
+  
+  styling_standards:
+    title: "CSS and Styling Standards"
+    class_naming:
+      approach: "Tailwind CSS utility classes with semantic class names for complex patterns"
+      custom_classes: "Use semantic names for reusable patterns"
+      rationale: "Maintainable and readable styling"
+    responsive_design:
+      mobile_first: true
+      breakpoints: "Follow Tailwind CSS responsive breakpoints"
+      touch_targets: "Minimum 44px for interactive elements"
+      rationale: "Mobile-friendly and accessible design"
+  
+  accessibility_standards:
+    title: "Accessibility Implementation Standards"
+    aria_labels:
+      required_for: "All interactive elements, form controls, and dynamic content"
+      format: "Descriptive and bilingual when applicable"
+      example: 'aria-label="Select language / Välj språk"'
+      rationale: "Screen reader compatibility"
+    semantic_html:
+      preference: "Use semantic HTML elements over divs when appropriate"
+      rationale: "Better accessibility and SEO"
+    focus_management:
+      visible_focus: "Always provide visible focus indicators"
+      logical_order: "Maintain logical tab order"
+      rationale: "Keyboard navigation support"
+  
+  documentation_standards:
+    title: "Code Documentation Standards"
+    inline_comments:
+      when: "Complex logic, business rules, or non-obvious implementations"
+      style: "Single-line comments above the code they describe"
+      language: "English, professional tone"
+      rationale: "Code maintainability"
+    component_documentation:
+      props: "Document all props with TypeScript interfaces"
+      usage: "Include usage examples for complex components"
+      rationale: "Developer experience and maintainability"
+    zero_tolerance_parentheses:
+      policy: "Never use parentheses for explanations in code comments or documentation"
+      alternatives: "Use 'including', 'such as', 'meaning', or separate sentences"
+      rationale: "Professional documentation standards"
+  
+  performance_standards:
+    title: "Performance Implementation Standards"
+    bundle_size:
+      consideration: "Minimize bundle impact when adding new dependencies"
+      tree_shaking: "Ensure proper tree shaking for imported utilities"
+      rationale: "Fast application loading"
+    rendering:
+      target: "Component rendering under 100ms"
+      optimization: "Use React.memo and useMemo for expensive operations"
+      rationale: "Smooth user experience"
+    layout_stability:
+      requirement: "Zero cumulative layout shift during dynamic updates"
+      implementation: "Define dimensions for dynamic content"
+      rationale: "Visual stability"
+  
+  security_standards:
+    title: "Security Implementation Standards"
+    input_validation:
+      requirement: "Validate and sanitize all user inputs"
+      implementation: "Use TypeScript types and runtime validation"
+      rationale: "Prevent injection attacks"
+    data_storage:
+      localStorage: "Only store non-sensitive user preferences"
+      sensitive_data: "Never store sensitive information in client storage"
+      rationale: "Data privacy and security"
+  
+  testing_standards:
+    title: "Testing Implementation Standards"
+    coverage:
+      requirement: "Test all user-facing functionality"
+      focus: "User interactions, state changes, and error scenarios"
+      rationale: "Reliable functionality"
+    accessibility_testing:
+      requirement: "Test with screen readers and keyboard navigation"
+      tools: "Use automated accessibility testing tools"
+      rationale: "Inclusive user experience"
+  
+  version_control:
+    title: "Version Control Standards"
+    commit_messages:
+      format: "Clear, descriptive messages without parentheses"
+      example: "Add language selector component with bilingual navigation"
+      rationale: "Clear project history"
+    branch_naming:
+      format: "feature/story-id-brief-description"
+      example: "feature/E01-S01-language-selector"
+      rationale: "Organized development workflow"
+  
+  enterprise_compliance:
+    title: "Enterprise Compliance Standards"
+    professional_language:
+      requirement: "All user-facing text and documentation uses professional, enterprise-appropriate language"
+      tone: "Clear, confident, and respectful"
+      rationale: "Professional brand presentation"
+    internationalization:
+      requirement: "Support for Swedish and English languages"
+      implementation: "Proper translation patterns and cultural considerations"
+      rationale: "International market accessibility"
+    brand_consistency:
+      requirement: "Align with established design and messaging standards"
+      implementation: "Follow brand guidelines and design system"
+      rationale: "Consistent brand experience"

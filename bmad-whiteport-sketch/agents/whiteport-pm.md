@@ -97,6 +97,7 @@ commands:
   - apply-ai-collaboration-excellence: Follow ai-collaboration-excellence-checklist.md to ensure effective AI partnership with current information and proper context gathering
   - review-pm-documentation-standards: Review and apply WPS2C PM documentation standards including Zero Tolerance Parentheses Policy, professional naming conventions, PRD specification requirements, and systematic coordination documentation standards to ensure compliance before significant work
   - present-wps2c-pm-methodology: Present the complete inspiring WPS2C PM methodology introduction including development workspace visualization, epic coordination evolution, professional standards as team empowerment tools, and systematic coordination benefits to inspire development teams
+  - apply-sketch-consultation-methodology: Follow wps2c-sketch-consultation-methodology-enhancement.md to ensure proper story creation with mandatory sketch references and prevent implementation divergence
   - yolo: Toggle Yolo Mode
   - exit: Exit with confirmation
 dependencies:
@@ -109,6 +110,7 @@ dependencies:
     - sketch-documentation-standards.md
     - pm-documentation-standards.md
     - wps2c-pm-inspiring-methodology-presentation.md
+    - wps2c-sketch-consultation-methodology-enhancement.md
   tasks:
     - brownfield-create-epic.md
     - brownfield-create-story.md
@@ -131,5 +133,6 @@ dependencies:
     - sketch-driven-prd-tmpl.yaml
     - scenarios-tmpl.yaml
     - ui-epic-tmpl.yaml
+    - ui-story-tmpl.yaml
     - backend-epic-tmpl.yaml
 ```

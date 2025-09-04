@@ -1,0 +1,150 @@
+---
+template_info:
+  name: "UI Story Template with Sketch Consultation Requirements"
+  version: "2.0"
+  description: "Enhanced story template enforcing sketch-first development methodology"
+  wps2c_compliance: true
+  sketch_consultation_required: true
+
+story_structure:
+  story_header:
+    title: "# [Story ID]-[Story Name]"
+    epic_reference: "**Epic**: [Epic Name]"
+    priority: "**Priority**: [High/Medium/Low]"
+  
+  user_story:
+    title: "## User Story"
+    format: |
+      **As a** [user type]
+      **I want** [functional requirement] 
+      **So that** [business value/outcome]
+  
+  business_value:
+    title: "## Business Value"
+    content: "[Clear explanation of business impact and strategic value]"
+  
+  sketch_consultation_requirements:
+    title: "## 🎨 Sketch Consultation Requirements"
+    mandatory_notice: "⚠️ **CRITICAL**: Visual design intent cannot be conveyed through written specifications alone"
+    sketch_references:
+      - "**Primary Sketch**: [Path to main design sketch]"
+      - "**Related Sketches**: [Additional sketch references if needed]"
+      - "**Design Authority**: UX Expert Sally provides visual design specifications"
+    
+    pre_development_checklist:
+      - "[ ] **MANDATORY**: Request all dependent sketches before development"
+      - "[ ] **ANALYZE**: Visual design intent, component placement, integration patterns"
+      - "[ ] **VERIFY**: Understanding of spatial relationships and visual hierarchy"
+      - "[ ] **FLAG**: Any missing or unclear visual guidance as blocker"
+    
+    blocker_protocol: |
+      **If sketches are missing or unclear**:
+      - HALT development immediately
+      - Request specific sketches from UX Expert
+      - Present visual guidance gaps as blockers
+      - Do NOT proceed with assumptions about placement or integration
+
+  acceptance_criteria:
+    title: "## Acceptance Criteria"
+    
+    functional_requirements:
+      title: "### Functional Requirements"
+      format: "- [ ] [Specific functional requirement]"
+      
+    visual_design_requirements:
+      title: "### 🎨 Visual Design Requirements (Sketch-Driven)"
+      mandatory_items:
+        - "[ ] **PRIORITY**: Component placement matches sketch specifications exactly"
+        - "[ ] **INTEGRATION**: Visual integration follows sketch-defined patterns"
+        - "[ ] **HIERARCHY**: Visual hierarchy aligns with sketch design intent"
+        - "[ ] **CONSISTENCY**: Design consistency maintained with existing sketch-driven components"
+      format: "- [ ] [Visual requirement based on sketch analysis]"
+      
+    accessibility_requirements:
+      title: "### Accessibility Requirements"
+      standard_items:
+        - "[ ] Accessible keyboard navigation support"
+        - "[ ] Screen reader compatibility"
+        - "[ ] ARIA labels and semantic markup"
+        - "[ ] High contrast compliance"
+        - "[ ] Mobile touch target minimum 44px"
+
+  technical_implementation:
+    title: "## Technical Implementation"
+    sketch_integration_notes: |
+      ### Sketch Integration Analysis
+      **Component Architecture**: [How component integrates per sketch]
+      **Positioning Requirements**: [Exact placement from sketch]
+      **Visual Relationships**: [How component relates to other elements]
+      **Design Constraints**: [Visual constraints from sketch analysis]
+    
+    code_example: |
+      ```typescript
+      // Component implementation following sketch specifications
+      interface [ComponentName]Props {
+        // Props based on sketch requirements
+      }
+      ```
+
+  definition_of_done:
+    title: "## Definition of Done"
+    sketch_validation:
+      - "[ ] **Sketch consultation completed** before development started"
+      - "[ ] **Visual design verification** against sketch specifications"
+      - "[ ] **Component placement** matches sketch exactly"
+      - "[ ] **Integration patterns** follow sketch-defined relationships"
+    
+    functional_validation:
+      - "[ ] All acceptance criteria met"
+      - "[ ] Comprehensive testing completed"
+      - "[ ] Accessibility requirements verified"
+      - "[ ] Performance benchmarks maintained"
+      - "[ ] Cross-browser compatibility confirmed"
+    
+    quality_validation:
+      - "[ ] Code review completed"
+      - "[ ] WPS2C standards compliance verified"
+      - "[ ] Documentation updated"
+      - "[ ] Zero Tolerance Parentheses Policy maintained"
+
+  wps2c_methodology_compliance:
+    title: "## WPS2C Methodology Compliance"
+    sketch_first_development:
+      - "[ ] Sketch consultation mandatory before UI development"
+      - "[ ] Visual design intent verified through sketch analysis"
+      - "[ ] Component positioning aligned with sketch specifications"
+      - "[ ] Integration patterns follow visual design authority"
+    
+    professional_standards:
+      - "[ ] Professional naming conventions applied"
+      - "[ ] Enterprise documentation standards maintained"
+      - "[ ] Systematic enhancement approach for brownfield projects"
+      - "[ ] Complete escalation analysis performed"
+
+story_instructions:
+  for_pm_agents: |
+    When creating stories using this template:
+    1. ALWAYS include specific sketch references for UI components
+    2. Make sketch consultation a blocker, not optional
+    3. Include visual design requirements as acceptance criteria
+    4. Ensure UX Expert Sally is engaged for sketch provision
+  
+  for_dev_agents: |
+    When implementing stories created from this template:
+    1. HALT if sketch references are missing or unclear
+    2. Request dependent sketches before starting development
+    3. Verify visual design intent before making placement decisions
+    4. Flag any visual guidance gaps as blockers immediately
+  
+  for_ux_experts: |
+    When supporting stories created from this template:
+    1. Provide clear sketch references in scenario documentation
+    2. Ensure sketches show component placement and integration
+    3. Make sketches available for developer consultation
+    4. Clarify visual design intent when questions arise
+
+template_metadata:
+  created_from_learning: "Language Selector placement divergence experience"
+  wps2c_principle: "Visual design intent cannot be conveyed through written specifications alone"
+  enforcement_mechanism: "Sketch consultation as acceptance criteria and definition of done"
+  collaboration_model: "UX Expert provides sketches, PM creates requirements, Dev implements with sketch verification"

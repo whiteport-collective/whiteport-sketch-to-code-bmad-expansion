@@ -1,0 +1,189 @@
+---
+template_info:
+  name: "UI Epic Template with Sketch-Driven Development Requirements"
+  version: "2.0"
+  description: "Enhanced epic template enforcing sketch consultation across all UI stories"
+  wps2c_compliance: true
+  sketch_driven_development: true
+
+epic_structure:
+  epic_header:
+    title: "# [Epic ID]-[Epic Name]"
+    initiative_reference: "**Initiative**: [Initiative Name]"
+    
+  epic_overview:
+    title: "## Epic Overview"
+    content: "[Comprehensive description of epic goals and scope]"
+    
+  business_value:
+    title: "## Business Value"
+    primary_goals: "[Strategic business objectives]"
+    success_metrics: "[Measurable outcomes and KPIs]"
+    
+  sketch_driven_requirements:
+    title: "## 🎨 Sketch-Driven Development Requirements"
+    
+    design_authority_section:
+      title: "### Design Authority and Sketch Management"
+      ux_expert_role: |
+        **UX Expert Responsibilities**:
+        - Provide comprehensive sketches for all UI components
+        - Ensure sketches show component placement, integration, and relationships
+        - Make sketches available in scenario documentation with clear file paths
+        - Respond to developer questions about visual design intent
+        
+    mandatory_sketch_consultation:
+      title: "### Mandatory Sketch Consultation Protocol"
+      critical_principle: "⚠️ **CRITICAL PRINCIPLE**: Visual design intent cannot be conveyed through written specifications alone"
+      
+      requirements:
+        - "**Before ANY UI development**: Developers must request and analyze dependent sketches"
+        - "**Missing sketches = Development blocker**: No assumptions about component placement"
+        - "**Sketch verification**: All UI components must match sketch specifications exactly"
+        - "**Integration patterns**: Visual relationships must follow sketch-defined patterns"
+        
+    sketch_compliance_quality_gates:
+      title: "### Sketch Compliance Quality Gates"
+      story_level:
+        - "Each UI story MUST reference specific sketches"
+        - "Sketch consultation required in acceptance criteria"
+        - "Visual design verification in definition of done"
+        
+      epic_level:
+        - "Epic completion requires all stories sketch-compliant"
+        - "Visual design consistency across epic components"
+        - "Integration patterns verified against sketch specifications"
+
+  epic_scope:
+    title: "## Epic Scope"
+    
+    story_breakdown:
+      title: "### Story Breakdown"
+      format: |
+        #### [Story ID]-[Story Name]
+        **Focus**: [Story objective]
+        **Dependencies**: [Story dependencies]
+        **Sketch Requirements**: [Specific sketches needed]
+        **Visual Integration**: [How component integrates with existing design]
+        
+    sketch_dependency_mapping:
+      title: "### 🎨 Sketch Dependency Mapping"
+      format: |
+        **Required Sketches for Epic**:
+        - [Sketch File Path] → [Stories that depend on it]
+        - [Sketch File Path] → [Stories that depend on it]
+        
+        **Missing Sketches** (BLOCKERS):
+        - [Description of needed sketches] → [Affected stories]
+
+  quality_standards:
+    title: "## Quality Standards"
+    
+    sketch_compliance_standards:
+      title: "### 🎨 Sketch Compliance Standards"
+      requirements:
+        - "[ ] All UI components positioned per sketch specifications"
+        - "[ ] Visual hierarchy matches sketch design intent"
+        - "[ ] Component integration follows sketch-defined patterns"
+        - "[ ] No placeholder components without sketch guidance"
+        
+    wps2c_methodology_standards:
+      title: "### WPS2C Methodology Standards"
+      requirements:
+        - "[ ] Sketch consultation mandatory before UI development"
+        - "[ ] Visual design verification in story completion"
+        - "[ ] Gap identification protocol followed for missing sketches"
+        - "[ ] Professional escalation analysis completed"
+
+  risk_management:
+    title: "## Risk Management"
+    
+    sketch_related_risks:
+      title: "### Sketch-Related Development Risks"
+      implementation_divergence:
+        risk: "Implementation divergence from sketch specifications affecting design intent"
+        mitigation: "Mandatory sketch consultation before UI development work, visual design verification"
+        contingency: "Implementation revision to align with sketch specifications and design authority"
+        
+      missing_visual_guidance:
+        risk: "Missing or unclear sketches blocking development progress"
+        mitigation: "Early sketch requirement identification, UX Expert engagement, clear visual guidance requests"
+        contingency: "Development halt until sketches provided, no assumptions about component placement"
+
+  epic_success_criteria:
+    title: "## Epic Success Criteria"
+    
+    functional_excellence:
+      title: "### Functional Excellence"
+      requirements:
+        - "[ ] All user stories completed with full functionality"
+        - "[ ] Performance benchmarks maintained or improved"
+        - "[ ] Accessibility requirements met across all components"
+        
+    visual_design_excellence:
+      title: "### 🎨 Visual Design Excellence"
+      requirements:
+        - "[ ] All UI components match sketch specifications exactly"
+        - "[ ] Visual integration patterns follow sketch-defined relationships"
+        - "[ ] Design consistency maintained across epic scope"
+        - "[ ] No implementation divergence from visual design authority"
+        
+    wps2c_methodology_excellence:
+      title: "### WPS2C Methodology Excellence"
+      requirements:
+        - "[ ] Sketch consultation completed for all UI development"
+        - "[ ] Visual design verification documented in all stories"
+        - "[ ] Professional development standards maintained"
+        - "[ ] Gap identification protocol followed consistently"
+
+  epic_development_record:
+    title: "## Epic Development Record"
+    
+    story_progress_tracking:
+      title: "### Story Progress with Sketch Compliance"
+      format: |
+        #### [Story ID] Status
+        **Story Status**: [Status]
+        **Sketch Compliance**: [Verified/Pending/Issues]
+        **Work Completed**: [Summary]
+        **Visual Design Notes**: [Sketch consultation results]
+        
+    methodology_lessons_learned:
+      title: "### WPS2C Methodology Lessons Learned"
+      format: |
+        **Critical Learnings**:
+        - [Key insights about sketch consultation]
+        - [Visual design methodology improvements]
+        
+        **Process Improvements**:
+        - [Enhancements to development workflow]
+        - [Template or process updates needed]
+
+epic_instructions:
+  for_pm_agents: |
+    When creating epics using this template:
+    1. Ensure UX Expert Sally has provided comprehensive sketches for all UI components
+    2. Map sketch dependencies clearly for each story
+    3. Make sketch consultation mandatory, not optional, in story requirements
+    4. Include visual design verification as epic success criteria
+    5. Coordinate with UX Expert for sketch availability before story creation
+  
+  for_ux_experts: |
+    When supporting epics created from this template:
+    1. Provide sketches showing component placement, integration, and visual hierarchy
+    2. Ensure sketches are accessible in scenario documentation with clear file paths
+    3. Make yourself available for developer sketch consultation questions
+    4. Review completed implementations for sketch compliance
+  
+  for_dev_agents: |
+    When implementing epics created from this template:
+    1. Request all dependent sketches before starting any UI development
+    2. Verify visual design intent through sketch analysis before implementation
+    3. Flag missing or unclear sketches as development blockers immediately
+    4. Ensure all components match sketch specifications exactly
+
+template_metadata:
+  created_from_learning: "Language Selector placement divergence methodology lesson"
+  wps2c_enhancement: "Sketch-first development enforcement at epic level"
+  collaboration_model: "UX Expert → PM → Dev with mandatory sketch consultation"
+  quality_assurance: "Visual design verification as equal priority to functional requirements"
