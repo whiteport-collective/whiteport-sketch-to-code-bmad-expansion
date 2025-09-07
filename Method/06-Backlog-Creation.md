@@ -1,3 +1,7 @@
+**Previous Phase**: [← Phase 5: PRD Functional Requirements](05-Prd-2-Functional-Requirements.md) | **Next Phase**: [Phase 7: Dev Workflow →](07-Dev-Workflow.md)
+
+---
+
 # 🗂️ Phase 6: Backlog Creation Method
 ## *From Strategic Requirements to Development Reality*
 

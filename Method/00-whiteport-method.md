@@ -68,26 +68,55 @@ The WPS2C Method follows a structured seven-phase sequence that enables parallel
 **Output**: `docs/B-Trigger-Map/01-Trigger-Map.md` with embedded trigger map poster
 
 ```mermaid
-graph LR
-    %% Central Project Node
-    PROJECT["🎨 Design Platform<br/>Multi-Platform Design System<br/>Streamline Creative Workflows"]
+flowchart LR
+    %% Business Goals (Left Side)
+    B1["💚 Business Goal 1<br/>Revenue Growth<br/>Market Expansion"]
+    B2["📈 Business Goal 2<br/>User Retention<br/>Engagement Increase"] 
+    B3["🎯 Business Goal 3<br/>Market Leadership<br/>Competitive Advantage"]
     
-    %% Business Visions Branch
-    PROJECT --> BV["📊 Business Visions"]
-    BV --> BV1["💚 Market Leadership<br/>'Become the go-to design platform'<br/>☑️ 40% market share increase<br/>☑️ Industry recognition awards"]
-    BV --> BV2["🤝 Team Productivity<br/>'Eliminate design bottlenecks'<br/>☑️ 60% faster design cycles<br/>☑️ 90% team collaboration score"]
-    BV --> BV3["📈 Revenue Growth<br/>'Scale sustainable business model'<br/>☑️ 200% revenue increase<br/>☑️ Premium subscription adoption"]
+    %% Invisible convergence point for business goals
+    CONV1[" "]
+    style CONV1 fill:transparent,stroke:transparent
     
-    %% Target User Groups Branch  
-    PROJECT --> TG["👥 Target User Groups"]
-    TG --> TG1["👩‍💼 Diana Designer<br/>Senior Creative Professional<br/>Agency Team Lead"]
-    TG --> TG2["🚀 Sam Startup<br/>Technical Entrepreneur<br/>MVP Builder"]
-    TG --> TG3["📱 Maya Mobile<br/>App Developer<br/>Cross-Platform Specialist"]
+    %% Central Platform (Middle)
+    A["🎯 YOUR PRODUCT<br/>Strategic Platform<br/>User Success Engine"]
     
-    %% Usage Goals for Each Persona
-    TG1 --> UG1["✅ Rapid design iteration<br/>✅ Client presentation quality<br/>✅ Team collaboration tools<br/>❌ Complex learning curves<br/>❌ Version control conflicts"]
-    TG2 --> UG2["✅ Quick MVP prototypes<br/>✅ Cost-effective solutions<br/>✅ Technical integration<br/>❌ Expensive tools<br/>❌ Over-complicated features"]
-    TG3 --> UG3["✅ Cross-platform consistency<br/>✅ Development handoff clarity<br/>✅ Performance optimization<br/>❌ Platform-specific limitations<br/>❌ Design-dev disconnects"]
+    %% Invisible divergence point for target groups
+    DIV1[" "]
+    style DIV1 fill:transparent,stroke:transparent
+    
+    %% Target Groups (Right Side)
+    U1["👔 Diana Director<br/>Professional Decision Maker<br/>Enterprise Leader"]
+    U2["🎨 Carl Creative<br/>Creative Individual<br/>Design Professional"]
+    U3["🚀 Tom Technical<br/>Technical Innovator<br/>Developer Expert"]
+    
+    %% Usage Goals (Far Right)
+    U1P["✅ WANTS:<br/>Quick decisions<br/>Reliable results<br/>Professional credibility"]
+    U1N["❌ FEARS:<br/>Time waste<br/>Wrong choices<br/>Looking incompetent"]
+    
+    U2P["✅ WANTS:<br/>Creative freedom<br/>Inspiration<br/>Easy expression"]
+    U2N["❌ FEARS:<br/>Creative blocks<br/>Technical complexity<br/>Generic output"]
+    
+    U3P["✅ WANTS:<br/>Technical control<br/>Integration flexibility<br/>Performance optimization"]
+    U3N["❌ FEARS:<br/>Vendor lock-in<br/>Poor documentation<br/>Limited customization"]
+
+    %% Connections: Business Goals converge → Platform → Target Groups diverge → Usage Goals
+    B1 --> CONV1
+    B2 --> CONV1
+    B3 --> CONV1
+    CONV1 --> A
+    
+    A --> DIV1
+    DIV1 --> U1
+    DIV1 --> U2
+    DIV1 --> U3
+    
+    U1 --> U1P
+    U1 --> U1N
+    U2 --> U2P
+    U2 --> U2N
+    U3 --> U3P
+    U3 --> U3N
 ```
 *Example: Proper Trigger Map structure showing Central Project → Business Visions & Target User Groups → Individual Personas with Usage Goals (✅ positive, ❌ negative)*
 

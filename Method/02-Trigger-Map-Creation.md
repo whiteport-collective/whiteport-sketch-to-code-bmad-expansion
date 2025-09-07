@@ -181,39 +181,46 @@ Traditional user research asks: "Who will use this?"
 ```mermaid
 flowchart LR
     %% Business Goals (Left Side)
-    subgraph BG[" "]
-        B1["💚 Business Goal 1<br/>Revenue Growth<br/>Market Expansion"]
-        B2["📈 Business Goal 2<br/>User Retention<br/>Engagement Increase"] 
-        B3["🎯 Business Goal 3<br/>Market Leadership<br/>Competitive Advantage"]
-    end
+    B1["💚 Business Goal 1<br/>Revenue Growth<br/>Market Expansion"]
+    B2["📈 Business Goal 2<br/>User Retention<br/>Engagement Increase"] 
+    B3["🎯 Business Goal 3<br/>Market Leadership<br/>Competitive Advantage"]
+    
+    %% Invisible convergence point for business goals
+    CONV1[" "]
+    style CONV1 fill:transparent,stroke:transparent
     
     %% Central Platform (Middle)
     A["🎯 YOUR PRODUCT<br/>Strategic Platform<br/>User Success Engine"]
     
-    %% Target Groups & Usage Goals (Right Side)
-    subgraph TG[" "]
-        U1["👔 Diana Director<br/>Professional Decision Maker<br/>Enterprise Leader"]
-        U2["🎨 Carl Creative<br/>Creative Individual<br/>Design Professional"]
-        U3["🚀 Tom Technical<br/>Technical Innovator<br/>Developer Expert"]
-        
-        U1P["✅ WANTS:<br/>Quick decisions<br/>Reliable results<br/>Professional credibility"]
-        U1N["❌ FEARS:<br/>Time waste<br/>Wrong choices<br/>Looking incompetent"]
-        
-        U2P["✅ WANTS:<br/>Creative freedom<br/>Inspiration<br/>Easy expression"]
-        U2N["❌ FEARS:<br/>Creative blocks<br/>Technical complexity<br/>Generic output"]
-        
-        U3P["✅ WANTS:<br/>Technical control<br/>Integration flexibility<br/>Performance optimization"]
-        U3N["❌ FEARS:<br/>Vendor lock-in<br/>Poor documentation<br/>Limited customization"]
-    end
-
-    %% Connections: Business Goals → Platform → Target Groups → Usage Goals
-    B1 --> A
-    B2 --> A
-    B3 --> A
+    %% Invisible divergence point for target groups
+    DIV1[" "]
+    style DIV1 fill:transparent,stroke:transparent
     
-    A --> U1
-    A --> U2
-    A --> U3
+    %% Target Groups (Right Side)
+    U1["👔 Diana Director<br/>Professional Decision Maker<br/>Enterprise Leader"]
+    U2["🎨 Carl Creative<br/>Creative Individual<br/>Design Professional"]
+    U3["🚀 Tom Technical<br/>Technical Innovator<br/>Developer Expert"]
+    
+    %% Usage Goals (Far Right)
+    U1P["✅ WANTS:<br/>Quick decisions<br/>Reliable results<br/>Professional credibility"]
+    U1N["❌ FEARS:<br/>Time waste<br/>Wrong choices<br/>Looking incompetent"]
+    
+    U2P["✅ WANTS:<br/>Creative freedom<br/>Inspiration<br/>Easy expression"]
+    U2N["❌ FEARS:<br/>Creative blocks<br/>Technical complexity<br/>Generic output"]
+    
+    U3P["✅ WANTS:<br/>Technical control<br/>Integration flexibility<br/>Performance optimization"]
+    U3N["❌ FEARS:<br/>Vendor lock-in<br/>Poor documentation<br/>Limited customization"]
+
+    %% Connections: Business Goals converge → Platform → Target Groups diverge → Usage Goals
+    B1 --> CONV1
+    B2 --> CONV1
+    B3 --> CONV1
+    CONV1 --> A
+    
+    A --> DIV1
+    DIV1 --> U1
+    DIV1 --> U2
+    DIV1 --> U3
     
     U1 --> U1P
     U1 --> U1N
@@ -396,7 +403,6 @@ Your trigger map becomes the **strategic brain** of your product:
 - **Design reviews** validate against psychological drivers
 - **Priority meetings** use business-user connections
 - **Success metrics** track trigger activation and business goal achievement
-
 
 ---
 

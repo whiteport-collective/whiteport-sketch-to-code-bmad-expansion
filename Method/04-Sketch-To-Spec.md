@@ -1,3 +1,7 @@
+**Previous Phase**: [← Phase 3: PRD Platform Infrastructure](03-PRD-1-Platform-Infrastructure.md) | **Next Phase**: [Phase 5: PRD Functional Requirements →](05-Prd-2-Functional-Requirements.md)
+
+---
+
 # 🎨 Phase 4: Sketch-to-Spec Method
 ## *From Beautiful Sketches to Bulletproof Specifications*
 
