@@ -13,10 +13,10 @@ When you combine the **BMad AI agent framework** with the **Whiteport Sketch-to-
 
 ### What You Gain Over Standard BMad
 - **Complete Agile AI Agent Framework**: BMad provides end-to-end project management, development, and testing capabilities through specialized AI agents working in coordinated workflows
-- **3 New Specialized AI Agents**: Business Analyst, PM, and UX Expert with design-focused capabilities that integrate seamlessly with BMad's agile agent ecosystem
-- **Proven Workshop Methodologies**: Effect Mapping for trigger maps, structured product brief discovery, systematic persona development
-- **Professional Documentation Standards**: Executive-ready artifacts with embedded visualizations and consistent terminology
-- **Sketch Documentation Pipeline**: From hand-drawn concepts through component libraries to implementation specifications
+- **4 Enhanced Specialized AI Agents**: Business Analyst, PM, UX Expert, and Developer with design-focused capabilities and mandatory WPS2C documentation standards compliance
+- **Proven Workshop Methodologies**: Effect Mapping for trigger maps, structured product brief discovery, systematic persona development with alliterative naming
+- **Professional Documentation Standards**: Executive-ready artifacts with Zero Tolerance Parentheses Policy, embedded visualizations, and consistent enterprise terminology
+- **Sketch Documentation Pipeline**: From hand-drawn concepts through component libraries to implementation specifications with AI-era insights
 
 ## The Whiteport Method
 
@@ -24,20 +24,60 @@ This expansion pack introduces a comprehensive design-driven development methodo
 
 ### [📋 Complete Method Overview](Method/00-whiteport-method.md)
 
-#### 🎯 [01. Product Brief Discovery](Method/01-product-brief-discovery.md)
-**Purpose**: Foundation-setting through conversational discovery  
-**Process**: Adaptive questioning with progressive document building  
-**Outcome**: Strategic project foundation with market analysis and technical architecture  
+The WPS2C methodology has evolved into a comprehensive **seven-phase workflow** that takes projects from initial concept through production deployment:
 
-#### 🗺️ [02. Trigger Map Workshop](Method/02-trigger-map-workshop.md)  
-**Purpose**: Align business goals with user needs through Effect Mapping AND create detailed personas  
-**Process**: Strict step-by-step collaborative elicitation plus persona development  
-**Outcome**: Visual map connecting business objectives to user driving forces PLUS prioritized personas with alliterative names and detailed usage goals  
+#### Phase 1: 🎯 [Product Brief Discovery](Method/01-Product-Brief-Discovery.md)
+**Purpose**: Foundation-setting through conversational discovery using Golden Circle and Customer Awareness Model  
+**Process**: Adaptive questioning with progressive document building and inspiring methodology introduction  
+**Documents Created**: 
+- **Product Brief** - Strategic project foundation with market analysis and technical architecture
+- **Executive Project Dashboard** - Project overview with embedded trigger map visualization
 
-#### 📱 [03. Sketch-to-Spec](Method/03-sketch-to-spec.md)
-**Purpose**: Transform hand-drawn UI into systematic component specifications  
-**Process**: Atomic design principles with reusability focus  
-**Outcome**: Organized component specifications for development  
+#### Phase 2: 🗺️ [Trigger Map Creation](Method/02-Trigger-Map-Creation.md)  
+**Purpose**: Align business goals with user needs through Effect Mapping with detailed personas  
+**Process**: Value Flow Principle application with User Value Equation and alliterative persona development  
+**Documents Created**:
+- **Trigger Map** - Visual map with embedded Mermaid diagram connecting business objectives to user psychology
+- **Trigger Map Poster** - Executive-ready visualization for stakeholder presentations and team alignment
+- **Individual Persona Documents** - Detailed profiles with alliterative names and usage goals
+
+#### Phase 3: 🏗️ [PRD Platform Infrastructure](Method/03-PRD-1-Platform-Infrastructure.md)
+**Purpose**: Establish Early PRD with platform and integration requirements  
+**Process**: Technical foundation analysis parallel with sketching activities  
+**Documents Created**:
+- **Platform Infrastructure Epics** - Technical foundation requirements for hosting, integrations, and architecture
+- **Early PRD Section** - Platform specifications ready for functional requirements integration
+
+#### Phase 4: 📱 [Sketch-to-Spec](Method/04-Sketch-To-Spec.md)
+**Purpose**: Transform hand-drawn UI into comprehensive component specifications with AI-era insights  
+**Process**: Atomic design principles with systematic component documentation recognizing "specifications ARE the code"  
+**Documents Created**:
+- **Component Specifications** - Detailed page and component documentation with multilingual content and trigger map psychology
+- **Component Library Documentation** - Systematic atomic design patterns and reusable component specifications
+
+#### Phase 5: 📋 [PRD Functional Requirements](Method/05-Prd-2-Functional-Requirements.md)
+**Purpose**: Complete Main PRD with comprehensive functional requirements  
+**Process**: Two-phase PRD approach building on platform foundation and component specifications  
+**Documents Created**:
+- **Complete PRD** - Executive-approved development blueprint connecting every system feature to user psychology
+- **Integrated Requirements Documentation** - Platform infrastructure + functional requirements
+
+#### Phase 6: ⚙️ [Backlog Creation](Method/06-Backlog-Creation.md)
+**Purpose**: Transform requirements into structured development epics and implementation roadmap  
+**Process**: Break down functional requirements into development tasks with strategic priority alignment  
+**Documents Created**:
+- **Implementation Roadmap** - Complete development backlog with strategic priority sequencing
+- **Development Epics** - Strategic initiatives with trigger map psychology and business goal alignment
+- **User Stories** - Detailed stories with acceptance criteria and implementation guidance
+
+
+#### Phase 7: 🚀 [Dev Workflow](Method/07-Dev-Workflow.md)
+**Purpose**: Execute systematic implementation with collaborative specification-code synchronization  
+**Process**: Whiteport Dev agent partnership with designers ensuring sketch-spec alignment and living documentation  
+**Documents Created**:
+- **Production Code** - Implementation that systematically activates user triggers and achieves business goals
+- **Living Documentation** - Synchronized specifications maintained throughout development
+- **Updated Component Specifications** - Specifications kept accurate and aligned with implemented code  
 
 ### Core Philosophy
 
@@ -49,83 +89,115 @@ This expansion pack introduces a comprehensive design-driven development methodo
 
 ## Expansion Pack Components
 
-### Enhanced Agents
+### Enhanced Agents with Mandatory WPS2C Standards Compliance
+
+All Whiteport agents now include **CRITICAL: MANDATORY WPS2C DOCUMENTATION STANDARDS CHECK** to ensure Zero Tolerance Parentheses Policy compliance and professional enterprise documentation before any document work.
 
 #### Whiteport Business Analyst (`whiteport-analyst.md`)
-- **Primary Role**: Project discovery and user research coordination
-- **Key Enhancement**: Collaborative workshop methodology with mandatory step-by-step elicitation
+- **Primary Role**: Project discovery and user research coordination with inspiring methodology introduction
+- **Key Enhancement**: Collaborative workshop methodology with Golden Circle and Customer Awareness Model frameworks, mandatory WPS2C standards verification
 - **New Commands**: `create-product-brief`, `create-trigger-map`, `create-executive-readme`
-- **Workflow**: Foundational discovery → Product brief creation → Trigger map development → Persona definition
+- **Workflow**: Foundational discovery → Product brief creation → Trigger map development → Persona definition with alliterative naming
 
-#### PM Agent (`whiteport-pm.md`)
-- **Primary Role**: Sketch-to-Code Product Manager
-- **Key Enhancement**: Technical requirements from user research
-- **Commands**: `create-prd-from-research`, `create-backend-foundation`, `parallel-backend-setup`
+#### Whiteport PM (`whiteport-pm.md`)
+- **Primary Role**: Two-Phase PRD creation, backlog organization, and comprehensive technical requirements engineering
+- **Key Enhancement**: Absorbed Technical Specification Analyst responsibilities; creates Early PRD + Main PRD with enterprise-grade documentation bridging strategic foundation and technical implementation
+- **Enhanced Commands**: `create-implementation-roadmap`, `create-epic-breakdown`, `coordinate-development-planning`, `create-technical-spec-suite`, `analyze-complexity-distribution`, `standardize-tech-documentation`
+- **Specialization**: Technical Requirements Engineering with systematic two-phase approach
 
-#### UX Expert (`ux-expert.md`)
-- **Primary Role**: Design analysis and component extraction
-- **Key Enhancement**: Hand-drawn sketch interpretation and systematic UI component library creation
+#### Whiteport UX Expert (`whiteport-ux-expert.md`)
+- **Primary Role**: Design analysis and scenario specification creation with AI-era insights
+- **Key Enhancement**: Hand-drawn sketch interpretation recognizing "specifications ARE the code" principle, comprehensive component documentation with trigger map psychology
+- **Focus**: Atomic design principles with systematic component specifications and multilingual content integration
 
-### Core Methodology
+#### Whiteport Developer (`whiteport-dev.md`)
+- **Primary Role**: Collaborative specification-code synchronization with sketch-spec alignment verification
+- **Key Enhancement**: CRITICAL collaboration protocols ensuring designer approval before completion, active sketch-spec alignment verification, living documentation maintenance
+- **Specialization**: Brownfield and greenfield project excellence with WPS2C standards compliance and enterprise implementation quality
 
-#### 1. Product Brief Creation
-- **Purpose**: Strategic foundation and project scoping
-- **Process**: Conversational discovery with adaptive follow-up questions
-- **Output**: Comprehensive project brief with market analysis, technical architecture, user types
-- **Location**: `Docs/A. Product Brief/brief.md`
+### Complete Seven-Phase Methodology
 
-#### 2. Trigger Map Workshop
-- **Purpose**: Business goal alignment with user needs and driving forces
-- **Process**: Strict step-by-step collaborative elicitation
-- **Method**: Effect Mapping methodology adapted for digital products
-- **Outputs**: 
-  - Trigger map document (`Docs/B. Trigger Map/00-trigger-map.md`)
-  - Visual trigger map poster (`Docs/B. Trigger Map/00-trigger-map-poster.md`)
-  - Individual persona profiles (numbered 01, 02, 03...)
+#### Phase 1: Product Brief Discovery
+- **Purpose**: Strategic foundation and project scoping through conversational discovery using Golden Circle and Customer Awareness Model
+- **Process**: Adaptive questioning with progressive document building
+- **Agent**: Whiteport Business Analyst
+- **Output**: Strategic project brief with market analysis, technical architecture, and user types
+- **Location**: `docs/A-Product-Brief/01-Product-Brief.md`
 
-#### 3. Persona Development
-- **Standards**: Alliterative naming convention (e.g., "Marcus Manager", "Sarah Student")
-- **Classification**: Each persona maps to user types defined in project brief
-- **Structure**: User type, demographics, usage goals (positive/negative driving forces)
-- **Location**: `Docs/B. Trigger Map/` (numbered by priority)
+#### Phase B: Trigger Map Workshop
+- **Purpose**: Business goal alignment with user needs through Effect Mapping methodology
+- **Process**: Strict step-by-step collaborative elicitation with persona development
+- **Agent**: Whiteport Business Analyst
+- **Outputs**: Visual trigger map with embedded Mermaid diagram and detailed persona analysis
+- **Location**: `docs/B-Trigger-Map/01-Trigger-Map.md`
 
-#### 4. Scenario Documentation
-- **Structure**: Numbered scenario-based organization
-- **Location**: `Docs/C-Scenarios/01-User-Registration/1.1-Welcome-Page/`
-- **Content**: Page sketches, user flows, interaction specifications
+#### Phase C: Scenario Development & Sketch Analysis
+- **Purpose**: Transform hand-drawn UI concepts into comprehensive page specifications
+- **Process**: Systematic sketch analysis with scenario-based documentation
+- **Agent**: Whiteport UX Expert
+- **Output**: Detailed page specifications with bilingual content and user interaction flows
+- **Location**: `docs/C-Scenarios/[scenario-folders]/[page-specifications]`
 
-#### 5. Component Library
-- **Structure**: Atomic design principles
-- **Location**: `Docs/D. Components/`
-- **Content**: Reusable UI components extracted from scenarios
+#### Phase D: Product Requirements Document Creation
+- **Purpose**: Synthesize strategic foundation into comprehensive functional requirements
+- **Process**: Multi-phase integration creating executive-ready technical documentation
+- **Agent**: Whiteport PM
+- **Output**: Professional PRD bridging business vision and technical implementation
+- **Location**: `docs/D-PRD/01-Functional-Requirements-PRD.md`
+
+#### Phase E: Implementation Roadmap & Backlog Creation
+- **Purpose**: Transform requirements into structured development epics and implementation roadmap
+- **Process**: Epic and story breakdown with time estimates and release planning
+- **Agent**: Whiteport PM
+- **Output**: Complete development backlog ready for BMad agent execution
+- **Location**: `docs/E-Backlog/00-Implementation-Roadmap.md` with epic breakdown
+
+#### Phase F: Development Execution & Task Management
+- **Purpose**: Execute systematic implementation through BMad agent development capabilities
+- **Process**: Ticket-based development with integrated quality assurance and continuous delivery
+- **Agent**: BMad Dev/QA/PM Agents with Whiteport coordination
+- **Output**: Production-ready application with professional documentation and testing
+- **Location**: `docs/F-Tickets/` with development task management and `src/` with implemented code
 
 ### Documentation Standards
 
-#### File Organization (Professional v2.0)
+#### Complete Documentation Architecture (WPS2C v3.0)
 ```
-Docs/
-├── A-Product-Brief/
-│   ├── Brief.md
-│   └── User-Generated-Content-Strategy.md
-├── B-Trigger-Map/
-│   ├── 00-Trigger-Map.md
-│   ├── 00-Trigger-Map-Poster.md
-│   ├── 01-Primary-Persona.md
-│   ├── 02-Secondary-Persona.md
-│   └── ...
-├── C-Scenarios/
-│   ├── 01-User-Registration/
-│   │   ├── 1.1-Welcome-Page/
-│   │   │   ├── 1.1-Welcome-Page.md
-│   │   │   └── Sketches/
-│   │   └── 1.2-Signup-Form/
-│   │       ├── 1.2-Signup-Form.md
-│   │       └── Sketches/
-│   └── 02-User-Dashboard/
-└── D-Components/
-    ├── Atomic/
-    ├── Molecular/
-    └── Organism/
+docs/
+├── A-Product-Brief/              # Phase A: Strategic Foundation
+│   ├── 01-Product-Brief.md      # Executive summary and strategic direction
+│   └── assets/                  # Supporting materials and references
+├── B-Trigger-Map/               # Phase B: User Research & Strategic Alignment
+│   ├── 01-Trigger-Map.md        # Business goals and persona analysis with embedded visualization
+│   └── assets/                  # Visual materials and reference documents
+├── C-Scenarios/                 # Phase C: Scenario Development & Sketch Analysis
+│   ├── 00-User-Scenarios.md     # Scenario overview and organization
+│   ├── [scenario-folders]/      # Individual scenario specifications with sketches
+│   │   ├── [page-folders]/      # Page-specific documentation and analysis
+│   │   │   ├── [page-name].md   # Comprehensive page specification
+│   │   │   └── Sketches/        # Original hand-drawn concepts and references
+│   │   └── assets/              # Supporting materials and design elements
+│   └── coordination/            # Cross-scenario coordination and dependencies
+├── D-PRD/                       # Phase D: Technical Requirements Documentation
+│   ├── 01-Functional-Requirements-PRD.md  # Comprehensive functional requirements
+│   ├── technical-specs/         # Detailed technical specifications and architecture
+│   └── integration-requirements/ # External system and API specifications
+├── E-Backlog/                   # Phase E: Development Planning & Backlog Creation
+│   ├── 00-Implementation-Roadmap.md      # Project roadmap and release planning
+│   ├── [initiative-folders]/   # Major development initiatives
+│   │   ├── [epic-folders]/      # Epic documentation and story breakdown
+│   │   │   ├── [epic-name].md   # Epic overview and goals
+│   │   │   └── [story-files].md # Individual story specifications
+│   │   └── [initiative-name].md # Initiative coordination and dependencies
+│   └── coordination/            # Development team collaboration and timeline
+└── F-Tickets/                   # Phase F: Development Execution & Task Management
+    ├── readme.md                # Ticket system documentation and procedures
+    ├── [ticket-folders]/        # Individual development tasks
+    │   ├── [ticket-number]-ticket.md    # Task specification and requirements
+    │   ├── implementation.md    # Technical implementation details
+    │   └── assets/              # Supporting materials and test files
+    ├── coordination/            # Development team collaboration
+    └── templates/               # Ticket creation templates and standards
 ```
 
 #### Enterprise Organization Standards
