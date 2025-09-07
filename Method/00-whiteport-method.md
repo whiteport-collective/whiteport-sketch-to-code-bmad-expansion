@@ -57,8 +57,6 @@ The WPS2C Method follows a structured seven-phase sequence that enables parallel
 **You get**: Strategic project foundation with market analysis, technical architecture, and user types
 **Output**: `docs/A-Product-Brief/01-Product-Brief.md`
 
-**Next Phase**: [Trigger Map Creation →](02-Trigger-Map-Creation.md)
-
 ---
 
 ### 🗺️ [Phase 2: User Discovery & Strategic Alignment - Trigger Map Creation](02-Trigger-Map-Creation.md)
@@ -93,8 +91,6 @@ graph LR
 ```
 *Example: Proper Trigger Map structure showing Central Project → Business Visions & Target User Groups → Individual Personas with Usage Goals (✅ positive, ❌ negative)*
 
-**Previous Phase**: [← Product Brief Discovery](01-Product-Brief-Discovery.md) | **Next Phase**: [PRD Platform Infrastructure →](03-PRD-1-Platform-Infrastructure.md)
-
 ---
 
 ### 🏗️ [Phase 3: Platform Foundation - PRD Platform Infrastructure](03-PRD-1-Platform-Infrastructure.md)
@@ -104,8 +100,6 @@ graph LR
 **Agent**: Whiteport PM  
 **You get**: Platform requirements, infrastructure specifications, and backend development foundation  
 **Output**: `docs/D-PRD/01-Platform-Infrastructure-PRD.md`
-
-**Previous Phase**: [← Trigger Map Creation](02-Trigger-Map-Creation.md) | **Next Phase**: [Sketch-to-Spec →](04-Sketch-To-Spec.md)
 
 ---
 
@@ -120,8 +114,6 @@ graph LR
 ![Whiteport Sketching Example](Whiteport-Sketching-Example.jpg)
 *Sketch-to-Spec Process: From initial wireframes to detailed component specifications with modal interactions*
 
-**Previous Phase**: [← PRD Platform Infrastructure](03-PRD-1-Platform-Infrastructure.md) | **Next Phase**: [PRD Functional Requirements →](05-Prd-2-Functional-Requirements.md)
-
 ---
 
 ### 📋 [Phase 5: Functional Requirements - PRD Functional Requirements](05-Prd-2-Functional-Requirements.md)
@@ -131,8 +123,6 @@ graph LR
 **Agent**: Whiteport PM  
 **You get**: Executive-ready PRD with detailed functional requirements, user scenarios, and implementation scope  
 **Output**: `docs/D-PRD/02-Functional-Requirements-PRD.md`
-
-**Previous Phase**: [← Sketch-to-Spec](04-Sketch-To-Spec.md) | **Next Phase**: [Backlog Creation →](06-Backlog-Creation.md)
 
 ---
 
@@ -144,8 +134,6 @@ graph LR
 **You get**: Complete development roadmap with epics, stories, time estimates, and release planning  
 **Output**: `docs/E-Backlog/` with roadmap and epic breakdown
 
-**Previous Phase**: [← PRD Functional Requirements](05-Prd-2-Functional-Requirements.md) | **Next Phase**: [Dev Workflow →](07-Dev-Workflow.md)
-
 ---
 
 ### 🚀 [Phase 7: Development Execution - Dev Workflow](07-Dev-Workflow.md)
@@ -155,8 +143,6 @@ graph LR
 **Agent**: Whiteport Dev Agent  
 **You get**: WPS2C-methodology-compliant development with sketch-spec alignment verification, collaborative specification synchronization, and systematic quality assurance  
 **Output**: `docs/F-Tickets/` with development tasks and `src/` with implemented code
-
-**Previous Phase**: [← Backlog Creation](06-Backlog-Creation.md)
 
 ---
 
