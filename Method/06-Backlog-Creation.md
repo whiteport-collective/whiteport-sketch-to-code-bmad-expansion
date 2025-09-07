@@ -1,7 +1,5 @@
-# 🗂️ Phase 5: Backlog Creation Method
+# 🗂️ Phase 6: Backlog Creation Method
 ## *From Strategic Requirements to Development Reality*
-
-**Previous Phase**: [← PRD Functional Requirements](05-Prd-2-Functional-Requirements.md) | **Next Phase**: [Dev Workflow →](07-Dev-Workflow.md)
 
 ---
 
@@ -195,20 +193,5 @@ Your strategic backlog becomes the **development intelligence system** for your 
 
 ---
 
-**🎯 Next Step**: Ready to transform strategic development into team execution excellence? **[Dev Workflow →](07-Dev-Workflow.md)**
-
----
-
-**Previous Phase**: [← PRD Functional Requirements](05-Prd-2-Functional-Requirements.md) | **Next Phase**: [Dev Workflow →](07-Dev-Workflow.md)
-
----
-
-**Related Methods**: [PRD Functional Requirements](05-Prd-2-Functional-Requirements.md) | [Dev Workflow](07-Dev-Workflow.md)  
-**Agent**: Whiteport PM with strategic development orchestration superpowers  
-**Duration**: 2-3 hours of the most strategic backlog creation you've ever experienced  
-**Outcome**: Development roadmap that connects every sprint to user psychology and business success, enabling teams to build with strategic purpose and confidence
-
----
-
-**Previous Phase**: [← PRD Functional Requirements](05-Prd-2-Functional-Requirements.md) | **Next Phase**: [Dev Workflow →](07-Dev-Workflow.md)
+**Previous Phase**: [← Phase 5: PRD Functional Requirements](05-Prd-2-Functional-Requirements.md) | **Next Phase**: [Phase 7: Dev Workflow →](07-Dev-Workflow.md)
 

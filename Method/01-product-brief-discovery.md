@@ -1,7 +1,9 @@
+**Next Phase**: [Phase 2: Trigger Map Creation →](02-Trigger-Map-Creation.md)
+
+---
+
 # 🎯 Phase 1: Product Brief Discovery Method
 ## *From Interrogation to Inspiration - The Conversational Revolution*
-
-**Next Phase**: [Trigger Map Creation →](02-Trigger-Map-Creation.md)
 
 ---
 
@@ -306,17 +308,6 @@ This brief becomes the **strategic compass** for your entire project:
 - **Development priorities** follow strategic goals
 - **Launch planning** targets identified markets
 
-**🎯 Next Step**: Ready to turn strategic foundation into user research gold? **[Trigger Map Creation →](02-Trigger-Map-Creation.md)**
-
 ---
 
-
-
----
-
-**Related Methods**: [Trigger Map Creation](02-Trigger-Map-Creation.md) | [Sketch-to-Spec](04-Sketch-To-Spec.md)  
-**Agent**: Whiteport Business Analyst with conversational discovery superpowers  
-**Duration**: 45-75 minutes of the most productive requirements conversation you've ever had  
-**Outcome**: A strategic foundation that guides and inspires rather than documents and constrains
-
-**Next Phase**: [Trigger Map Creation →](02-Trigger-Map-Creation.md)
+**Next Phase**: [Phase 2: Trigger Map Creation →](02-Trigger-Map-Creation.md)

@@ -1,7 +1,5 @@
-# 🎨 Phase 3: Sketch-to-Spec Method
+# 🎨 Phase 4: Sketch-to-Spec Method
 ## *From Beautiful Sketches to Bulletproof Specifications*
-
-**Previous Phase**: [← PRD Platform Infrastructure](03-PRD-1-Platform-Infrastructure.md) | **Next Phase**: [PRD Functional Requirements →](05-Prd-2-Functional-Requirements.md)
 
 ---
 
@@ -393,19 +391,6 @@ Your component specifications become the **design intelligence system** for your
 - **Quality assurance** validates trigger activation, not just visual similarity
 - **Product evolution** builds on component foundations that serve user psychology
 
-**🎯 Next Step**: Ready to transform component intelligence into comprehensive functional requirements? **[PRD Functional Requirements →](05-Prd-2-Functional-Requirements.md)**
-
 ---
 
-**Previous Phase**: [← PRD Platform Infrastructure](03-PRD-1-Platform-Infrastructure.md) | **Next Phase**: [PRD Functional Requirements →](05-Prd-2-Functional-Requirements.md)
-
----
-
-**Related Methods**: [Trigger Map Creation](02-Trigger-Map-Creation.md) | [PRD Functional Requirements](05-Prd-2-Functional-Requirements.md)  
-**Agent**: Whiteport UX Expert with strategic component architecture superpowers  
-**Duration**: 2-3 hours of the most strategic design specification work you've ever done  
-**Outcome**: Component specifications that connect interface design to user psychology and business success, creating the foundation for trigger-optimized development
-
----
-
-**Previous Phase**: [← PRD Platform Infrastructure](03-PRD-1-Platform-Infrastructure.md) | **Next Phase**: [PRD Functional Requirements →](05-Prd-2-Functional-Requirements.md)
+**Previous Phase**: [← Phase 3: PRD Platform Infrastructure](03-PRD-1-Platform-Infrastructure.md) | **Next Phase**: [Phase 5: PRD Functional Requirements →](05-Prd-2-Functional-Requirements.md)

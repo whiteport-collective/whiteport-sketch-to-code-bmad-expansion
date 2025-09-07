@@ -1,7 +1,9 @@
+**Previous Phase**: [← Phase 1: Product Brief Discovery](01-Product-Brief-Discovery.md) | **Next Phase**: [Phase 3: PRD Platform Infrastructure →](03-PRD-1-Platform-Infrastructure.md)
+
+---
+
 # 🗺️ Phase 2: Trigger Map Workshop Method
 ## *From Generic Personas to Strategic User Intelligence*
-
-**Previous Phase**: [← Product Brief Discovery](01-Product-Brief-Discovery.md) | **Next Phase**: [PRD Platform Infrastructure →](03-PRD-1-Platform-Infrastructure.md)
 
 ---
 
@@ -395,22 +397,8 @@ Your trigger map becomes the **strategic brain** of your product:
 - **Priority meetings** use business-user connections
 - **Success metrics** track trigger activation and business goal achievement
 
----
-
-**🎯 Next Step**: Ready to transform user intelligence into platform foundation? **[PRD Platform Infrastructure →](03-PRD-1-Platform-Infrastructure.md)**
 
 ---
 
-**Previous Phase**: [← Product Brief Discovery](01-Product-Brief-Discovery.md) | **Next Phase**: [PRD Platform Infrastructure →](03-PRD-1-Platform-Infrastructure.md)
-
----
-
-**Related Methods**: [Product Brief Discovery](01-Product-Brief-Discovery.md) | [PRD Platform Infrastructure](03-PRD-1-Platform-Infrastructure.md)  
-**Agent**: Whiteport Business Analyst with strategic user intelligence superpowers  
-**Duration**: 90-120 minutes of the most strategic user research you've ever conducted  
-**Outcome**: A visual strategy map that connects user psychology to business success and guides every product decision
-
----
-
-**Previous Phase**: [← Product Brief Discovery](01-Product-Brief-Discovery.md) | **Next Phase**: [PRD Platform Infrastructure →](03-PRD-1-Platform-Infrastructure.md)
+**Previous Phase**: [← Phase 1: Product Brief Discovery](01-Product-Brief-Discovery.md) | **Next Phase**: [Phase 3: PRD Platform Infrastructure →](03-PRD-1-Platform-Infrastructure.md)
 
