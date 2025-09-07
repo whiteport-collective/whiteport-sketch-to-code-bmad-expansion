@@ -1,5 +1,9 @@
 # 02. Whiteport Platform Infrastructure Planning Method
 
+**Previous Phase**: [← Trigger Map Creation](02-Trigger-Map-Creation.md) | **Next Phase**: [Sketch-to-Spec →](04-Sketch-To-Spec.md)
+
+---
+
 ## Overview
 
 The Platform Infrastructure Planning Method creates comprehensive epics and stories for all foundational systems, integrations, and backend infrastructure that can be developed independently of UI decisions. This method enables parallel development streams by establishing the technical foundation while user research and UI design happen simultaneously.
@@ -203,7 +207,15 @@ Provides API contracts and system architecture for sketch-to-spec implementation
 
 ---
 
-**Related Methods**: [01. Product Brief Discovery](01-product-brief-discovery.md) | [03. Trigger Map Workshop](02-trigger-map-workshop.md) | [04. Sketch-to-Spec](03-sketch-to-spec.md)  
+**Previous Phase**: [← Trigger Map Creation](02-Trigger-Map-Creation.md) | **Next Phase**: [Sketch-to-Spec →](04-Sketch-To-Spec.md)
+
+---
+
+**Related Methods**: [Product Brief Discovery](01-Product-Brief-Discovery.md) | [Trigger Map Creation](02-Trigger-Map-Creation.md) | [Sketch-to-Spec](04-Sketch-To-Spec.md)  
 **Agent**: Product Manager with platform infrastructure specialization  
 **Foundation**: Strategic technical analysis and epic-driven development planning  
 **Typical Duration**: 60-90 minutes for comprehensive infrastructure analysis and epic creation
+
+---
+
+**Previous Phase**: [← Trigger Map Creation](02-Trigger-Map-Creation.md) | **Next Phase**: [Sketch-to-Spec →](04-Sketch-To-Spec.md)

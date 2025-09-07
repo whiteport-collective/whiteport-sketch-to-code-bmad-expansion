@@ -25,7 +25,6 @@
 - **Whiteport Business Analyst** (`whiteport-analyst.md`) - Project discovery and user research
 - **Whiteport PM** (`whiteport-pm.md`) - Sketch-to-code product management  
 - **UX Expert** (`whiteport-ux-expert.md`) - Design analysis and component extraction
-- **Technical Specification Analyst** (`whiteport-tech-spec-analyst.md`) - Enterprise technical documentation and implementation specifications
 
 ### Quick Start
 
@@ -35,7 +34,7 @@
 3. Follow the collaborative workshop methodology
 
 #### For Technical Specifications
-1. Activate the Technical Specification Analyst: `@whiteport-tech-spec-analyst.md`
+1. Activate the Whiteport PM: `@whiteport-pm.md`
 2. Create comprehensive technical specs: `*create-technical-spec-suite`
 3. Ensure enterprise documentation standards: `*standardize-tech-documentation`
 
@@ -63,7 +62,7 @@ Test the installation by running:
 
 Or test the technical specification agent:
 ```
-@whiteport-tech-spec-analyst.md
+@whiteport-pm.md
 *help
 ```
 
