@@ -50,6 +50,38 @@ Each page synopsis must include:
 2. **Sketch Context**: User's situation and page purpose
 3. **Page Structure**: Hierarchical breakdown of all elements
 4. **Referenced Components**: Links to component specifications
+
+### Component Linking Standards
+**CRITICAL REQUIREMENT**: All component references must follow established linking patterns for consistency and usability:
+
+#### **Clickable Component Headers** (REQUIRED)
+For component definitions within page sections:
+```markdown
+### [Navigation Menu](../../D-Components/Navigation-Menu/Navigation-Menu.md)
+**Purpose**: Guide users through the website structure
+**State**: Current page highlighted appropriately
+**Features**: Responsive design, accessibility support
+```
+
+#### **Arrow Navigation Links** (REQUIRED)
+For navigation lists and cross-references:
+```markdown
+→ [Navigation Menu](../../D-Components/Navigation-Menu/Navigation-Menu.md)
+→ [Product Card](../../D-Components/Product-Card/Product-Card.md)
+```
+
+#### **Referenced Components Section** (REQUIRED)
+All pages with component usage must include a "Referenced Components" section:
+```markdown
+## Referenced Components
+
+→ [Navigation Menu](../../D-Components/Navigation-Menu/Navigation-Menu.md)
+**Purpose**: Primary site navigation and user orientation
+**State**: Current section highlighted, responsive mobile menu
+**Features**: Bilingual content support, accessibility compliance
+```
+
+**ZERO TOLERANCE POLICY**: Any deviation from these patterns creates inconsistent user experience and must be corrected immediately.
 5. **Interactions and Effects**: Animation and interaction requirements
 6. **Content and Assets**: Text, image, and media specifications
 7. **Open Questions**: Undefined or unclear design elements

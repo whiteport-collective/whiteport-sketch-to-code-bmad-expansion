@@ -6,6 +6,24 @@ Establish comprehensive quality assurance standards for documentation review, pr
 
 ## Documentation Review Excellence
 
+### MANDATORY PRE-DOCUMENTATION REVIEW
+**CRITICAL REQUIREMENT**: ALL Whiteport Agents MUST perform comprehensive documentation review before creating, modifying, or editing ANY document. This is NON-NEGOTIABLE.
+
+#### **Required Review Process for ALL Agents**
+1. **WPS2C Standards Review**: Read complete WPS2C documentation standards
+2. **Project Context Review**: Read project brief, trigger map, and existing scenarios
+3. **Naming Conventions Check**: Verify Title-Case-With-Dashes requirements
+4. **Component Linking Standards**: Confirm proper clickable header and arrow link patterns
+5. **Bilingual Requirements**: Verify SE/EN content format when applicable
+6. **File Structure Standards**: Ensure fidelity-based folder organization
+
+#### **Component Linking Compliance Check**
+Before ANY component reference work, verify:
+- ✅ Component headers use clickable format: `### [Component Name](path)`
+- ✅ Navigation lists use arrow format: `→ [Component Name](path)`
+- ✅ Referenced Components sections are properly structured
+- ✅ All relative paths are correct and tested
+
 ### Critical Success Principles
 
 **Content Format Decision Framework**:
