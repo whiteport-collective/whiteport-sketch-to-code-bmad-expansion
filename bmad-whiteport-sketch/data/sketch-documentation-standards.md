@@ -65,6 +65,47 @@ Each page synopsis must include:
 3. **Page Structure**: Hierarchical breakdown of all elements
 4. **Referenced Components**: Links to component specifications
 
+### Mandatory Page Header Structure
+
+**ZERO TOLERANCE POLICY**: Every synopsis page MUST follow this exact header format pattern. Any deviation creates navigation inconsistency and violates user experience standards.
+
+#### **Exact Format Template:**
+```markdown
+**[Navigation Line]**
+
+### [Page Number] [Page Name]
+
+![Page Name - Desktop](Sketches/[page-id]-[page-name]_Desktop_Concept.jpg)
+
+**[Navigation Line]** (identical to top)
+
+# [Page Number] [Page Name]
+
+## Sketch Context
+[Content continues...]
+```
+
+#### **Navigation Line Patterns:**
+
+**First Page in Sequence:**
+```markdown
+**Next Step**: → [2.2 User Admin Start](../2.2-User-Admin-Start/2.2-User-Admin-Start.md)
+```
+
+**Middle/Last Pages in Sequence:**
+```markdown
+**Previous Step**: ← [2.1 Page Name](../path/2.1-Page-Name.md) | **Next Step**: → [2.3 Page Name](../path/2.3-Page-Name.md)
+```
+
+#### **Critical Format Rules:**
+1. **Navigation appears EXACTLY twice** - at top line 1 and directly under image
+2. **Navigation uses single line format** with pipe separator `|` between Previous and Next
+3. **Sub-header always uses `###`** with page number and name
+4. **Main header always uses `#`** with identical text to sub-header  
+5. **Image path ALWAYS includes `Sketches/`** subfolder reference
+6. **No "Back to" navigation** at top - only in bottom footer section
+7. **Navigation text format**: `**Previous Step**: ←` and `**Next Step**: →`
+
 ### Component Linking Standards
 **CRITICAL REQUIREMENT**: All component references must follow established linking patterns for consistency and usability:
 
