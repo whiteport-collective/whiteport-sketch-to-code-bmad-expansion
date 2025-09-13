@@ -1,6 +1,6 @@
 # <!-- Powered by BMAD™ Core -->
 name: bmad-whiteport-sketch
-version: 1.0.0
+version: 1.1.0
 short-title: Whiteport Sketch-to-Code Design Studio
 description: >-
   Transform hand-drawn sketches into production-ready applications through 
@@ -9,3 +9,6 @@ description: >-
   workflows, trigger mapping, and persona development.
 author: Whiteport AB
 slashPrefix: whiteport
+# Folder-based development configuration
+developmentMode: true
+bmadCorePath: "../../../bmad-method/BMAD-METHOD"
