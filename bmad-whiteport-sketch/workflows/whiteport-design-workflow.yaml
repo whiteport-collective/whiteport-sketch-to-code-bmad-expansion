@@ -34,6 +34,12 @@ workflow:
       requires: create-trigger-map-output
       notes: "Create separate, detailed persona files with personal context and relationship to core activity. Focus on individual files with rich backgrounds and standardized terminology."
 
+    - step: design_system_selection
+      agent: whiteport-analyst
+      action: conduct-design-system-selection
+      requires: product-brief-output
+      notes: "The Analyst conducts systematic design system selection with the designer before sketching begins. This ensures the right design system foundation is chosen for the project."
+
     - step: scenario_formalization
       agent: pm
       action: create-doc with prd-tmpl
@@ -54,13 +60,37 @@ workflow:
         The UX Expert collaborates with the designer to create and document the sketches.
         The agent manages the file structure, creates synopsis documents, and builds the component library based on the scenarios.
 
+    - step: static_component_creation
+      agent: ux-expert
+      action: create-static-components
+      requires: finalized-sketches-and-documentation
+      notes: |
+        The UX Expert creates static React components matching sketches using the selected design system.
+        Components are created in Frontend/ folders within each scenario step for concrete implementation targets.
+
+    - step: component_enhancement
+      agent: ux-expert
+      action: enhance-static-components
+      requires: static-components-created
+      notes: |
+        The UX Expert enhances static components with responsive states, animations, and interactions.
+        This creates the complete design-to-code bridge for seamless development handoff.
+
+    - step: figma_integration
+      agent: ux-expert
+      action: integrate-figma-components
+      requires: enhanced-static-components
+      notes: |
+        The UX Expert uses Figma MCP to add missing components and enhance existing static components.
+        This bridges the gap between design tools and development implementation.
+
     - step: ui_epic-and-story-creation
       agent: pm
       action: create-ui-epics-and-stories
-      requires: finalized-sketches-and-documentation
+      requires: figma-integration-complete
       notes: |
-        The PM returns to the project to break down the finalized conceptual sketches into Epics and stories.
-        This ensures that the project plan for user-facing features is aligned with the final visual design.
+        The PM returns to the project to break down the finalized conceptual sketches and static components into Epics and stories.
+        This ensures that the project plan for user-facing features is aligned with the final visual design and implementation targets.
 
     - step: handoff-to-development
       agent: bmad-orchestrator
@@ -76,19 +106,27 @@ workflow:
       B --> C[Analyst: create-trigger-map]
       C --> C2[Analyst: create-trigger-map-visualization]
       C2 --> D[Analyst: create-individual-personas]
-      D --> E[PM: create high-level PRD]
+      D --> DS[Analyst: design-system-selection]
+      DS --> E[PM: create high-level PRD]
       E --> F[PM: create backend Epics]
       F --> G[UX Expert: sketch & document]
-      G --> H[PM: create UI Epics & stories from sketches]
+      G --> SC[UX Expert: create-static-components]
+      SC --> CE[UX Expert: enhance-components]
+      CE --> FI[UX Expert: figma-integration]
+      FI --> H[PM: create UI Epics & stories]
       H --> I[Orchestrator: guide handoff to Dev]
       style A fill:#ADD8E6
       style B fill:#FFE4B5
       style C fill:#FFE4B5
       style C2 fill:#FFE4B5
       style D fill:#FFE4B5
+      style DS fill:#FFE4B5
       style E fill:#ADD8E6
       style F fill:#ADD8E6
       style G fill:#FFE4B5
+      style SC fill:#FFE4B5
+      style CE fill:#FFE4B5
+      style FI fill:#FFE4B5
       style H fill:#ADD8E6
       style I fill:#F0E68C
     ```

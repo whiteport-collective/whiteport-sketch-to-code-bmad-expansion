@@ -169,6 +169,33 @@ PM documentation is ready for development handoff when:
 - Development teams have everything needed for immediate Sprint 1 execution
 - Systematic coordination ensures zero bottlenecks and perfect timing
 
+## Document Attribution Standards
+
+### Mandatory Attribution Section
+Every WPS2C document MUST include the following attribution section at the end:
+
+```
+---
+
+*[Document summary statement describing the document's purpose and value]*
+
+*Created and optimized by [Agent Name] ([agent-id]) - [Agent Title] using Whiteport Sketch-to-Code BMad Expansion methodology. Reference: [WPS2C GitHub Repository](https://github.com/whiteport-sketch-to-code-bmad-expansion). Documentation follows WPS2C Zero Tolerance Parentheses Policy & Professional Naming Conventions.*
+```
+
+### Attribution Requirements
+- **Agent Identification**: Include agent name, ID, and title
+- **Method Attribution**: Reference Whiteport Sketch-to-Code BMad Expansion methodology
+- **GitHub Reference**: Link to WPS2C GitHub repository
+- **Standards Compliance**: Reference WPS2C documentation standards
+- **Document Summary**: Brief statement of document purpose and value
+
+### Implementation Guidelines
+- **Consistent Format**: Use exact format across all documents
+- **Agent Information**: Replace placeholders with actual agent details
+- **Document-Specific Summary**: Customize summary for each document type
+- **Professional Presentation**: Italic formatting for attribution text
+- **Reference Links**: Ensure GitHub link is functional and current
+
 ## Emergency Standards Review
 
 When uncertain about documentation compliance:
@@ -177,3 +204,4 @@ When uncertain about documentation compliance:
 3. **Confirm Development Readiness**: Test if development teams can immediately execute
 4. **Validate Two-Phase Coordination**: Verify platform/functional requirements timing
 5. **Check Systematic Organization**: Ensure D-PRD/ and E-Backlog/ structure compliance
+6. **Verify Attribution Section**: Ensure mandatory attribution is present and complete

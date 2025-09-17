@@ -120,6 +120,9 @@ sections:
       - id: technology-preferences
         title: Technology Preferences
         template: "{{tech_stack_persona_informed}}"
+      - id: design-system-considerations
+        title: Design System Considerations
+        template: "{{design_system_requirements_and_preferences}}"
       - id: architecture-considerations
         title: Architecture Considerations
         template: "{{architecture_persona_driven}}"

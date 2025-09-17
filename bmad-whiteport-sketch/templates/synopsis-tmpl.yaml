@@ -1,7 +1,7 @@
 template:
   id: synopsis-template-v1
   name: Conceptual Sketch Synopsis
-  version: 1.0
+  version: 2.0
   output:
     format: markdown
     filename: docs/pages/{{page_id}}-{{page_name}}/[page_id]-{{page_name}}_Synopsis.txt
@@ -10,6 +10,12 @@ template:
 workflow:
   mode: interactive
   elicitation: advanced-elicitation
+  compliance_requirements:
+    - MANDATORY: Use absolute paths (/docs/D-Components/) for all component references
+    - MANDATORY: Apply Title-Case-With-Dashes naming for all files and folders
+    - MANDATORY: Include WPS2C attribution section at document end
+    - MANDATORY: Use proper header navigation format: **Previous Step**: ← and **Next Step**: →
+    - MANDATORY: Organize components using atomic/molecular/organism structure
 
 sections:
   - id: sketch-image
@@ -75,3 +81,16 @@ sections:
     instruction: |
       Document any parts of the sketch that were purposefully left undefined.
       This section is for parts of the design that require further client confirmation or research.
+
+  - id: document-attribution
+    title: Document Attribution
+    instruction: |
+      MANDATORY: Add the following attribution section at the end of every WPS2C document:
+      
+      ---
+      
+      *[Document summary statement describing the document's purpose and value]*
+      
+      *Created and optimized by [Agent Name] ([agent-id]) - [Agent Title] using Whiteport Sketch-to-Code BMad Expansion methodology. Reference: [WPS2C GitHub Repository](https://github.com/whiteport-sketch-to-code-bmad-expansion). Documentation follows WPS2C Zero Tolerance Parentheses Policy & Professional Naming Conventions.*
+      
+      Replace placeholders with actual agent information and document-specific summary.

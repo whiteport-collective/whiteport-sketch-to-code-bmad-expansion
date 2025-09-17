@@ -1,0 +1,286 @@
+# Design System Selection Template
+# WPS2C Enhancement: Early Design System Decision Framework
+
+template:
+  id: design-system-selection
+  name: Design System Selection Template
+  description: "Systematic design system selection process for WPS2C projects"
+  phase: "Phase 1-3: Project Brief & PRD Platform Infrastructure"
+  agents: ["whiteport-analyst", "whiteport-pm", "whiteport-ux-expert"]
+  
+  sections:
+    - id: design-system-elicitation
+      title: Design System Elicitation
+      instruction: |
+        MANDATORY: Before proceeding with sketching or platform requirements, systematically elicit design system preferences and requirements from the designer.
+        
+        ## Designer Interview Questions
+        
+        ### 1. Design System Experience & Preferences
+        - "What design systems or component libraries have you worked with before?"
+        - "Do you have preferences for specific design systems based on past experience?"
+        - "Are there any design systems you'd prefer to avoid and why?"
+        - "What's your experience level with React component libraries?"
+        
+        ### 2. Project-Specific Requirements
+        - "What's the target market for this project? (e.g., Swedish market, enterprise, consumer)"
+        - "What's the expected user base size and growth trajectory?"
+        - "Are there any specific accessibility requirements for your target market?"
+        - "Do you need support for multiple languages or internationalization?"
+        - "What's the expected mobile vs desktop usage split?"
+        
+        ### 3. Design Control & Customization Needs
+        - "How much control do you need over component styling and appearance?"
+        - "Do you prefer pre-styled components or unstyled primitives for maximum customization?"
+        - "Will you be creating custom components that need to integrate with the design system?"
+        - "Do you need to match existing brand guidelines or design specifications?"
+        
+        ### 4. Development Team Considerations
+        - "What's the development team's experience with React and component libraries?"
+        - "Do you need components that are easy for developers to implement?"
+        - "Are there any performance requirements or constraints?"
+        - "Do you need TypeScript support for better development experience?"
+        
+        ### 5. Timeline & Budget Constraints
+        - "What's the project timeline for design and development?"
+        - "Do you need rapid prototyping capabilities?"
+        - "Are there any budget constraints that affect design system choice?"
+        - "Do you need a design system that accelerates development?"
+
+    - id: design-system-options
+      title: Design System Options Analysis
+      instruction: |
+        Present the designer with curated design system options based on their requirements and project context.
+        
+        ## Tier 1: Rapid Development Options (Pre-styled Components)
+        
+        ### Mantine
+        **Best for**: Professional applications, Swedish market, comprehensive features
+        - ✅ 100+ pre-styled components
+        - ✅ Built-in dark mode and theming
+        - ✅ TypeScript support
+        - ✅ WAI-ARIA accessibility compliance
+        - ✅ Perfect for household name goals
+        - ✅ Excellent for family coordination interfaces
+        
+        ### Chakra UI
+        **Best for**: Family-friendly applications, modular development
+        - ✅ Modular component library
+        - ✅ Simple, clean design language
+        - ✅ Excellent accessibility
+        - ✅ Easy to customize
+        - ✅ Perfect for family coordination
+        - ✅ Great developer experience
+        
+        ### Ant Design
+        **Best for**: Enterprise applications, professional appearance
+        - ✅ Enterprise-grade components
+        - ✅ Professional design language
+        - ✅ Comprehensive component library
+        - ✅ Built-in internationalization
+        - ✅ Perfect for Swedish market
+        - ✅ Excellent for complex interfaces
+        
+        ## Tier 2: Design Control Options (Customizable Components)
+        
+        ### shadcn/ui + Radix Primitives
+        **Best for**: Complete design control, Figma integration
+        - ✅ Copy-paste components (full control)
+        - ✅ Built on Radix UI primitives
+        - ✅ Tailwind CSS styling
+        - ✅ Perfect for custom designs
+        - ✅ Easy Figma integration
+        - ✅ Modern development patterns
+        
+        ### Headless UI + Tailwind CSS
+        **Best for**: Maximum customization, design system ownership
+        - ✅ Unstyled, accessible components
+        - ✅ Complete styling control
+        - ✅ Tailwind CSS utility classes
+        - ✅ Perfect for unique designs
+        - ✅ Easy Figma integration
+        - ✅ No design system constraints
+        
+        ## Tier 3: Specialized Options (Specific Use Cases)
+        
+        ### NextUI
+        **Best for**: Modern, contemporary applications
+        - ✅ Modern design language
+        - ✅ TypeScript support
+        - ✅ Good accessibility
+        - ✅ Easy customization
+        - ✅ Performance optimized
+        
+        ### Material-UI (MUI)
+        **Best for**: Google Material Design compliance
+        - ✅ Google's Material Design
+        - ✅ Comprehensive component library
+        - ✅ Excellent accessibility
+        - ✅ Strong theming system
+        - ✅ Enterprise support available
+
+    - id: decision-matrix
+      title: Design System Decision Matrix
+      instruction: |
+        Create a decision matrix to help the designer make an informed choice based on their specific requirements.
+        
+        ## Decision Matrix Template
+        
+        | Criteria | Weight | Mantine | Chakra UI | Ant Design | shadcn/ui | Headless UI | NextUI |
+        |----------|--------|---------|-----------|------------|-----------|-------------|--------|
+        | **Ease of Use** | 20% | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐ |
+        | **Design Control** | 25% | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+        | **Accessibility** | 20% | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+        | **Swedish Market Fit** | 15% | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
+        | **Development Speed** | 10% | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐ |
+        | **Customization** | 10% | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+        
+        ## Scoring Instructions
+        1. Rate each design system from 1-5 stars for each criteria
+        2. Multiply by the weight percentage
+        3. Sum the weighted scores
+        4. Select the design system with the highest total score
+        
+        ## Project-Specific Considerations
+        
+        ### For Dog Week Project
+        - **Target Market**: Swedish families (professional quality needed)
+        - **User Base**: Family coordination (friendly, approachable design)
+        - **Accessibility**: Swedish market requirements (WCAG compliance)
+        - **Mobile Usage**: Primary mobile interface (responsive design)
+        - **Timeline**: Rapid MVP development (pre-styled components preferred)
+        - **Brand**: Household name goals (professional, trustworthy appearance)
+        
+        **Recommended for Dog Week**: Mantine or Chakra UI
+
+    - id: selection-documentation
+      title: Design System Selection Documentation
+      instruction: |
+        Document the design system selection decision and rationale for the project.
+        
+        ## Selection Documentation Template
+        
+        ### Selected Design System
+        **Primary Choice**: [Design System Name]
+        **Rationale**: [Why this design system was chosen]
+        **Alternative Considered**: [Other options that were close]
+        
+        ### Selection Criteria Summary
+        - **Ease of Use**: [Rating and reasoning]
+        - **Design Control**: [Rating and reasoning]
+        - **Accessibility**: [Rating and reasoning]
+        - **Market Fit**: [Rating and reasoning]
+        - **Development Speed**: [Rating and reasoning]
+        - **Customization**: [Rating and reasoning]
+        
+        ### Implementation Plan
+        - **Installation**: [Package installation commands]
+        - **Configuration**: [Theme setup and configuration]
+        - **Integration**: [How it integrates with WPS2C workflow]
+        - **Customization**: [Brand-specific customizations needed]
+        
+        ### Designer Guidelines
+        - **Component Usage**: [Guidelines for using selected components]
+        - **Customization Limits**: [What can and cannot be customized]
+        - **Design System Rules**: [Rules for maintaining consistency]
+        - **Figma Integration**: [How to integrate with Figma designs]
+        
+        ### Developer Guidelines
+        - **Implementation Patterns**: [How to implement components]
+        - **Theme Customization**: [How to customize themes]
+        - **Component Composition**: [How to compose complex components]
+        - **Accessibility**: [Accessibility implementation guidelines]
+
+    - id: wps2c-integration
+      title: WPS2C Integration Points
+      instruction: |
+        Define how the selected design system integrates with the WPS2C workflow.
+        
+        ## Phase Integration Points
+        
+        ### Phase 1: Product Brief Discovery
+        - **Designer Interview**: Include design system preferences in initial discovery
+        - **Market Analysis**: Consider design system fit for target market
+        - **Technical Requirements**: Include design system requirements in technical analysis
+        
+        ### Phase 2: Trigger Map Creation
+        - **User Experience**: Consider how design system affects user experience
+        - **Accessibility**: Ensure design system supports accessibility requirements
+        - **Mobile Experience**: Verify design system supports mobile-first approach
+        
+        ### Phase 3: PRD Platform Infrastructure
+        - **Technical Architecture**: Include design system in technical specifications
+        - **Component Library**: Define component library requirements
+        - **Theme System**: Specify theming and customization requirements
+        - **Integration Points**: Define how design system integrates with backend
+        
+        ### Phase 4: Sketch-to-Spec
+        - **Component Mapping**: Map sketch elements to design system components
+        - **Static Components**: Create static React components using selected design system
+        - **Responsive Design**: Use design system's responsive capabilities
+        - **Accessibility**: Leverage design system's accessibility features
+        
+        ### Phase 5: PRD Functional Requirements
+        - **Component Specifications**: Specify how components use design system
+        - **Theme Customization**: Define brand-specific customizations
+        - **Integration Requirements**: Specify integration with backend systems
+        
+        ### Phase 6: Backlog Creation
+        - **Component Development**: Include design system setup in development tasks
+        - **Theme Implementation**: Include theming tasks in development backlog
+        - **Accessibility Testing**: Include design system accessibility testing
+        
+        ### Phase 7: Dev Workflow
+        - **Component Implementation**: Use design system components in development
+        - **Theme Application**: Apply brand themes to design system
+        - **Quality Assurance**: Test design system integration and accessibility
+
+    - id: success-criteria
+      title: Design System Selection Success Criteria
+      instruction: |
+        Define success criteria for the design system selection process.
+        
+        ## Selection Process Success Criteria
+        
+        ### Designer Satisfaction
+        - [ ] Designer is confident in the selected design system
+        - [ ] Designer understands how to use the design system effectively
+        - [ ] Designer can create designs that work well with the selected system
+        - [ ] Designer has access to necessary resources and documentation
+        
+        ### Development Team Readiness
+        - [ ] Development team understands the selected design system
+        - [ ] Development team has access to implementation resources
+        - [ ] Development team can integrate design system with backend
+        - [ ] Development team can maintain and customize the design system
+        
+        ### Project Requirements Alignment
+        - [ ] Selected design system meets all project requirements
+        - [ ] Selected design system supports target market needs
+        - [ ] Selected design system enables rapid development
+        - [ ] Selected design system supports long-term project goals
+        
+        ### WPS2C Workflow Integration
+        - [ ] Design system selection integrates smoothly with WPS2C workflow
+        - [ ] Design system supports static component creation
+        - [ ] Design system enables effective design-to-code handoff
+        - [ ] Design system supports iterative design and development process
+
+  quality_checklist:
+    - [ ] Designer has been interviewed about design system preferences
+    - [ ] All design system options have been presented to designer
+    - [ ] Decision matrix has been completed with designer input
+    - [ ] Design system selection has been documented with rationale
+    - [ ] Implementation plan has been created for selected design system
+    - [ ] Designer guidelines have been created for selected design system
+    - [ ] Developer guidelines have been created for selected design system
+    - [ ] WPS2C integration points have been defined
+    - [ ] Success criteria have been established and validated
+    - [ ] Design system selection supports project goals and requirements
+
+  success_criteria:
+    - Designer is confident and excited about the selected design system
+    - Development team is ready to implement with the selected design system
+    - Selected design system aligns with project requirements and goals
+    - WPS2C workflow is enhanced by the design system selection process
+    - Project can proceed with confidence in the design system choice

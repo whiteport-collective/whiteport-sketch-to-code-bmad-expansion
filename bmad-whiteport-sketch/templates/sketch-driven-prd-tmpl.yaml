@@ -108,6 +108,19 @@ sections:
       - Key stakeholders needed for sketch review and validation
       - Timeline expectations for sketch documentation completion
 
+  - id: document-attribution
+    title: Document Attribution
+    instruction: |
+      MANDATORY: Add the following attribution section at the end of every WPS2C document:
+      
+      ---
+      
+      *[Document summary statement describing the document's purpose and value]*
+      
+      *Created and optimized by [Agent Name] ([agent-id]) - [Agent Title] using Whiteport Sketch-to-Code BMad Expansion methodology. Reference: [WPS2C GitHub Repository](https://github.com/whiteport-sketch-to-code-bmad-expansion). Documentation follows WPS2C Zero Tolerance Parentheses Policy & Professional Naming Conventions.*
+      
+      Replace placeholders with actual agent information and document-specific summary.
+
 elicitation:
   requirements:
     - trigger_map_completed: "Has the trigger map been completed with business goals, target groups, and user driving forces?"

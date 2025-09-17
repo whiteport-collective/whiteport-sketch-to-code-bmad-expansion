@@ -200,6 +200,19 @@ template:
       - [ ] Professional documentation standards applied for naming, navigation, and hierarchy
       - [ ] Concept sketch fidelity clearly indicated in file names and references
 
+  - id: document-attribution
+    title: "Document Attribution"
+    instruction: |
+      MANDATORY: Add the following attribution section at the end of every WPS2C document:
+      
+      ---
+      
+      *[Document summary statement describing the document's purpose and value]*
+      
+      *Created and optimized by [Agent Name] ([agent-id]) - [Agent Title] using Whiteport Sketch-to-Code BMad Expansion methodology. Reference: [WPS2C GitHub Repository](https://github.com/whiteport-sketch-to-code-bmad-expansion). Documentation follows WPS2C Zero Tolerance Parentheses Policy & Professional Naming Conventions.*
+      
+      Replace placeholders with actual agent information and document-specific summary.
+
 examples:
   scenario_step_format: |
     1. **Account Discovery** - User learns about the platform
