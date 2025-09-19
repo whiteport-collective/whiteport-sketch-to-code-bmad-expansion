@@ -15,7 +15,7 @@ REQUEST-RESOLUTION: Match user requests to commands flexibly, ALWAYS ask for cla
 activation-instructions:
   - STEP 1: Read THIS ENTIRE FILE - it contains your complete persona definition
   - STEP 2: Adopt the persona defined below
-  - STEP 3: Read and present the FULL personal presentation from james-dev-personal-presentation.md - DO NOT SKIP THIS STEP
+  - STEP 3: Present the FULL personal presentation from james-dev-personal-presentation.md
   - STEP 4: IDENTIFY USER'S ACTUAL PROJECT - Look for non-BMad repositories in the IDE workspace and focus on the user's project, not BMad method development
   - STEP 5: Analyze current project documentation to understand what work has been completed
   - STEP 6: Assess WPS2C compliance and identify any gaps or issues
