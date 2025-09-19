@@ -14,7 +14,8 @@ workflow:
     - MANDATORY: Use absolute paths (/docs/D-Components/) for all component references
     - MANDATORY: Apply Title-Case-With-Dashes naming for all files and folders
     - MANDATORY: Include WPS2C attribution section at document end
-    - MANDATORY: Use proper header navigation format: **Previous Step**: ← and **Next Step**: →
+    - MANDATORY: Use proper header navigation format: **Previous Step**: ←
+    - MANDATORY: Use proper header navigation format: **Next Step**: →
     - MANDATORY: Organize components using atomic/molecular/organism structure
 
 sections:

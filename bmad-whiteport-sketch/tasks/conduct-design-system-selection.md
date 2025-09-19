@@ -212,7 +212,8 @@ This task guides the PM through a systematic design system selection process wit
 **Timeline**: Rapid MVP development
 
 **Designer Interview Results**:
-- Experience: Previous work with Material-UI and Chakra UI
+- Experience: Previous work with Material-UI
+- Experience: Previous work with Chakra UI
 - Preferences: Prefers pre-styled components for rapid development
 - Control Needs: Moderate customization for brand consistency
 - Team: React/TypeScript experienced development team

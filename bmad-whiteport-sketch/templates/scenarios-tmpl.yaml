@@ -19,8 +19,10 @@ template:
       Document the core principles that guide scenario creation:
       - **Unbroken Chain Storytelling**: How scenarios maintain continuity from motivation to outcome
       - **Shortest Path to Value**: Focus on most efficient route for users to achieve goals
-      - **Dual Value Creation**: How user and business value align at each step
-      - **Stakeholder Accessibility**: Make scenarios concrete and followable by anyone on project team
+      - **Dual Value Creation**: How user value aligns at each step
+      - **Dual Value Creation**: How business value aligns at each step
+      - **Stakeholder Accessibility**: Make scenarios concrete
+      - **Stakeholder Accessibility**: Make scenarios followable by anyone on project team
       - **Professional Documentation Standards**: Use web-safe naming, proper navigation, clear visual hierarchy
       - **Conceptual Sketch Integration**: Organize design concepts with appropriate fidelity indicators
 
@@ -168,12 +170,15 @@ template:
       - **Primary CTA**: Main action user should take on this page
       - **User Journey Step Details**: Concise bullets for what user sees/thinks/does/system responds/value created
       - **Page Sections**: Detailed breakdown of all UI elements with bilingual labels
-      - **Alternate Views**: Tablet and mobile layout adaptations when available
-      - **Next Steps**: Outstanding sketches needed and unlinked pages to specify
+      - **Alternate Views**: Tablet layout adaptations when available
+      - **Alternate Views**: Mobile layout adaptations when available
+      - **Next Steps**: Outstanding sketches needed
+      - **Next Steps**: Unlinked pages to specify
       
       **Bilingual Labeling Standards when internationalization required:**
       - **Format**: Always use separate lines for each language
-      - **Structure**: `SE: "Swedish text"` and `EN: "English text"` on consecutive lines
+      - **Structure**: `SE: "Swedish text"` on consecutive lines
+      - **Structure**: `EN: "English text"` on consecutive lines
       - **Rationale**: Cannot assume readers can identify language from text alone as it could be Arabic, Hindi, or other languages
       - **Example**:
         ```
