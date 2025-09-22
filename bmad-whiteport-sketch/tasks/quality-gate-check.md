@@ -11,7 +11,8 @@ The UX Expert systematically validates all aspects of documentation quality agai
 ### 1. WPS2C Compliance Validation
 
 #### **Header Format Compliance Check**
-- [ ] All scenario headers use exact **Previous Step**: ← and **Next Step**: → format
+- [ ] All scenario headers use exact **Previous Step**: ← format
+- [ ] All scenario headers use exact **Next Step**: → format
 - [ ] Mandatory double navigation pattern implemented (top line 1 and directly under image)
 - [ ] Navigation text uses proper display names (not file names)
 - [ ] Image paths include Sketches/ subfolder reference

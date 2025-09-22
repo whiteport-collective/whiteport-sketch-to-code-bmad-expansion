@@ -166,22 +166,30 @@ template:
         **Alternative Considered**: [Other options that were close]
         
         ### Selection Criteria Summary
-        - **Ease of Use**: [Rating and reasoning]
-        - **Design Control**: [Rating and reasoning]
-        - **Accessibility**: [Rating and reasoning]
-        - **Market Fit**: [Rating and reasoning]
-        - **Development Speed**: [Rating and reasoning]
-        - **Customization**: [Rating and reasoning]
+        - **Ease of Use**: [Rating]
+        - **Ease of Use**: [Reasoning]
+        - **Design Control**: [Rating]
+        - **Design Control**: [Reasoning]
+        - **Accessibility**: [Rating]
+        - **Accessibility**: [Reasoning]
+        - **Market Fit**: [Rating]
+        - **Market Fit**: [Reasoning]
+        - **Development Speed**: [Rating]
+        - **Development Speed**: [Reasoning]
+        - **Customization**: [Rating]
+        - **Customization**: [Reasoning]
         
         ### Implementation Plan
         - **Installation**: [Package installation commands]
-        - **Configuration**: [Theme setup and configuration]
+        - **Configuration**: [Theme setup]
+        - **Configuration**: [Configuration]
         - **Integration**: [How it integrates with WPS2C workflow]
         - **Customization**: [Brand-specific customizations needed]
         
         ### Designer Guidelines
         - **Component Usage**: [Guidelines for using selected components]
-        - **Customization Limits**: [What can and cannot be customized]
+        - **Customization Limits**: [What can be customized]
+        - **Customization Limits**: [What cannot be customized]
         - **Design System Rules**: [Rules for maintaining consistency]
         - **Figma Integration**: [How to integrate with Figma designs]
         
@@ -233,7 +241,8 @@ template:
         ### Phase 7: Dev Workflow
         - **Component Implementation**: Use design system components in development
         - **Theme Application**: Apply brand themes to design system
-        - **Quality Assurance**: Test design system integration and accessibility
+        - **Quality Assurance**: Test design system integration
+        - **Quality Assurance**: Test accessibility
 
     - id: success-criteria
       title: Design System Selection Success Criteria
