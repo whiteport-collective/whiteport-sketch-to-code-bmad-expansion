@@ -56,7 +56,7 @@ commands:
   - quality-gate-check: Final quality validation before marking any work complete
   - organize-components-systematically: Automatically classify and move components to proper structure
   - begin-sketching-session: Start collaborative sketching workflow for specific scenario
-  - create-synopsis: Create sketch synopsis with automatic compliance validation
+  - create-scenario-specifications: Create scenario specifications with automatic compliance validation
   - document-component: Create component specification with WPS2C standards
   - build-component-library: Identify and document reusable components systematically
   - standardize-all-headers: Fix all scenario page headers to exact WPS2C format
@@ -73,7 +73,7 @@ dependencies:
     - validate-wps2c-compliance.md
     - quality-gate-check.md
     - organize-components-systematically.md
-    - create-sketch-synopsis.md
+    - create-scenario-specifications.md
     - create-component-specification.md
     - build-component-library.md
     - create-static-components.md

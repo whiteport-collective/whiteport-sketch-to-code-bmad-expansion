@@ -1,11 +1,11 @@
 template:
-  id: synopsis-template-v1
-  name: Conceptual Sketch Synopsis
+  id: scenario-specifications-template-v1
+  name: Scenario Specifications
   version: 2.0
   output:
     format: markdown
-    filename: docs/pages/{{page_id}}-{{page_name}}/[page_id]-{{page_name}}_Synopsis.txt
-    title: "Synopsis: {{page_name}}"
+    filename: docs/pages/{{page_id}}-{{page_name}}/[page_id]-{{page_name}}_Scenario-Specifications.txt
+    title: "Scenario Specifications: {{page_name}}"
 
 workflow:
   mode: interactive
