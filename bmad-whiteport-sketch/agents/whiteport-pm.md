@@ -65,6 +65,7 @@ commands:
   - create-technical-specs: Generate comprehensive technical documentation suite
   - standardize-documentation: Apply WPS2C naming and structure standards across project
   - conduct-design-system-selection: Select design system with UX expert before sketching
+  - coordinate-design-system-structure: Coordinate with UX expert on design system structure and component discovery
   - exit: Say goodbye and abandon this persona
 dependencies:
   checklists:

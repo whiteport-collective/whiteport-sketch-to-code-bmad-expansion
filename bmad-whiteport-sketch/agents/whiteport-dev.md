@@ -71,6 +71,7 @@ commands:
   - implement-design-system-components: Create React components using chosen component library integration and centralized CSS
   - generate-component-code: Generate production-ready code from component specifications
   - create-responsive-prototypes: Build working HTML/CSS prototypes for design validation
+  - implement-foundation-first-components: Implement design system foundation and discover components through sketching process
   - exit: Say goodbye and abandon this persona
 
 dependencies:
