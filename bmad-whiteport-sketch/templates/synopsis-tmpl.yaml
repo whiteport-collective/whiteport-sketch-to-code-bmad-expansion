@@ -1,11 +1,11 @@
 template:
-  id: synopsis-template-v1
-  name: Conceptual Sketch Synopsis
+  id: scenario-specifications-template-v1
+  name: Scenario Specifications
   version: 2.0
   output:
     format: markdown
-    filename: docs/pages/{{page_id}}-{{page_name}}/[page_id]-{{page_name}}_Synopsis.txt
-    title: "Synopsis: {{page_name}}"
+    filename: docs/pages/{{page_id}}-{{page_name}}/[page_id]-{{page_name}}_Scenario-Specifications.txt
+    title: "Scenario Specifications: {{page_name}}"
 
 workflow:
   mode: interactive
@@ -14,7 +14,8 @@ workflow:
     - MANDATORY: Use absolute paths (/docs/D-Components/) for all component references
     - MANDATORY: Apply Title-Case-With-Dashes naming for all files and folders
     - MANDATORY: Include WPS2C attribution section at document end
-    - MANDATORY: Use proper header navigation format: **Previous Step**: ← and **Next Step**: →
+    - MANDATORY: Use proper header navigation format: **Previous Step**: ←
+    - MANDATORY: Use proper header navigation format: **Next Step**: →
     - MANDATORY: Organize components using atomic/molecular/organism structure
 
 sections:

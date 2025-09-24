@@ -33,14 +33,17 @@ Add mandatory WPS2C document attribution section to existing documents to ensure
 - **Key Outcomes**: What the document enables or delivers
 
 ### Step 3: Generate Attribution
-- **Agent Information**: Use actual agent name, ID, and title
+- **Agent Information**: Use actual agent name
+- **Agent Information**: Use actual agent ID
+- **Agent Information**: Use actual agent title
 - **Method Reference**: Include Whiteport Sketch-to-Code BMad Expansion
 - **GitHub Link**: Reference WPS2C GitHub repository
 - **Standards Compliance**: Mention WPS2C documentation standards
 
 ### Step 4: Add to Document
 - **Location**: Place at the very end of the document
-- **Formatting**: Use italic text for both summary and attribution
+- **Formatting**: Use italic text for summary
+- **Formatting**: Use italic text for attribution
 - **Separator**: Include horizontal rule (---) before attribution
 - **Consistency**: Follow exact format specified in standards
 
