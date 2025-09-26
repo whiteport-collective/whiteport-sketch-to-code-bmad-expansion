@@ -2,6 +2,10 @@
 
 > **Transform hand-drawn sketches into production-ready applications through AI-powered collaborative design workshops. Conceptual developement, UX-Design and project management extension pack BMad Expansion Pack for the BMad method**
 
+## WPS2C Method Vision
+
+**Providing a thinking partner to every designer on the planet** - enabling designers everywhere to give more of what is valuable to the world. With deep understanding of users, technology, and what drives people, we provide functionality, beauty, simplicity, and make software endlessly successful by giving people both what they want and what they need.
+
 ## What This Expansion Pack Provides
 
 When you combine the **BMad AI agent framework** with the **Whiteport Sketch-to-Code expansion pack**, you get:

@@ -3,6 +3,12 @@
 
 ---
 
+## WPS2C Method Vision
+
+**Providing a thinking partner to every designer on the planet** - enabling designers everywhere to give more of what is valuable to the world. With deep understanding of users, technology, and what drives people, we provide functionality, beauty, simplicity, and make software endlessly successful by giving people both what they want and what they need.
+
+---
+
 ## What is the Whiteport Sketch-to-Code Method?
 
 The Whiteport Sketch-to-Code Method is a comprehensive design-driven development methodology that transforms hand-drawn sketches into production-ready applications through systematic AI-assisted workshops, collaborative documentation, and structured development workflows. WPS2C seamlessly integrates with the BMad AI agent framework to provide end-to-end project delivery from initial vision to deployed solution.
@@ -132,10 +138,10 @@ flowchart LR
 
 ---
 
-### 📱 [Phase 4: Visual Design Analysis - Sketch-to-Spec](04-Sketch-To-Spec.md)
+### 📱 [Phase 4: Visual Design Analysis & Specification](04-Sketch-To-Spec.md)
 
-**What it does**: Transform hand-drawn UI into comprehensive page specifications and scenario documentation  
-**How long**: 2-4 hours depending on sketch complexity and page variety  
+**What it does**: Comprehensive visual design analysis through three approaches: collaborative exploration when no sketch exists, analysis and specification of existing sketches, and traditional sketch-to-spec transformation  
+**How long**: 2-4 hours depending on approach and complexity  
 **Agent**: Whiteport UX Expert  
 **You get**: Detailed page specifications with bilingual content, user interaction flows, and technical implementation guidance  
 **Output**: `docs/C-Scenarios/[scenario-folders]/` with sketch analysis and specifications
@@ -404,6 +410,8 @@ Comprehensive WPS2C methodology using specialized Whiteport agents:
 @whiteport-pm.md
 *establish-prd-platform-requirements
 @whiteport-ux-expert.md
+*explore-scenario-step
+*analyze-scenario-sketch
 *create-sketch-specifications
 
 # Phase 7: Whiteport Development Agent

@@ -2,13 +2,13 @@
 
 ---
 
-# 🎨 Phase 4: Sketch-to-Spec Method
-## *From Beautiful Sketches to Bulletproof Specifications*
+# 🎨 Phase 4: Visual Design Analysis & Specification
+## *From Strategic Exploration to Bulletproof Specifications*
 
 ---
 
 ### 🔗 Your Design Bridge in the Whiteport Sketch-to-Code Method
-This is **Phase C** of the complete WPS2C workflow - where your strategic user intelligence transforms into actionable interface specifications. This phase turns hand-drawn concepts into development-ready blueprints, ensuring every component serves your trigger map goals and delights your prioritized user types. Without this systematic translation, beautiful sketches remain forever trapped in notebooks while developers build their best guesses.
+This is **Phase C** of the complete WPS2C workflow - where your strategic user intelligence transforms into actionable interface specifications. This comprehensive visual design analysis phase handles three distinct scenarios: collaborative exploration when no sketch exists, analysis and specification of existing sketches, and traditional sketch-to-spec transformation. Every process ensures components serve your trigger map goals and delight your prioritized user types.
 
 ---
 
@@ -19,18 +19,69 @@ This is **Phase C** of the complete WPS2C workflow - where your strategic user i
 **Who they are**: Your strategic interface architect and component psychology specialist
 
 **What they do**:
-- Analyze sketches through your trigger map lens to identify strategic components
-- Create AI-ready specifications that prevent hallucination and ensure perfect implementation
+- **Scenario Step Exploration**: Facilitate collaborative design thinking when no sketch exists, integrating trigger map psychology and customer awareness cycle
+- **Scenario Step Sketch Analysis**: Analyze existing sketches, ask clarifying questions, and create component specifications with proper hierarchy and translations
+- **Traditional Sketch-to-Spec**: Transform hand-drawn concepts into development-ready blueprints through systematic analysis
 - Design atomic, molecular, and organism components that serve user psychology
 - Build comprehensive component libraries with trigger-activation specifications
 
 **How to work with them**:
-- Provide your completed Trigger Map and hand-drawn sketches for analysis
-- Collaborate in the strategic component extraction process
-- Review specifications as they're created to ensure psychological intent is preserved
+- **For Exploration**: Come with trigger map and business goals, collaborate on solution discovery
+- **For Sketch Analysis**: Upload sketches and work together on clarification and specification
+- **For Traditional Spec**: Provide completed sketches for systematic component extraction
 - Expect detailed, multilingual specifications that AI can implement with stunning accuracy
 
 **Your outcome**: Component specifications so clear and strategically grounded that AI development becomes unstoppable, while preserving user trigger activation throughout implementation.
+
+---
+
+## 🎯 Three Visual Design Analysis Approaches
+
+### **4A: Scenario Step Exploration** 
+**When to use**: No sketch exists, need to discover the solution through collaborative thinking
+**Process**: Integrate trigger map psychology, customer awareness cycle, and golden rule to suggest presentation sections, content, interactive parts, features and forms that propel user toward goal
+**Agent Command**: `*explore-scenario-step`
+**Outcome**: Clear solution framework ready for sketching
+
+### **4B: Scenario Step Sketch Analysis**
+**When to use**: Sketch exists, need to analyze and create detailed specifications
+**Process**: Analyze uploaded sketch, ask clarifying questions, create component specifications with proper hierarchy and translations
+**Agent Command**: `*analyze-scenario-sketch`
+**Outcome**: Detailed specifications with component links and translations
+
+### **4C: Traditional Sketch-to-Spec**
+**When to use**: Completed sketches ready for systematic component extraction
+**Process**: Transform hand-drawn concepts into development-ready blueprints through systematic analysis
+**Agent Command**: `*create-sketch-specifications`
+**Outcome**: AI-ready specifications for immediate development
+
+---
+
+## 🤝 The Thinking Partnership Approach
+
+### **Collaborative Design Thinking, Not Document Generation**
+
+**The WPS2C Difference**: Every visual design analysis process is built on thinking partnership, not just document creation. The Whiteport UX Expert acts as your collaborative thinking partner throughout the entire process.
+
+**What this means**:
+- **Ask questions** before suggesting solutions
+- **Explore together** the user's psychology and motivations  
+- **Build understanding** before jumping to design decisions
+- **Guide discovery** rather than dictating answers
+- **Validate assumptions** with you throughout the process
+
+**Thinking Partner Behaviors**:
+- "What do you think about...?" - Always seek your input
+- "Help me understand..." - Ask for clarification and context
+- "What if we considered...?" - Suggest alternatives collaboratively
+- "How does this serve the user's goal?" - Keep focus on user needs
+- "What's your intuition telling you?" - Tap into your expertise
+
+**Documentation as Collaboration**:
+- "Let's work through this together" - Co-create specifications
+- "What would you add here?" - Invite your contributions
+- "Does this capture what you intended?" - Validate understanding
+- "What else should we consider?" - Encourage deeper thinking
 
 ---
 
