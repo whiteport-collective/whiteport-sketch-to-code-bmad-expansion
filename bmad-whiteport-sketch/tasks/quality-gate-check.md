@@ -16,7 +16,7 @@ The UX Expert systematically validates all aspects of documentation quality agai
 - [ ] Mandatory double navigation pattern implemented (top line 1 and directly under image)
 - [ ] Navigation text uses proper display names (not file names)
 - [ ] Image paths include Sketches/ subfolder reference
-- [ ] No deviations from WPS2C Zero Tolerance Policy
+- [ ] No deviations from WPS2C documentation standards
 
 #### **Component Organization Validation**
 - [ ] All components organized in proper atomic/molecular/organism structure
@@ -32,16 +32,17 @@ The UX Expert systematically validates all aspects of documentation quality agai
 
 ### 2. Documentation Standards Compliance
 
-#### **Zero Tolerance Parentheses Policy**
-- [ ] No parentheses used in documentation text
+#### **Professional Documentation Standards**
+- [ ] Clear, professional language used throughout
 - [ ] Alternative formatting (dashes, colons, separate sentences) used appropriately
 - [ ] Professional language standards maintained throughout
-- [ ] Clear, unambiguous explanations without parenthetical demotions
+- [ ] Clear, unambiguous explanations
 
-#### **Title-Case-With-Dashes Naming**
-- [ ] All folder names use Title-Case-With-Dashes format
+#### **Title-Case-With-Dashes Naming (Enhanced Client Readability)**
+- [ ] All folder names use Title-Case-With-Dashes format for improved readability
 - [ ] All file names follow URL-safe naming conventions
 - [ ] No spaces, special characters, or case-sensitive issues
+- [ ] Long file names are easier to read for non-technical clients and stakeholders
 - [ ] Consistent naming across entire documentation structure
 
 #### **Bilingual Content Standards**

@@ -1,0 +1,79 @@
+# Design System Structure - Simple Template
+
+**Purpose**: Simple, practical guide for design system structure that teams actually use.
+
+## Core Strategy
+
+### **Two-Folder Approach**
+```
+docs/
+├── D-Design-System/          # Specifications & Documentation
+│   ├── 02-Foundation/        # Colors, Typography, Spacing
+│   ├── 03-Atomic-Components/ # Button specs, Input specs
+│   ├── 04-Molecular-Components/ # Form specs, Card specs
+│   └── 05-Organism-Components/  # Header specs, Layout specs
+│
+└── D-Design-System/          # Implementation & Demos
+    ├── 00-Design-System/     # Brand-Book.css, Design tokens
+    ├── atomic/               # Component implementations
+    ├── molecular/            # Component implementations
+    └── organism/             # Component implementations
+```
+
+### **Component Pattern (Every Component)**
+```
+Component-Name/
+├── Component-Name.md         # Specification
+└── frontend/
+    └── index.html           # Self-sufficient demo
+```
+
+## Implementation Steps
+
+### **Step 1: Foundation First**
+1. Create `D-Design-System/02-Foundation/`
+2. Add color palette, typography, spacing
+3. Create `Brand-Book.css` with design tokens
+
+### **Step 2: Components as Needed**
+1. Create component folders only when referenced in sketches
+2. Add `.md` specification file
+3. Add `frontend/index.html` demo
+4. Link to design system tokens
+
+### **Step 3: Keep It Simple**
+- **One component** = **One folder** = **One spec** + **One demo**
+- **No complex hierarchies** or unnecessary structure
+- **Focus on what's actually needed** for the project
+
+## Key Principles
+
+1. **Start Simple**: Begin with foundation, add components as needed
+2. **One Pattern**: Every component follows the same folder structure
+3. **Self-Sufficient**: Each demo works independently
+4. **Design Tokens**: All styling references centralized tokens
+5. **No Speculation**: Only create what's actually referenced
+
+## Example Structure
+
+```
+D-Design-System/
+├── 00-Design-System/
+│   ├── Brand-Book.css
+│   └── Dog-Week-Design-System.md
+├── atomic/
+│   ├── Button-Large/
+│   │   ├── Button-Large.md
+│   │   └── frontend/index.html
+│   └── Logo/
+│       ├── Logo.md
+│       └── frontend/index.html
+└── molecular/
+    └── Hero-Illustration/
+        ├── Hero-Illustration.md
+        └── frontend/index.html
+```
+
+---
+
+*This simple template focuses on the essential pattern and avoids overwhelming complexity while maintaining all the practical benefits.*

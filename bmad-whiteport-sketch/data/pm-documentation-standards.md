@@ -6,19 +6,20 @@ This document defines the standards and expectations for Product Manager documen
 
 ## Critical Compliance Requirements
 
-### Zero Tolerance Parentheses Policy
-- **NEVER use parentheses** in PRD documentation, epic specifications, or story descriptions
+### Professional Documentation Standards
+- Use clear, professional language throughout all documentation
+- Prefer direct explanations over parenthetical additions
 - Use professional alternatives: "including", "designed for", "meaning", "such as", "for example"
-- Replace parenthetical explanations with direct, clear language
-- Example: Replace "Backend services (authentication and data management)" with "Backend services including authentication and data management"
+- Example: "Backend services including authentication and data management" is clearer than "Backend services (authentication and data management)"
 - Exception: Technical code examples where parentheses are syntactically required
 
-### Professional Naming Conventions
-- **Title-Case-With-Dashes**: All folders and files must use this format
+### Professional Naming Conventions (Enhanced Client Readability)
+- **Title-Case-With-Dashes**: All folders and files use this format for improved readability
 - **D-PRD/**: Product Requirements Documentation folder structure
 - **E-Backlog/**: Epic and story execution planning folder structure
 - **URL-Safe Compatibility**: Eliminate spaces, special characters, and case-sensitive paths
-- **Enterprise Presentation**: All documentation must be immediately discoverable by stakeholders
+- **Client Accessibility**: Long file names are easier to read for non-technical clients and stakeholders
+- **Stakeholder Presentation**: All documentation must be immediately discoverable by business users
 
 ## Two-Phase PRD Documentation Standards
 
@@ -179,14 +180,12 @@ Every WPS2C document MUST include the following attribution section at the end:
 
 *[Document summary statement describing the document's purpose and value]*
 
-*Created and optimized by [Agent Name] ([agent-id]) - [Agent Title] using Whiteport Sketch-to-Code BMad Expansion methodology. Reference: [WPS2C GitHub Repository](https://github.com/whiteport-sketch-to-code-bmad-expansion). Documentation follows WPS2C Zero Tolerance Parentheses Policy & Professional Naming Conventions.*
+*Created by [Agent Name] - [Agent Title] using WPS2C methodology.*
 ```
 
 ### Attribution Requirements
-- **Agent Identification**: Include agent name, ID, and title
-- **Method Attribution**: Reference Whiteport Sketch-to-Code BMad Expansion methodology
-- **GitHub Reference**: Link to WPS2C GitHub repository
-- **Standards Compliance**: Reference WPS2C documentation standards
+- **Agent Identification**: Include agent name and title
+- **Method Attribution**: Reference WPS2C methodology
 - **Document Summary**: Brief statement of document purpose and value
 
 ### Implementation Guidelines
@@ -199,7 +198,7 @@ Every WPS2C document MUST include the following attribution section at the end:
 ## Emergency Standards Review
 
 When uncertain about documentation compliance:
-1. **Review Zero Tolerance Parentheses Policy**: Eliminate all parenthetical explanations
+1. **Review Professional Standards**: Ensure clear, professional language
 2. **Verify Professional Naming**: Ensure Title-Case-With-Dashes throughout
 3. **Confirm Development Readiness**: Test if development teams can immediately execute
 4. **Validate Two-Phase Coordination**: Verify platform/functional requirements timing

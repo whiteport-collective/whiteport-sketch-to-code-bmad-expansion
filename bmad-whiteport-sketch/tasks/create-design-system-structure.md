@@ -69,57 +69,47 @@ C-Scenarios/
     └── 3.2-[Another-Scenario]/
 ```
 
-### **D-Design-System Structure**
+### **D-Design-System Structure (Complete)**
 
-### **Foundation (Always Created)**
 ```
-02-Foundation/
-├── 00-Foundation-Overview.md
-├── 01-Colors/
-│   └── Color-Palette.md
-├── 02-Typography/
-│   └── Typography-System.md
-├── 03-Spacing/
-│   └── Spacing-System.md
-└── 04-Breakpoints/
-    └── Breakpoint-System.md
-```
-
-### **Atomic Components (Only Referenced)**
-```
-03-Atomic-Components/
-├── 00-Atomic-Components-Overview.md
-├── 01-Buttons/
-│   ├── Primary-Button-Specification.md
-│   └── CTA-Button-Primary-Specification.md
-├── 02-Inputs/
-│   └── Text-Input-Specification.md
-├── 03-Icons/
-│   └── Icon-System-Specification.md
-├── 04-Cards/
-│   └── Basic-Card-Specification.md
-├── 05-Badges/
-│   └── Status-Badge-Specification.md
-└── 06-Existing-Components/
-    └── Existing-Components-Overview.md
-```
-
-### **Molecular Components (Only Referenced)**
-```
-04-Molecular-Components/
-├── 00-Molecular-Components-Overview.md
-└── 01-Trust-Indicators/
-    └── Trust-Indicators-Specification.md
-```
-
-### **Organism Components (Only Referenced)**
-```
-05-Organism-Components/
-├── 00-Organism-Components-Overview.md
-├── 01-Hero-Section/
-│   └── Hero-Section-Specification.md
-└── 02-Navigation-Header/
-    └── Navigation-Header-Specification.md
+D-Design-System/
+├── 00-Design-System.md              # Comprehensive guide
+├── 00-Design-System.css             # Design tokens and styles
+├── 00-Design-System.html            # Live component showcase
+│
+├── 01-Assets/                       # Design assets
+│   ├── logos/                       # Brand logos and wordmarks
+│   ├── icons/                       # UI icons and symbols
+│   └── illustrations/               # Custom illustrations and graphics
+│
+├── 02-Foundation/                   # Foundation design tokens
+│   ├── Colors/                      # Color palette and design tokens
+│   ├── Typography/                  # Typography system and scales
+│   ├── Spacing/                     # Spacing system and scales
+│   └── Breakpoints/                 # Responsive breakpoint system
+│
+├── 03-Atomic-Components/            # Atomic components (building blocks)
+│   ├── Buttons/                     # Button components (when needed)
+│   ├── Headlines/                   # Headline components (when needed)
+│   ├── Texts/                       # Text components (when needed)
+│   ├── Icons/                       # Icon components (when needed)
+│   ├── Inputs/                      # Input components (when needed)
+│   ├── Feedback/                    # Loading states, alerts, notifications (when needed)
+│   └── Overlay/                     # Modals, tooltips, popovers (when needed)
+│
+├── 04-Molecular-Components/         # Molecular components (functional units)
+│   ├── Media/                       # Image/video components (when needed)
+│   ├── Forms/                       # Form combinations (when needed)
+│   ├── Navigation/                  # Navigation elements (when needed)
+│   ├── Trust/                       # Trust indicators (when needed)
+│   ├── Cards/                       # Card components (when needed)
+│   ├── Lists/                       # List components (when needed)
+│   └── Tables/                      # Table components (when needed)
+│
+└── 05-Organism-Components/          # Organism components (complete interfaces)
+    ├── Sections/                    # Page sections and layouts (when needed)
+    ├── Layout/                      # Layout components (when needed)
+    └── Content/                     # Content sections (when needed)
 ```
 
 ## Quality Standards
@@ -175,8 +165,8 @@ C-Scenarios/
 ### **Component Creation Process**
 1. **Sketch Analysis**: "This sketch shows a CTA button"
 2. **Component Check**: "Is CTA button referenced in sketches? Yes"
-3. **Structure Creation**: Create `03-Atomic-Components/01-Buttons/CTA-Button-Primary/`
-4. **Specification**: Create `CTA-Button-Primary-Specification.md`
+3. **Structure Creation**: Create component specifications as discovered through sketching process
+4. **Specification**: Create component specification with design tokens
 5. **Design Tokens**: Use foundation color and spacing tokens
 6. **Accessibility**: Include WCAG compliance requirements
 

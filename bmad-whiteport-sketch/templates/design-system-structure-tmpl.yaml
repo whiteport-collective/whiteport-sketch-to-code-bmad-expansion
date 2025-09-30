@@ -1,303 +1,121 @@
-# Design System Structure Template
+# Design System Structure - Simple Template
 
-**Template**: C-Scenarios and D-Design-System Structure Creation  
-**Agent**: whiteport-ux-expert  
-**Phase**: Conceptual Design & Sketching  
-**Purpose**: Set up foundation structure first, then discover components through sketching process
+**Purpose**: Simple, practical guide for design system structure that teams actually use.
 
-## Template Structure
+## Core Strategy
 
-### **C-Scenarios Structure (Foundation First)**
-```yaml
-c_scenarios:
-  required: true
-  process: "foundation_first"
-  steps:
-    - "Create C-Scenarios folder structure"
-    - "Set up basic scenario organization"
-    - "Begin sketching process"
-    - "Discover scenarios through sketching"
-    - "Create scenario folders as needed"
-  
-  structure_template:
-    - "C-Scenarios/"
-    - "C-Scenarios/01-[Category-1]/"
-    - "C-Scenarios/02-[Category-2]/"
-    - "C-Scenarios/03-[Category-3]/"
-  
-  content_requirements:
-    synopsis_files:
-      - "Scenario synopsis with component references"
-      - "Previous Step and Next Step navigation"
-      - "WPS2C compliance formatting"
-      - "Swedish family focus"
-    
-    sketches_folder:
-      - "Hand-drawn sketches for each scenario"
-      - "Component identification and mapping"
-      - "Design system integration"
-      - "Accessibility considerations"
-    
-    frontend_folder:
-      - "Working prototypes when needed"
-      - "Component integration examples"
-      - "Design system implementation"
-      - "Swedish localization"
+### **Complete Design System Structure**
+```
+docs/D-Design-System/
+├── 00-Design-System.md              # Comprehensive guide
+├── 00-Design-System.css             # Design tokens and styles
+├── 00-Design-System.html            # Live component showcase
+│
+├── 01-Assets/                       # Design assets
+│   ├── logos/                       # Brand logos and wordmarks
+│   ├── icons/                       # UI icons and symbols
+│   └── illustrations/               # Custom illustrations and graphics
+│
+├── 03-Atomic-Components/            # Atomic components (building blocks)
+│   ├── Interactive/                 # Interactive elements
+│   ├── Icons/                       # Icon components (when needed)
+│   ├── Inputs/                      # Input components (when needed)
+│   ├── Typography/                  # Typography components (when needed)
+│   ├── Feedback/                    # Loading states, alerts, notifications (when needed)
+│   ├── Overlay/                     # Modals, tooltips, popovers (when needed)
+│   └── Logo.md                      # Logo component
+│
+├── 04-Molecular-Components/         # Molecular components (functional units)
+│   ├── Media/                       # Image/video components
+│   ├── Forms/                       # Form combinations (when needed)
+│   ├── Navigation/                  # Navigation elements (when needed)
+│   ├── Trust/                       # Trust indicators (when needed)
+│   ├── Cards/                       # Card components (when needed)
+│   ├── Lists/                       # List components (when needed)
+│   └── Tables/                      # Table components (when needed)
+│
+└── 05-Organism-Components/          # Organism components (complete interfaces)
+    ├── Sections/                    # Page sections and layouts
+    ├── Layout/                      # Layout components (when needed)
+    └── Content/                     # Content sections (when needed)
 ```
 
-### **D-Design-System Structure (Foundation First)**
-```yaml
-d_design_system:
-  required: true
-  process: "foundation_first"
-  steps:
-    - "Create D-Design-System folder structure"
-    - "Set up foundation design tokens"
-    - "Create basic component folders"
-    - "Begin sketching process"
-    - "Discover components through sketching"
-    - "Create component specifications as discovered"
-  
-  structure_template:
-    - "D-Design-System/"
-    - "D-Design-System/02-Foundation/"
-    - "D-Design-System/03-Atomic-Components/"
-    - "D-Design-System/04-Molecular-Components/"
-    - "D-Design-System/05-Organism-Components/"
+### **Component Pattern (Every Component)**
+```
+Component-Name/
+└── Component-Name.md         # Specification only
 ```
 
-### **Foundation (Always Created)**
-```yaml
-foundation:
-  required: true
-  structure:
-    - "02-Foundation/"
-    - "02-Foundation/00-Foundation-Overview.md"
-    - "02-Foundation/01-Colors/"
-    - "02-Foundation/01-Colors/Color-Palette.md"
-    - "02-Foundation/02-Typography/"
-    - "02-Foundation/02-Typography/Typography-System.md"
-    - "02-Foundation/03-Spacing/"
-    - "02-Foundation/03-Spacing/Spacing-System.md"
-    - "02-Foundation/04-Breakpoints/"
-    - "02-Foundation/04-Breakpoints/Breakpoint-System.md"
-  
-  content_requirements:
-    colors:
-      - "Swedish family-optimized color palette"
-      - "Accessibility compliance (WCAG 2.1 AA)"
-      - "Cultural sensitivity considerations"
-      - "Child-friendly color variants"
-    
-    typography:
-      - "Multi-generational font system"
-      - "Swedish language support"
-      - "Accessibility compliance"
-      - "Child-friendly text sizes"
-    
-    spacing:
-      - "Touch-friendly spacing scale"
-      - "Swedish design preferences"
-      - "Accessibility guidelines"
-      - "Responsive spacing system"
-    
-    breakpoints:
-      - "Swedish device considerations"
-      - "Family device patterns"
-      - "Mobile-first approach"
-      - "Child-friendly breakpoints"
+## Implementation Steps
+
+### **Step 1: Foundation First**
+1. Create `D-Design-System/02-Foundation/`
+2. Add color palette, typography, spacing
+3. Create `Brand-Book.css` with design tokens
+
+### **Step 2: Components as Needed**
+1. Create component folders only when referenced in sketches
+2. Add `.md` specification file
+3. Link to design system tokens
+4. Add component to Design System for demos
+
+### **Step 3: Keep It Simple**
+- **One component** = **One folder** = **One spec**
+- **All demos** = **Centralized Design System**
+- **No complex hierarchies** or unnecessary structure
+- **Focus on what's actually needed** for the project
+
+## Key Principles
+
+1. **Start Simple**: Begin with foundation, add components as needed
+2. **One Pattern**: Every component follows the same folder structure
+3. **Self-Sufficient**: Each demo works independently
+4. **Design Tokens**: All styling references centralized tokens
+5. **No Speculation**: Only create what's actually referenced
+
+## Example Structure
+
 ```
-
-### **Atomic Components (Only Referenced)**
-```yaml
-atomic_components:
-  required: false
-  condition: "Only create if referenced in sketches"
-  
-  structure:
-    - "03-Atomic-Components/"
-    - "03-Atomic-Components/00-Atomic-Components-Overview.md"
-    - "03-Atomic-Components/06-Existing-Components/"
-    - "03-Atomic-Components/06-Existing-Components/Existing-Components-Overview.md"
-  
-  component_types:
-    buttons:
-      condition: "If button components referenced in sketches"
-      structure:
-        - "03-Atomic-Components/01-Buttons/"
-        - "03-Atomic-Components/01-Buttons/Primary-Button-Specification.md"
-        - "03-Atomic-Components/01-Buttons/CTA-Button-Primary-Specification.md"
-    
-    inputs:
-      condition: "If input components referenced in sketches"
-      structure:
-        - "03-Atomic-Components/02-Inputs/"
-        - "03-Atomic-Components/02-Inputs/Text-Input-Specification.md"
-    
-    icons:
-      condition: "If icon system referenced in sketches"
-      structure:
-        - "03-Atomic-Components/03-Icons/"
-        - "03-Atomic-Components/03-Icons/Icon-System-Specification.md"
-    
-    cards:
-      condition: "If card components referenced in sketches"
-      structure:
-        - "03-Atomic-Components/04-Cards/"
-        - "03-Atomic-Components/04-Cards/Basic-Card-Specification.md"
-    
-    badges:
-      condition: "If badge components referenced in sketches"
-      structure:
-        - "03-Atomic-Components/05-Badges/"
-        - "03-Atomic-Components/05-Badges/Status-Badge-Specification.md"
+D-Design-System/
+├── 00-Design-System.md              # Comprehensive guide
+├── 00-Design-System.css             # Design tokens and styles
+├── 00-Design-System.html            # Live component showcase
+│
+├── 01-Assets/                       # Design assets
+│   ├── logos/                       # Brand logos and wordmarks
+│   ├── icons/                       # UI icons and symbols
+│   └── illustrations/               # Custom illustrations and graphics
+│
+├── 02-Foundation/                   # Foundation design tokens
+│   ├── Colors/                      # Color palette and design tokens
+│   ├── Typography/                  # Typography system and scales
+│   ├── Spacing/                     # Spacing system and scales
+│   └── Breakpoints/                 # Responsive breakpoint system
+│
+├── 03-Atomic-Components/            # Atomic components (building blocks)
+│   ├── Buttons/                     # Button components (when needed)
+│   ├── Headlines/                   # Headline components (when needed)
+│   ├── Texts/                       # Text components (when needed)
+│   ├── Icons/                       # Icon components (when needed)
+│   ├── Inputs/                      # Input components (when needed)
+│   ├── Feedback/                    # Loading states, alerts, notifications (when needed)
+│   └── Overlay/                     # Modals, tooltips, popovers (when needed)
+│
+├── 04-Molecular-Components/         # Molecular components (functional units)
+│   ├── Media/                       # Image/video components (when needed)
+│   ├── Forms/                       # Form combinations (when needed)
+│   ├── Navigation/                  # Navigation elements (when needed)
+│   ├── Trust/                       # Trust indicators (when needed)
+│   ├── Cards/                       # Card components (when needed)
+│   ├── Lists/                       # List components (when needed)
+│   └── Tables/                      # Table components (when needed)
+│
+└── 05-Organism-Components/          # Organism components (complete interfaces)
+    ├── Sections/                    # Page sections and layouts (when needed)
+    ├── Layout/                      # Layout components (when needed)
+    └── Content/                     # Content sections (when needed)
 ```
-
-### **Molecular Components (Only Referenced)**
-```yaml
-molecular_components:
-  required: false
-  condition: "Only create if referenced in sketches"
-  
-  structure:
-    - "04-Molecular-Components/"
-    - "04-Molecular-Components/00-Molecular-Components-Overview.md"
-  
-  component_types:
-    trust_indicators:
-      condition: "If trust indicators referenced in sketches"
-      structure:
-        - "04-Molecular-Components/01-Trust-Indicators/"
-        - "04-Molecular-Components/01-Trust-Indicators/Trust-Indicators-Specification.md"
-    
-    forms:
-      condition: "If form components referenced in sketches"
-      structure:
-        - "04-Molecular-Components/02-Forms/"
-        - "04-Molecular-Components/02-Forms/Family-Setup-Form-Specification.md"
-```
-
-### **Organism Components (Only Referenced)**
-```yaml
-organism_components:
-  required: false
-  condition: "Only create if referenced in sketches"
-  
-  structure:
-    - "05-Organism-Components/"
-    - "05-Organism-Components/00-Organism-Components-Overview.md"
-  
-  component_types:
-    hero_section:
-      condition: "If hero section referenced in sketches"
-      structure:
-        - "05-Organism-Components/01-Hero-Section/"
-        - "05-Organism-Components/01-Hero-Section/Hero-Section-Specification.md"
-    
-    navigation_header:
-      condition: "If navigation header referenced in sketches"
-      structure:
-        - "05-Organism-Components/02-Navigation-Header/"
-        - "05-Organism-Components/02-Navigation-Header/Navigation-Header-Specification.md"
-```
-
-## Content Requirements
-
-### **Design Tokens Integration**
-```yaml
-design_tokens:
-  colors:
-    - "Use foundation color palette"
-    - "Swedish cultural sensitivity"
-    - "Accessibility compliance"
-    - "Child-friendly variants"
-  
-  typography:
-    - "Use foundation typography system"
-    - "Swedish language support"
-    - "Multi-generational readability"
-    - "Accessibility compliance"
-  
-  spacing:
-    - "Use foundation spacing scale"
-    - "Touch-friendly targets"
-    - "Swedish design preferences"
-    - "Responsive spacing"
-  
-  breakpoints:
-    - "Use foundation breakpoint system"
-    - "Swedish device patterns"
-    - "Family device considerations"
-    - "Child-friendly breakpoints"
-```
-
-### **Component Specifications**
-```yaml
-component_specifications:
-  three_file_structure:
-    - "Specification.md - Design tokens, usage guidelines, accessibility"
-    - "Component.sketch - Visual design with all states"
-    - "Component.tsx - Production-ready React component"
-  
-  content_requirements:
-    - "Design tokens integration"
-    - "Accessibility compliance (WCAG 2.1 AA)"
-    - "Swedish cultural sensitivity"
-    - "Child-friendly design considerations"
-    - "Usage guidelines and examples"
-    - "Testing requirements"
-```
-
-### **Quality Standards**
-```yaml
-quality_standards:
-  wps2c_compliance:
-    - "Three-file structure for each component"
-    - "Design tokens used consistently"
-    - "Accessibility built-in"
-    - "Swedish focus maintained"
-  
-  no_speculation:
-    - "Only create components referenced in sketches"
-    - "No unnecessary complexity"
-    - "Real value for each component"
-    - "Focused, practical approach"
-  
-  swedish_focus:
-    - "Cultural sensitivity"
-    - "Multi-generational usability"
-    - "Swedish language support"
-    - "Local market considerations"
-```
-
-## Implementation Process
-
-### **Step 1: Analyze Project Needs**
-1. Review all existing sketches
-2. Identify referenced components
-3. Check existing `/components/ui/` implementations
-4. Determine actual project needs
-
-### **Step 2: Create Foundation Structure**
-1. Create D-Design-System folder
-2. Create foundation folders and files
-3. Implement design tokens
-4. Ensure Swedish focus
-
-### **Step 3: Create Component Structure**
-1. Create only referenced components
-2. Follow three-file structure
-3. Integrate design tokens
-4. Maintain accessibility standards
-
-### **Step 4: Quality Assurance**
-1. Verify WPS2C compliance
-2. Check accessibility standards
-3. Validate Swedish cultural sensitivity
-4. Ensure no speculation
 
 ---
 
-*This template ensures the design system grows organically based on actual project needs, maintaining focus on Swedish family requirements and avoiding unnecessary complexity.*
-
-*Created using Whiteport Sketch-to-Code BMad Expansion methodology with focus on practical design system development.*
+*This simple template focuses on the essential pattern and avoids overwhelming complexity while maintaining all the practical benefits.*

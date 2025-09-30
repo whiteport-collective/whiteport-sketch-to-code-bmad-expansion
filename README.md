@@ -19,7 +19,7 @@ When you combine the **BMad AI agent framework** with the **Whiteport Sketch-to-
 - **Complete Agile AI Agent Framework**: BMad provides end-to-end project management, development, and testing capabilities through specialized AI agents working in coordinated workflows
 - **4 Enhanced Specialized AI Agents**: Business Analyst, PM, UX Expert, and Developer with design-focused capabilities and mandatory WPS2C documentation standards compliance
 - **Proven Workshop Methodologies**: Effect Mapping for trigger maps, structured product brief discovery, systematic persona development with alliterative naming
-- **Professional Documentation Standards**: Executive-ready artifacts with Zero Tolerance Parentheses Policy, embedded visualizations, and consistent enterprise terminology
+- **Professional Documentation Standards**: Executive-ready artifacts with embedded visualizations and consistent enterprise terminology
 - **Sketch Documentation Pipeline**: From hand-drawn concepts through component libraries to implementation specifications with AI-era insights
 
 ## The Whiteport Method
@@ -104,7 +104,7 @@ The WPS2C methodology has evolved into a comprehensive **seven-phase workflow** 
 
 ### Enhanced Agents with Mandatory WPS2C Standards Compliance
 
-All Whiteport agents now include **CRITICAL: MANDATORY WPS2C DOCUMENTATION STANDARDS CHECK** to ensure Zero Tolerance Parentheses Policy compliance and professional enterprise documentation before any document work.
+All Whiteport agents now include **WPS2C DOCUMENTATION STANDARDS CHECK** to ensure professional enterprise documentation before any document work.
 
 #### Whiteport Business Analyst (`whiteport-analyst.md`)
 - **Primary Role**: Project discovery and user research coordination with inspiring methodology introduction
@@ -221,7 +221,7 @@ docs/
 - **Universal Compatibility**: Works seamlessly across all platforms and tools
 
 #### Writing Style Guidelines
-- **No Parentheses**: Use dashes, colons, or separate sentences instead
+- **Professional Language**: Use clear, direct language throughout
 - **Progressive Building**: Documents grow incrementally during workshops
 - **Positive Reflection**: Acknowledge and build upon user input
 - **Clear Terminology**: Consistent vocabulary throughout documentation
