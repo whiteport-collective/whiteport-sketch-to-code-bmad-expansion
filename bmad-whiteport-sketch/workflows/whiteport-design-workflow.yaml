@@ -60,13 +60,23 @@ workflow:
         The UX Expert collaborates with the designer to create and document the sketches.
         The agent manages the file structure, creates synopsis documents, and builds the component library based on the scenarios.
 
+    - step: html_preview_creation
+      agent: ux-expert
+      action: create-html-preview
+      requires: finalized-sketches-and-documentation
+      notes: |
+        The UX Expert creates interactive HTML previews from specifications for visual validation and refinement.
+        Previews are created in Frontend/ folders within each scenario step as standalone HTML/CSS/JS files.
+        This learning loop discovers gaps, refines specifications, and enriches the Design System before development.
+
     - step: static_component_creation
       agent: ux-expert
       action: create-static-components
-      requires: finalized-sketches-and-documentation
+      requires: html-preview-refinement-complete
       notes: |
         The UX Expert creates static React components matching sketches using the selected design system.
         Components are created in Frontend/ folders within each scenario step for concrete implementation targets.
+        This step now benefits from the refined specifications and Design System updates from the HTML preview phase.
 
     - step: component_enhancement
       agent: ux-expert
@@ -110,7 +120,8 @@ workflow:
       DS --> E[PM: create high-level PRD]
       E --> F[PM: create backend Epics]
       F --> G[UX Expert: sketch & document]
-      G --> SC[UX Expert: create-static-components]
+      G --> HP[UX Expert: HTML preview & refinement]
+      HP --> SC[UX Expert: create-static-components]
       SC --> CE[UX Expert: enhance-components]
       CE --> FI[UX Expert: figma-integration]
       FI --> H[PM: create UI Epics & stories]
@@ -124,6 +135,7 @@ workflow:
       style E fill:#ADD8E6
       style F fill:#ADD8E6
       style G fill:#FFE4B5
+      style HP fill:#90EE90
       style SC fill:#FFE4B5
       style CE fill:#FFE4B5
       style FI fill:#FFE4B5

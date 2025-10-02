@@ -102,12 +102,14 @@ commands:
   - map-sketch-to-design-system: Map identified sketch components to existing design system and component library
   - create-sketch-specifications: Create detailed specifications from completed sketches following WPS2C standards
   - create-scenario-specifications: Create scenario specifications with automatic compliance validation
+  - create-html-preview: Create interactive HTML preview from specifications for visual validation and refinement
   - document-component: Create component specification with WPS2C standards
   - build-component-library: Identify and document reusable components systematically
   - integrate-design-system: Integrate design system workflow with chosen component library and centralized CSS
   - create-design-system-structure: Set up foundation structure first, then discover components through sketching process
   - discuss-scenario-structure: Discuss and plan C-Scenarios structure with user before creating folders
   - discuss-component-structure: Discuss and plan D-Design-System structure with user before creating folders
+  - create-design-system-preview: Create consolidated HTML preview of Design System for visual reference
   - create-interactive-brand-book: Generate interactive brand book showcasing all components and variants
   - generate-prototypes: Create working HTML/CSS prototypes from component specifications
   - standardize-all-headers: Fix all scenario page headers to exact WPS2C format
@@ -131,12 +133,14 @@ dependencies:
     - map-sketch-to-design-system.md
     - create-sketch-specifications.md
     - create-scenario-specifications.md
+    - create-html-preview.md
     - create-component-specification.md
     - build-component-library.md
     - integrate-design-system.md
     - create-design-system-structure.md
     - discuss-scenario-structure.md
     - discuss-component-structure.md
+    - create-design-system-preview.md
     - create-interactive-brand-book.md
     - generate-prototypes.md
     - create-static-components.md

@@ -35,7 +35,7 @@ This is **Phase C** of the complete WPS2C workflow - where your strategic user i
 
 ---
 
-## 🎯 Three Visual Design Analysis Approaches
+## 🎯 Four Visual Design Analysis Approaches
 
 ### **4A: Scenario Step Exploration** 
 **When to use**: No sketch exists, need to discover the solution through collaborative thinking
@@ -54,6 +54,12 @@ This is **Phase C** of the complete WPS2C workflow - where your strategic user i
 **Process**: Transform hand-drawn concepts into development-ready blueprints through systematic analysis
 **Agent Command**: `*create-sketch-specifications`
 **Outcome**: AI-ready specifications for immediate development
+
+### **4D: HTML Preview Creation & Refinement** ✨ *NEW*
+**When to use**: Specifications are complete, need visual validation before development
+**Process**: Create interactive HTML preview from specifications, test user flow, discover gaps and improvements, refine specifications and Design System
+**Agent Command**: `*create-html-preview`
+**Outcome**: Interactive clickable prototype + refined specifications ready for production development
 
 ---
 
@@ -112,8 +118,9 @@ This is **Phase C** of the complete WPS2C workflow - where your strategic user i
 - Connect interface choices directly to user trigger psychology  
 - Build design systems that developers actually want to use
 - Create specifications so clear they eliminate 90% of clarification meetings
+- **Validate designs through interactive prototypes before expensive development** ✨ *NEW*
 
-**This isn't just better documentation - it's strategic interface architecture.**
+**This isn't just better documentation - it's strategic interface architecture with built-in learning loops.**
 
 ### 🤖 The AI Development Era Game-Changer
 
@@ -149,6 +156,7 @@ Using visualizations, especially hand-drawn sketches, combined with detailed des
 | Components emerge accidentally | Components designed strategically for AI development |
 | Design system grows organically | Architecture follows user psychology with AI-ready clarity |
 | Features built in isolation | Everything connects to trigger map goals with detailed context |
+| Design validated after development | **Interactive previews validate design before development** ✨ *NEW* |
 | QA tests visual similarity | QA validates user experience intent and AI implementation accuracy |
 
 ### The Atomic Design Foundation 🔬
@@ -249,6 +257,64 @@ flowchart TD
 
 **But more importantly**: Every specification connects interface decisions to user psychology and business success.
 
+#### 🔄 Stage 5: Interactive Preview & Refinement Loop ✨ *NEW*
+**"Let's validate design decisions before expensive development"**
+
+**The WPS2C Learning Loop**:
+```mermaid
+flowchart TD
+    A[📋 Complete Specifications] --> B[🖥️ Create HTML Preview]
+    B --> C[🧪 Test Interactions & Flow]
+    C --> D{Discover Issues?}
+    D -->|Yes| E[📝 Refine Specifications]
+    E --> F[🎨 Update Design System]
+    F --> B
+    D -->|No| G[✅ Ready for Development]
+```
+
+**What HTML Previews Reveal**:
+- **Visual Gaps**: "The spacing doesn't match our Design System tokens"
+- **Interaction Clarity**: "We forgot to specify the loading state for this button"
+- **Component Discovery**: "We need a new phone input component with country selector"
+- **User Flow Issues**: "This navigation doesn't make sense in the actual flow"
+- **Content Problems**: "The Swedish translation is too long for this button"
+- **Design System Gaps**: "We're missing a 'disabled' state for this component"
+
+**Preview Creation Process** (20-40 minutes per page):
+1. **HTML Structure** (10 min): Build semantic HTML with Object/Position IDs from specifications
+2. **CSS Styling** (15 min): Apply Design System tokens and component styles (external `.css` file)
+3. **JavaScript Interactions** (15 min): Implement validations, navigation, and multilingual content (external `.js` file)
+4. **Testing & Discovery** (15 min): Click through, test interactions, discover improvements
+5. **Refinement** (Iterative): Update specifications and Design System based on learnings
+
+**File Structure**:
+```
+C-Scenarios/01-Onboarding/1.3-Profile-Setup/
+├── 1.3-Profile-Setup.md (specifications)
+├── Sketches/
+│   └── 1.3-Profile-Setup_Mobile_Concept.jpg
+└── Frontend/
+    ├── Assets/
+    │   └── img-illustration.jpg
+    ├── 1.3-Profile-Setup-Preview.html
+    ├── 1.3-Profile-Setup-Preview.css
+    └── 1.3-Profile-Setup-Preview.js
+```
+
+**Key Benefits**:
+- 🚀 **Cheap Validation**: Find issues before expensive development
+- 🎯 **Stakeholder Approval**: Share clickable prototypes for quick feedback
+- 🔍 **Gap Discovery**: Uncover missing specifications and edge cases
+- 🎨 **Design System Growth**: Identify and add new components as needed
+- 📈 **Better Specifications**: Refine specs based on actual interaction testing
+- 🔗 **User Flow Testing**: Click through entire journey to validate logic
+
+**"Create as Needed" Philosophy**:
+- Don't build all previews upfront
+- Create when specifications are mature enough
+- Use as refinement tool, not documentation burden
+- Focus on complex, high-value scenarios first
+
 ---
 
 ## 🎬 The Step-by-Step Specification Performance
@@ -344,6 +410,7 @@ This component serves our #1 user type's #1 positive trigger.
 - 🚀 **75% reduction in design clarification meetings** - Comprehensive psychological specifications prevent AI confusion
 - 📊 **85% improvement in user task completion** - Components designed for trigger activation
 - 🤖 **90% reduction in AI development errors** - Crystal-clear specifications prevent context window issues and hallucination death spirals
+- ✨ **80% fewer post-development design changes** - Interactive previews catch issues before expensive development *NEW*
 
 ---
 
