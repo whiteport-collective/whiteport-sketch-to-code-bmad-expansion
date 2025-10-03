@@ -408,6 +408,206 @@ export function FigmaAssets() {
 }
 ```
 
+## Figma-to-Code Synchronization Workflow
+
+**Context**: Once your design system is established in Figma, you may want to keep component specifications synchronized with design changes. Here's one approach that some teams find effective.
+
+### Design System as Single Source of Truth
+
+**Philosophy**: Figma becomes the source of truth for visual design, with component specifications automatically updated to match.
+
+**Naming Convention Pattern**:
+- Figma component layer name → matches `.md` specification file name
+- Example: Figma layer "Button-Primary" → `Button-Primary.md`
+- Example: Figma layer "Input" → `Input.md`
+- Example: Figma layer "Checkbox" → `Checkbox.md`
+
+**Why This Works**:
+- Clear 1:1 mapping between design and documentation
+- Easy to identify which spec needs updating
+- Scalable as design system grows
+
+### Practical Sync Workflow
+
+When a designer updates a component in Figma:
+
+#### **Step 1: Extract Specifications from Figma**
+
+**What to Copy from Figma Inspect Panel**:
+- **Dimensions**: Width, height, min/max constraints
+- **Colors**: All color values as hex codes
+- **Typography**: Font family, size, weight, line-height
+- **Spacing**: Padding, margins (top, right, bottom, left)
+- **Border**: Border radius, border width, border color
+- **Shadows**: Box-shadow values
+- **States**: Hover, active, focus, disabled specifications
+
+**Figma Inspect Panel Example**:
+```
+Width: 200px
+Height: 48px
+Padding: 12px 24px
+Border Radius: 8px
+Background: #3b82f6
+Font: Inter
+Size: 16px
+Weight: 600
+```
+
+#### **Step 2: Update Component Specification**
+
+Take the extracted values and update the `.md` file:
+
+**Before** (outdated spec):
+```markdown
+### Visual Properties
+- Height: 44px
+- Padding: 10px 20px
+- Border Radius: 6px
+- Background: #2563eb
+```
+
+**After** (synced with Figma):
+```markdown
+### Visual Properties
+- Height: 48px
+- Padding: 12px 24px
+- Border Radius: 8px
+- Background: #3b82f6
+```
+
+#### **Step 3: Update CSS/HTML Guide**
+
+If you have a Design System Guide (HTML preview), update the styles:
+
+**CSS Update Example**:
+```css
+/* Before */
+.btn-primary {
+    height: 44px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: #2563eb;
+}
+
+/* After (synced with Figma) */
+.btn-primary {
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: #3b82f6;
+}
+```
+
+### Sync Workflow Checklist
+
+**When Designer Updates Figma Component**:
+- [ ] Open Figma component in Inspect Panel
+- [ ] Note component name (matches `.md` file)
+- [ ] Copy all visual specifications
+- [ ] Copy state variations (hover, active, etc.)
+- [ ] Update corresponding `.md` specification file
+- [ ] Update CSS in Design System Guide (if applicable)
+- [ ] Update HTML examples (if changed)
+- [ ] Test changes in preview/browser
+- [ ] Notify development team of changes
+
+### What to Extract for Different Component Types
+
+**Buttons**:
+- Dimensions (width/height)
+- Padding (all sides)
+- Border radius
+- Background color (all states)
+- Text color (all states)
+- Typography (font, size, weight)
+- Shadow/elevation
+
+**Inputs**:
+- Height
+- Padding
+- Border (width, color, style)
+- Border radius
+- Background color
+- Typography
+- Placeholder color
+- Focus state (border, shadow)
+- Error state styling
+
+**Colors**:
+- Hex values for all shades (50, 100, 300, 500, 600, 700, etc.)
+- Usage context
+- Accessibility contrast ratios
+
+**Typography**:
+- Font family
+- Font sizes for each level (H1, H2, body, etc.)
+- Font weights used
+- Line heights
+- Letter spacing (if applicable)
+
+### Automation Possibilities
+
+**Manual Sync** (immediate, no setup):
+- Designer shares Figma link
+- Developer opens Inspect Panel
+- Developer manually copies values
+- Update specs and CSS manually
+
+**Semi-Automated** (requires some setup):
+- Use Figma Design Tokens plugin
+- Export tokens as JSON
+- Map JSON values to CSS variables
+- Update specs from JSON
+
+**Fully Automated** (complex setup):
+- Figma API integration
+- Automated token extraction
+- CI/CD pipeline updates
+- Automatic spec generation
+
+**Recommendation**: Start manual, automate only if you have many frequent updates.
+
+### Maintaining Design-Code Consistency
+
+**Practical Tips**:
+1. **Schedule regular syncs**: Weekly or after major design reviews
+2. **Version control**: Commit Figma changes with spec updates together
+3. **Change log**: Note what changed in commit messages
+4. **Team communication**: Announce significant design updates
+5. **Visual regression testing**: Compare before/after if possible
+
+**Communication Pattern**:
+```
+Designer: "Updated Button-Primary in Figma"
+         → Height: 44px → 48px
+         → Padding: 10px → 12px
+         → Border radius: 6px → 8px
+         
+Developer: *Updates Button-Primary.md*
+          *Updates Design-System-Guide.css*
+          *Tests in preview*
+          "Synced! Deployed to staging"
+```
+
+### When Figma Sync Makes Sense
+
+**Good Fit**:
+- Active design iteration phase
+- Multiple designers working on components
+- Design system is mature and established
+- Team has capacity to maintain sync
+
+**May Not Be Worth It**:
+- Design is mostly stable
+- Small team with rare design changes
+- Early exploration phase (design not finalized)
+- Components are highly custom-coded
+
+**Remember**: The goal is useful synchronization, not perfect automation. Manual sync with good communication often works better than complex automation that breaks frequently.
+
+---
+
 ## Success Criteria
 
 - [ ] Figma MCP is properly configured and connected
