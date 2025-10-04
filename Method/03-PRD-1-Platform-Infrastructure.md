@@ -1,4 +1,4 @@
-**Previous Phase**: [← Phase 2: Trigger Map Creation](02-Trigger-Map-Creation.md) | **Next Phase**: [Phase 4: Sketch-to-Spec →](04-Sketch-To-Spec.md)
+**Previous Phase**: [← Phase 2: Trigger Map Creation](02-Trigger-Map-Creation.md) | **Next Phase**: [Phase 4: Conceptual Documentation →](04-Conceptual-Documentation.md)
 
 ---
 
@@ -209,4 +209,4 @@ Provides API contracts and system architecture for sketch-to-spec implementation
 
 ---
 
-**Previous Phase**: [← Phase 2: Trigger Map Creation](02-Trigger-Map-Creation.md) | **Next Phase**: [Phase 4: Sketch-to-Spec →](04-Sketch-To-Spec.md)
+**Previous Phase**: [← Phase 2: Trigger Map Creation](02-Trigger-Map-Creation.md) | **Next Phase**: [Phase 4: Conceptual Documentation →](04-Conceptual-Documentation.md)

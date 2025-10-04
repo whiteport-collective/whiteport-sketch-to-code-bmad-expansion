@@ -52,7 +52,7 @@ The WPS2C methodology has evolved into a comprehensive **seven-phase workflow** 
 - **Platform Infrastructure Epics** - Technical foundation requirements for hosting, integrations, and architecture
 - **Early PRD Section** - Platform specifications ready for functional requirements integration
 
-#### Phase 4: 📱 [Sketch-to-Spec](Method/04-Sketch-To-Spec.md)
+#### Phase 4: 📱 [Conceptual Documentation](Method/04-Conceptual-Documentation.md)
 **Purpose**: Transform hand-drawn UI into comprehensive component specifications with AI-era insights  
 **Process**: Atomic design principles with systematic component documentation recognizing "specifications ARE the code"  
 **Documents Created**:

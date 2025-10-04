@@ -115,7 +115,7 @@ This task guides the PM through a systematic design system selection process wit
 **Duration**: 10-15 minutes
 
 **Integration Planning**:
-- [ ] Update Phase 4: Sketch-to-Spec with design system mapping
+- [ ] Update Phase 4: Conceptual Specifications with design system mapping
 - [ ] Plan static component creation using selected design system
 - [ ] Define component library structure
 - [ ] Plan theme customization approach
@@ -196,7 +196,7 @@ This task guides the PM through a systematic design system selection process wit
 
 ### WPS2C Integration
 - [ ] Design system selection enhances WPS2C workflow
-- [ ] Phase 4: Sketch-to-Spec is updated with design system mapping
+- [ ] Phase 4: Conceptual Specifications is updated with design system mapping
 - [ ] Static component creation process is defined
 - [ ] Development backlog includes design system tasks
 

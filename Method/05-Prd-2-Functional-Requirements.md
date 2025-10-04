@@ -1,4 +1,4 @@
-**Previous Phase**: [← Phase 4: Sketch-to-Spec](04-Sketch-To-Spec.md) | **Next Phase**: [Phase 6: Backlog Creation →](06-Backlog-Creation.md)
+**Previous Phase**: [← Phase 4: Conceptual Documentation](04-Conceptual-Documentation.md) | **Next Phase**: [Phase 6: Backlog Creation →](06-Backlog-Creation.md)
 
 ---
 
@@ -261,4 +261,4 @@ Your dual-phase PRD becomes the **strategic DNA** for your entire development pr
 
 ---
 
-**Previous Phase**: [← Phase 4: Sketch-to-Spec](04-Sketch-To-Spec.md) | **Next Phase**: [Phase 6: Backlog Creation →](06-Backlog-Creation.md)
+**Previous Phase**: [← Phase 4: Conceptual Documentation](04-Conceptual-Documentation.md) | **Next Phase**: [Phase 6: Backlog Creation →](06-Backlog-Creation.md)

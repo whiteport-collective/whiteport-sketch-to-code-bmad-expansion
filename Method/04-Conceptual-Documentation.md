@@ -2,13 +2,13 @@
 
 ---
 
-# 🎨 Phase 4: Visual Design Analysis & Specification
+# 🎨 Phase 4: Conceptual Specifications
 ## *From Strategic Exploration to Bulletproof Specifications*
 
 ---
 
 ### 🔗 Your Design Bridge in the Whiteport Sketch-to-Code Method
-This is **Phase C** of the complete WPS2C workflow - where your strategic user intelligence transforms into actionable interface specifications. This comprehensive visual design analysis phase handles three distinct scenarios: collaborative exploration when no sketch exists, analysis and specification of existing sketches, and traditional sketch-to-spec transformation. Every process ensures components serve your trigger map goals and delight your prioritized user types.
+This is **Phase C** of the complete WPS2C workflow - where your strategic user intelligence transforms into actionable interface specifications. This comprehensive conceptual specification phase handles three distinct scenarios: collaborative exploration when no sketch exists, analysis and specification of existing sketches, and sketch analysis and specification transformation. Every process ensures components serve your trigger map goals and delight your prioritized user types.
 
 ---
 
@@ -21,7 +21,8 @@ This is **Phase C** of the complete WPS2C workflow - where your strategic user i
 **What they do**:
 - **Scenario Step Exploration**: Facilitate collaborative design thinking when no sketch exists, integrating trigger map psychology and customer awareness cycle
 - **Scenario Step Sketch Analysis**: Analyze existing sketches, ask clarifying questions, and create component specifications with proper hierarchy and translations
-- **Traditional Sketch-to-Spec**: Transform hand-drawn concepts into development-ready blueprints through systematic analysis
+- **Concept Specification**: Transform hand-drawn concepts into development-ready blueprints through systematic analysis
+- Explain the text in ambitious detail to be able to provide a complete text-based description of each object in the sketch and its intended functionality to be used as a prompt when developing HTML prototypes and the final code base. 
 - Design atomic, molecular, and organism components that serve user psychology
 - Build comprehensive component libraries with trigger-activation specifications
 
@@ -49,7 +50,7 @@ This is **Phase C** of the complete WPS2C workflow - where your strategic user i
 **Agent Command**: `*analyze-scenario-sketch`
 **Outcome**: Detailed specifications with component links and translations
 
-### **4C: Traditional Sketch-to-Spec**
+### **4C: Sketch Analysis & Specification**
 **When to use**: Completed sketches ready for systematic component extraction
 **Process**: Transform hand-drawn concepts into development-ready blueprints through systematic analysis
 **Agent Command**: `*create-sketch-specifications`
@@ -111,7 +112,7 @@ This is **Phase C** of the complete WPS2C workflow - where your strategic user i
 
 **The brutal truth**: Without systematic component thinking, you're building 47 different versions of the same button while missing the innovative features that actually matter.
 
-### The WPS2C Sketch-to-Spec Revolution: Strategic Interface Intelligence 🧠
+### The WPS2C Conceptual Specifications Revolution: Strategic Interface Intelligence 🧠
 
 **What if design handoff could**:
 - Transform every sketch line into purposeful component decisions
@@ -140,7 +141,7 @@ Using visualizations, especially hand-drawn sketches, combined with detailed des
 - **Context-rich enough** to prevent AI context window shortage
 - **Specific enough** to eliminate AI hallucination
 
-**This is why WPS2C Sketch-to-Spec is perfectly positioned for the AI era - we create the strategic clarity that makes AI development unstoppable.**
+**This is why WPS2C Conceptual Specifications is perfectly positioned for the AI era - we create the strategic clarity that makes AI development unstoppable.**
 
 ---
 
@@ -148,7 +149,7 @@ Using visualizations, especially hand-drawn sketches, combined with detailed des
 
 ### Traditional Design Handoff vs WPS2C Magic ✨
 
-| 😵 Traditional Handoff | 🎨 WPS2C Sketch-to-Spec |
+| 😵 Traditional Handoff | 🎨 WPS2C Conceptual Specifications |
 |------------------------|-------------------------|
 | "Here's the sketch, figure it out" | "Here's why every element serves user triggers" |
 | Vague specs lead to AI hallucination | Crystal-clear specs enable perfect AI implementation |
@@ -189,7 +190,7 @@ Traditional atomic design asks: "How do we organize components?"
 
 ---
 
-## 🎪 WHAT You Get: The WPS2C Sketch-to-Spec Experience
+## 🎪 WHAT You Get: The WPS2C Conceptual Specifications Experience
 
 ### The Strategic Analysis Opening 🎯
 **Instead of**: "Let's turn sketches into wireframes"
@@ -317,6 +318,108 @@ C-Scenarios/01-Onboarding/1.3-Profile-Setup/
 
 ---
 
+## 🏷️ Object ID System: The Traceability Foundation
+
+### Why Object IDs Matter
+
+**Object IDs are the bridge between**:
+- 📋 **Specifications and Code**: Every documented element has a traceable identifier
+- 🤖 **Testing and Automation**: Reliable selectors for QA frameworks
+- 📊 **Analytics and Behavior**: Track user interactions by element
+- 🎨 **Design and Development**: Shared vocabulary across teams
+- 🔍 **Debugging and Maintenance**: Fast element identification
+
+**Without systematic Object IDs**, you get:
+- ❌ Developers guessing element names
+- ❌ Tests breaking with minor HTML changes
+- ❌ Analytics events with inconsistent naming
+- ❌ Design-dev communication gaps
+- ❌ Slow debugging and maintenance
+
+**With proper Object IDs**, you achieve:
+- ✅ Specs match implementation precisely
+- ✅ Automated tests with stable selectors
+- ✅ Consistent analytics tracking
+- ✅ Clear team communication
+- ✅ Fast element location and updates
+
+### Object ID Format Standard
+
+**Pattern**: `{page}-{section}-{element}` in kebab-case
+
+**Example Element Specification**:
+```markdown
+#### [Button Primary](/docs/Components/Button.md) - Submit Button
+**OBJECT ID**: `profile-setup-button-submit`
+- **ShadCN/UI Component**: `<Button variant="default">` from `@/components/ui/button`
+- **HTML Implementation**: `<button id="profile-setup-button-submit">`
+- **API Data Field**: `submitProfile` (camelCase for JavaScript)
+- **Content**:
+  - SE: "Spara Profil"
+  - EN: "Save Profile"
+- **Behavior**: onClick → validate form, save data, navigate
+```
+
+**Key Rules**:
+- ✅ Use **kebab-case** for Object IDs (profile-setup-button-submit)
+- ✅ Use **camelCase** for API data fields (submitProfile)
+- ✅ Place **OBJECT ID** on own line after heading
+- ✅ Document **both** Object ID and API field name
+- ✅ Keep IDs to **3 segments maximum**
+- ✅ Create separate IDs for **error messages**
+- ✅ Use **descriptive names** that reveal purpose
+- ✅ Include **data-object-id** attribute for testing
+
+**Element Type Patterns**:
+- **Input Fields**: `{page}-input-{fieldname}` → `profile-setup-input-firstname`
+- **Buttons**: `{page}-button-{action}` → `signin-button-google`
+- **Error Messages**: `{page}-error-{fieldname}` → `profile-setup-error-email`
+- **Modals**: `{page}-modal-{element}` → `terms-modal-close`
+- **Toggles**: `{page}-toggle-{feature}` → `settings-toggle-notifications`
+
+### Integration with HTML Previews
+
+**HTML Implementation**:
+```html
+<input 
+  id="profile-setup-input-firstname" 
+  data-object-id="profile-setup-input-firstname"
+  name="firstName"
+  type="text"
+/>
+```
+
+**JavaScript Access**:
+```javascript
+const input = document.getElementById('profile-setup-input-firstname');
+const errorElement = document.getElementById('profile-setup-error-firstname');
+```
+
+**Test Automation**:
+```javascript
+// Cypress example
+cy.get('[data-object-id="profile-setup-button-submit"]').click();
+
+// Playwright example
+await page.locator('[data-object-id="profile-setup-button-submit"]').click();
+```
+
+### Complete Guide
+
+For comprehensive Object ID guidelines, implementation examples, and best practices, see:
+
+**📖 [Object ID Specification Guide](04-1-Object-ID-Specification-Guide.md)**
+
+This supplement covers:
+- Detailed format standards and naming conventions
+- Implementation patterns for all element types
+- Testing and analytics integration
+- Migration strategies for existing projects
+- Benefits by role (Developers, Designers, QA, Product)
+- Common patterns and troubleshooting
+
+---
+
 ## 🎬 The Step-by-Step Specification Performance
 
 ### 🎭 Act 1: The Strategic Sketch Analysis (30-45 minutes)
@@ -398,7 +501,7 @@ This component serves our #1 user type's #1 positive trigger.
 - **Consistency Chaos**: Similar patterns implemented differently across features
 - **User Experience Accidents**: Interface elements that accidentally trigger user pain points
 
-### What WPS2C Sketch-to-Spec Delivers 🚀
+### What WPS2C Conceptual Specifications Delivers 🚀
 - **Strategic Component Architecture**: Every interface element serves identified user triggers
 - **Implementation Clarity**: Specifications eliminate interpretation and guesswork
 - **Psychological Consistency**: Design patterns that systematically support user psychology

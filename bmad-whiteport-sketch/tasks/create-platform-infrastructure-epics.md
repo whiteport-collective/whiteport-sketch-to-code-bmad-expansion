@@ -116,7 +116,7 @@ E-Backlog/
 ## Integration with Sketch-Driven Development
 
 * **API-First Architecture**: Infrastructure stories define clear service contracts for future UI consumption
-* **Foundation Readiness**: Core systems available when sketch-to-spec development begins
+* **Foundation Readiness**: Core systems available when conceptual specification development begins
 * **Parallel Development**: Backend infrastructure teams can work while UI design and user research proceed
 * **Integration Preparation**: External service connections established and tested before UI implementation
 

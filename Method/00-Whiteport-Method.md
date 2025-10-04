@@ -22,7 +22,7 @@ The Whiteport Sketch-to-Code Method is a comprehensive design-driven development
 - **Phase 1**: [Product Brief Discovery](01-Product-Brief-Discovery.md)
 - **Phase 2**: [Trigger Map Creation](02-Trigger-Map-Creation.md)
 - **Phase 3**: [PRD Platform Infrastructure](03-PRD-1-Platform-Infrastructure.md)
-- **Phase 4**: [Sketch-to-Spec](04-Sketch-To-Spec.md)
+- **Phase 4**: [Conceptual Documentation](04-Conceptual-Documentation.md)
 - **Phase 5**: [PRD Functional Requirements](05-Prd-2-Functional-Requirements.md)
 - **Phase 6**: [Backlog Creation](06-Backlog-Creation.md)
 - **Phase 7**: [Dev Workflow](07-Dev-Workflow.md)
@@ -138,16 +138,16 @@ flowchart LR
 
 ---
 
-### 📱 [Phase 4: Visual Design Analysis & Specification](04-Sketch-To-Spec.md)
+### 📱 [Phase 4: Conceptual Documentation](04-Conceptual-Documentation.md)
 
-**What it does**: Comprehensive visual design analysis through three approaches: collaborative exploration when no sketch exists, analysis and specification of existing sketches, and traditional sketch-to-spec transformation  
+**What it does**: Comprehensive conceptual specification through three approaches: collaborative exploration when no sketch exists, analysis and specification of existing sketches, and traditional conceptual specification transformation  
 **How long**: 2-4 hours depending on approach and complexity  
 **Agent**: Whiteport UX Expert  
 **You get**: Detailed page specifications with bilingual content, user interaction flows, and technical implementation guidance  
 **Output**: `docs/C-Scenarios/[scenario-folders]/` with sketch analysis and specifications
 
 ![Whiteport Sketching Example](Whiteport-Sketching-Example.jpg)
-*Sketch-to-Spec Process: From initial wireframes to detailed component specifications with modal interactions*
+*Conceptual Specifications Process: From initial wireframes to detailed component specifications with modal interactions*
 
 ---
 
@@ -428,8 +428,8 @@ Follow the seven-phase sequence systematically, ensuring phase completion valida
 #### Sequential Phase Dependencies
 1. **[Phase 1: Product Brief Discovery](01-Product-Brief-Discovery.md)** creates strategic foundation → enables **[Phase 2: Trigger Map Creation](02-Trigger-Map-Creation.md)**
 2. **[Phase 2: Trigger Map Creation](02-Trigger-Map-Creation.md)** establishes user research → enables **[Phase 3: PRD Platform Infrastructure](03-PRD-1-Platform-Infrastructure.md)**  
-3. **[Phase 3: PRD Platform Infrastructure](03-PRD-1-Platform-Infrastructure.md)** defines technical foundation → enables parallel **[Phase 4: Sketch-to-Spec](04-Sketch-To-Spec.md)**
-4. **[Phase 4: Sketch-to-Spec](04-Sketch-To-Spec.md)** provides visual specifications → enables **[Phase 5: PRD Functional Requirements](05-Prd-2-Functional-Requirements.md)**
+3. **[Phase 3: PRD Platform Infrastructure](03-PRD-1-Platform-Infrastructure.md)** defines technical foundation → enables parallel **[Phase 4: Conceptual Documentation](04-Conceptual-Documentation.md)**
+4. **[Phase 4: Conceptual Documentation](04-Conceptual-Documentation.md)** provides visual specifications → enables **[Phase 5: PRD Functional Requirements](05-Prd-2-Functional-Requirements.md)**
 5. **[Phase 5: PRD Functional Requirements](05-Prd-2-Functional-Requirements.md)** completes requirements → enables **[Phase 6: Backlog Creation](06-Backlog-Creation.md)**
 6. **[Phase 6: Backlog Creation](06-Backlog-Creation.md)** creates structured backlog → enables **[Phase 7: Dev Workflow](07-Dev-Workflow.md)**
 

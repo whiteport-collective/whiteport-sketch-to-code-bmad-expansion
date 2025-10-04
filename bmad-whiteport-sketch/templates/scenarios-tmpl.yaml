@@ -189,6 +189,30 @@ template:
         ```
       - **Object Naming**: Use English names for UI elements with bilingual labels
       - **Consistency**: Apply this format throughout all specifications for clarity
+      
+      **Object ID Standards** (MANDATORY):
+      - **Purpose**: Create traceable references between specifications, code, testing, and analytics
+      - **Format**: `{page}-{section}-{element}` in kebab-case
+      - **Placement**: Place `**OBJECT ID**: object-id-name` on its own line immediately after element heading
+      - **API Data Fields**: Use camelCase for JavaScript/JSON compatibility, documented alongside Object IDs
+      - **Element Types**:
+        - Input Fields: `{page}-input-{fieldname}` → `profile-setup-input-firstname`
+        - Buttons: `{page}-button-{action}` → `signin-button-google`
+        - Error Messages: `{page}-error-{fieldname}` → `profile-setup-error-email`
+        - Modals: `{page}-modal-{element}` → `terms-modal-close`
+        - Toggles: `{page}-toggle-{feature}` → `settings-toggle-notifications`
+      - **HTML Implementation**: Use both `id` and `data-object-id` attributes for testing reliability
+      - **Example**:
+        ```
+        #### [Button Primary](/docs/Components/Button.md) - Submit Button
+        **OBJECT ID**: `profile-setup-button-submit`
+        - **API Data Field**: `submitProfile`
+        - **Content**:
+          - SE: "Spara Profil"
+          - EN: "Save Profile"
+        - **Behavior**: onClick → validate form, save data, navigate
+        ```
+      - **Complete Guide**: See [Object ID Specification Guide](../Method/04-1-Object-ID-Specification-Guide.md) for comprehensive documentation
 
   - id: validation-checklist
     title: "Scenario Validation Checklist"
@@ -204,6 +228,8 @@ template:
       - [ ] Technical requirements are identifiable from scenarios
       - [ ] Professional documentation standards applied for naming, navigation, and hierarchy
       - [ ] Concept sketch fidelity clearly indicated in file names and references
+      - [ ] Object IDs documented for all interactive elements using kebab-case format
+      - [ ] API data fields documented in camelCase alongside Object IDs
 
   - id: document-attribution
     title: "Document Attribution"

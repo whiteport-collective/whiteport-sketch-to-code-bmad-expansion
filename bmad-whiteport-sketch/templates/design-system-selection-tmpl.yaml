@@ -222,7 +222,7 @@ template:
         - **Theme System**: Specify theming and customization requirements
         - **Integration Points**: Define how design system integrates with backend
         
-        ### Phase 4: Sketch-to-Spec
+        ### Phase 4: Conceptual Specifications
         - **Component Mapping**: Map sketch elements to design system components
         - **Static Components**: Create static React components using selected design system
         - **Responsive Design**: Use design system's responsive capabilities

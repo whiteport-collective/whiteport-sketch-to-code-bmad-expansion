@@ -151,7 +151,7 @@ The `00-Implementation-Roadmap.md` must include:
 
 ### Parallel Development Enablement
 - Platform infrastructure initiatives can proceed immediately
-- UI-focused initiatives wait for sketch-to-spec completion
+- UI-focused initiatives wait for conceptual specification completion
 - API specifications in D-PRD enable frontend development
 - Implementation roadmap coordinates all development streams
 
