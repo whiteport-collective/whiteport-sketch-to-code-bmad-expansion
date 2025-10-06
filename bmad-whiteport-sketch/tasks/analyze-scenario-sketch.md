@@ -25,9 +25,10 @@ This sketch analysis process is a core component of that vision - helping design
 
 ### Phase 1: Sketch Upload and Collaborative Analysis
 ### Phase 2: Guided Clarification and Exploration
-### Phase 3: Collaborative Component Specification
-### Phase 4: Design System Integration
-### Phase 5: Documentation and Next Steps
+### Phase 3: Collaborative Component Specification and Classification
+### Phase 4: Design System Integration for Reusable Components
+### Phase 5: Component Validation and Concept Readiness
+### Phase 6: Documentation and Next Steps
 
 ---
 
@@ -122,10 +123,10 @@ Work together to clarify sketch details and understand design intent through col
 
 ---
 
-## Phase 3: Collaborative Component Specification
+## Phase 3: Collaborative Component Specification and Classification
 
 ### Purpose
-Create detailed component specifications with proper hierarchy through collaborative thinking and co-creation.
+Create detailed component specifications with proper hierarchy and classify each component as either a reusable design system component or a page-specific component through collaborative thinking and co-creation.
 
 ### Process
 
@@ -143,14 +144,21 @@ Create detailed component specifications with proper hierarchy through collabora
 - "How do you envision the visual properties and interactive states?"
 - "What content and accessibility requirements do you think we need?"
 
-#### Step 3.3: Hierarchy Documentation
+#### Step 3.3: Component Classification
+**Classify Together:**
+- "Let's decide which components should be reusable design system components versus page-specific components"
+- "Which elements do you think will be used across multiple pages and should go in the design system?"
+- "Which elements are unique to this page and should remain page-specific?"
+- "How do you envision these components being reused in other scenarios?"
+
+#### Step 3.4: Hierarchy Documentation
 **Document Together:**
 - "Let's organize this with proper hierarchy. How do you think we should structure the documentation?"
 - "What should be the main sections and how should they relate to each other?"
 - "How do you envision the component relationships and dependencies?"
 - "What level of detail feels right for each component?"
 
-#### Step 3.4: Content and Translation Integration
+#### Step 3.5: Content and Translation Integration
 **Integrate Together:**
 - "Let's work through the copy together. What's your vision for the headlines and messaging?"
 - "What tone and voice do you think would work best here?"
@@ -159,6 +167,7 @@ Create detailed component specifications with proper hierarchy through collabora
 
 ### Output
 - Complete component specifications created through collaboration
+- Clear component classification (design system vs page-specific)
 - Comprehensive content and translation integration
 - Clear documentation structure following WPS2C standards
 
@@ -248,6 +257,51 @@ Organize documentation and plan next steps through collaborative thinking and pl
 
 ---
 
+## Phase 5: MANDATORY Component Validation
+
+### **Design System First Approach**
+
+**Please ensure complete design system integration before prototype creation to maintain consistency and prevent incomplete implementations.**
+
+### Step 1: Component Inventory
+- **List All Elements**: Create complete inventory of all UI elements in sketch
+- **Categorize Components**: Classify each element as atomic, molecular, or organism
+- **Check Design System**: Verify which components already exist in design system
+- **Identify Gaps**: List components that need to be created or documented
+
+### Step 2: Design System Validation
+- **MANDATORY**: All sketch components must exist in design system
+- **MANDATORY**: All components must have complete specifications
+- **MANDATORY**: All components must be integrated into Design System Guide
+- **NO EXCEPTIONS**: No prototype creation without complete validation
+
+### Step 3: Missing Component Creation
+- **Create Missing Components**: Document any components not in design system
+- **Complete Specifications**: Ensure all components have proper documentation
+- **Follow Atomic Design**: Organize components in proper structure
+- **Use Design Tokens**: Ensure components use foundation design tokens
+
+### Step 4: Design System Integration
+- **Update Design System Guide**: Add all components to interactive showcase
+- **Update Navigation**: Ensure all components are accessible via navigation
+- **Test Integration**: Verify components work in showcase
+- **Validate Completeness**: Confirm 100% component coverage
+
+### Step 5: Final Validation
+- **Complete Coverage**: Verify every sketch element has design system component
+- **Quality Assurance**: Ensure all components meet design system standards
+- **Integration Complete**: Confirm all components are in Design System Guide
+- **Ready for Prototype**: Validate design system is complete for prototype creation
+
+### **Enforcement Rules**
+- **STOP**: Halt all prototype creation if components are missing
+- **CREATE**: Create missing components in design system first
+- **INTEGRATE**: Add components to Design System Guide
+- **VALIDATE**: Verify complete integration before proceeding
+- **NO SHORTCUTS**: Complete all steps before prototype creation
+
+---
+
 ## Quality Validation
 
 ### Collaborative Sketch Analysis Validation Checklist
@@ -257,6 +311,9 @@ Organize documentation and plan next steps through collaborative thinking and pl
 - [ ] Component specifications created through partnership
 - [ ] All copy includes necessary translations
 - [ ] Components properly linked to design system
+- [ ] **MANDATORY**: All sketch components exist in design system
+- [ ] **MANDATORY**: All components integrated into Design System Guide
+- [ ] **MANDATORY**: Complete component validation performed
 - [ ] Documentation follows WPS2C standards and naming conventions
 - [ ] Implementation plan developed collaboratively
 
@@ -264,6 +321,8 @@ Organize documentation and plan next steps through collaborative thinking and pl
 - **Collaborative Analysis**: All sketch elements properly identified and understood together
 - **Clear Specifications**: Detailed component specifications created through partnership
 - **Design System Integration**: Components properly integrated with existing system
+- **MANDATORY Component Validation**: All sketch components exist in design system
+- **MANDATORY Design System Guide Integration**: All components in interactive showcase
 - **Translation Completeness**: All copy includes necessary translations
 - **WPS2C Compliance**: Documentation follows all standards and conventions
 
