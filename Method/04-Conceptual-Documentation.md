@@ -10,6 +10,11 @@
 ### 🔗 Your Design Bridge in the Whiteport Sketch-to-Code Method
 This is **Phase C** of the complete WPS2C workflow - where your strategic user intelligence transforms into actionable interface specifications. This comprehensive conceptual specification phase handles three distinct scenarios: collaborative exploration when no sketch exists, analysis and specification of existing sketches, and sketch analysis and specification transformation. Every process ensures components serve your trigger map goals and delight your prioritized user types.
 
+### 🎯 Critical Quality Control
+**Specifications are the single source of truth.** All implementation must flow from documented specifications. Before any code is written, specifications must be complete, reviewed, and approved.
+
+📚 **See**: [Specification-First Workflow](04-2-Specification-First-Workflow.md) - Quality control mechanism ensuring specifications drive implementation
+
 ---
 
 ## 🤝 Your WPS2C Agent Guide

@@ -146,6 +146,8 @@ flowchart LR
 **You get**: Detailed page specifications with bilingual content, user interaction flows, and technical implementation guidance  
 **Output**: `docs/C-Scenarios/[scenario-folders]/` with sketch analysis and specifications
 
+**Quality Control**: [Specification-First Workflow](04-2-Specification-First-Workflow.md) - Ensures all implementation flows from complete, documented specifications
+
 ![Whiteport Sketching Example](Whiteport-Sketching-Example.jpg)
 *Conceptual Specifications Process: From initial wireframes to detailed component specifications with modal interactions*
 
