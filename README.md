@@ -26,7 +26,7 @@ When you combine the **BMad AI agent framework** with the **Whiteport Sketch-to-
 
 This expansion pack introduces a comprehensive design-driven development methodology that enhances BMad with specialized workflows for transforming visual concepts into production applications.
 
-### [📋 Complete Method Overview](Method/00-whiteport-method.md)
+### [📋 Complete Method Overview](Method/00-Whiteport-Method.md)
 
 The WPS2C methodology has evolved into a comprehensive **seven-phase workflow** that takes projects from initial concept through production deployment:
 
