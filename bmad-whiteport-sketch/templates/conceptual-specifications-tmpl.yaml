@@ -1,11 +1,11 @@
 template:
-  id: scenario-specifications-template-v1
-  name: Scenario Specifications
+  id: conceptual-specifications-template-v1
+  name: Conceptual Specifications
   version: 2.0
   output:
     format: markdown
-    filename: docs/pages/{{page_id}}-{{page_name}}/[page_id]-{{page_name}}_Scenario-Specifications.txt
-    title: "Scenario Specifications: {{page_name}}"
+    filename: docs/pages/{{page_id}}-{{page_name}}/[page_id]-{{page_name}}_Conceptual-Specifications.md
+    title: "Conceptual Specifications: {{page_name}}"
 
 workflow:
   mode: interactive

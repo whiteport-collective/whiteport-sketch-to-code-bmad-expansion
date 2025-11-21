@@ -158,7 +158,7 @@ dependencies:
     - enforce-design-system-first.md
     - update-design-system-guide.md
   templates:
-    - synopsis-tmpl.yaml
+    - conceptual-specifications-tmpl.yaml
     - component-tmpl.yaml
     - design-system-selection-tmpl.yaml
     - design-system-structure-tmpl.yaml
